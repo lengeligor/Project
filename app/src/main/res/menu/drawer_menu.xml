@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xmls="http://schemas.xmls.com/apk/res/xmls"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group xmls:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle_24dp"
+            android:title="Konto" />
+        <item
+            xmls:id="@+id/nav_list"
+            android:icon="@drawable/ic_list_24dp"
+            android:title="Zoznam psov" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_24dp"
+            android:title="Vyhľadávanie" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_24dp"
+            android:title="Oznamy" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_account_circle_24dp"
+            android:title="Služby" />
+        <item
+            android:id="@+id/nav_shelter_help"
+            android:icon="@drawable/ic_phone_24dp"
+            android:title="Odchyt" />
+    </group>
+
+
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_24dp"
+                android:title="Zdieľaj" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_24dp"
+                android:title="Odísť" />
+        </menu>
+    </item>
+
+</menu>
