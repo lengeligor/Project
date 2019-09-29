@@ -3,4 +3,15 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="enter">enter</string>
+    <string name="_201920">2019/20©</string>
+    <string name="o_nas">O nás</string>
+    <string name="odchyt">Odchyt</string>
+    <string name="oznamy">Oznamy</string>
+    <string name="zoznam_psov">Zoznam psov</string>
+    <string name="username">Username</string>
+    <string name="konto">Konto</string>
+    <string name="vyhladavanie">Vyhľadávanie</string>
+    <string name="sluzby">Služby</string>
+    <string name="zdielaj">Zdieľaj</string>
 </resources>

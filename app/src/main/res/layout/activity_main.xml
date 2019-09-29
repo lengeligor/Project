@@ -22,25 +22,13 @@
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:titleTextColor="@android:color/white"
-            android:elevation="4dp">
-
-            <TextView
-                android:id="@+id/name_of_toolbar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Toolbar"
-                android:fontFamily="@font/righteous"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"/>
-
-        </androidx.appcompat.widget.Toolbar>
+            android:elevation="4dp"/>
 
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             />
-
 
     </LinearLayout>
 
@@ -51,9 +39,5 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu"/>
-
-
-
-
 
 </androidx.drawerlayout.widget.DrawerLayout>
