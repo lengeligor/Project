@@ -14,4 +14,8 @@
     <string name="vyhladavanie">Vyhľadávanie</string>
     <string name="sluzby">Služby</string>
     <string name="zdielaj">Zdieľaj</string>
+    <string name="log_out">Log out</string>
+    <string name="sign_in">Prihlásiť sa</string>
+    <string name="or">alebo</string>
+    <string name="sign_up">Zaregistrovať sa</string>
 </resources>

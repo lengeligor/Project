@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile_Rlayout_all">
 
     <TextView
+        android:id="@+id/name_of_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/konto"
@@ -13,4 +16,70 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         />
+
+
+    <TextView
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_out"
+        android:fontFamily="@font/righteous"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:layout_alignLeft="@id/profile_Rlayout"
+        android:layout_alignBaseline="@+id/name_of_fragment"/>
+
+
+    <RelativeLayout
+        android:id="@+id/profile_Rlayout"
+        android:layout_width="160pt"
+        android:layout_height="120pt"
+        android:background="@drawable/square"
+        android:layout_below="@+id/name_of_fragment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/image_of_person"
+            android:layout_width="70pt"
+            android:layout_height="70pt"
+            android:src="@drawable/avatar"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/name_of_person"
+            android:text="@string/sign_in"
+            android:textSize="15sp"
+            android:fontFamily="@font/righteous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_of_person"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/old_of_person"
+            android:text="@string/or"
+            android:textSize="15sp"
+            android:fontFamily="@font/righteous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_of_person"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/city_of_chef"
+            android:text="@string/sign_up"
+            android:textSize="15sp"
+            android:fontFamily="@font/righteous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/old_of_person"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
