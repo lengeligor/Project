@@ -1,5 +1,6 @@
 package com.example.projectsoc;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,8 +9,12 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.android.material.navigation.NavigationView;
+
+
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 
@@ -19,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initialize();
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        if(savedInstanceState == null){
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
+            navigationView.setCheckedItem(R.id.nav_account);
+        }
 
     }
 
@@ -44,4 +57,42 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
+            case R.id.nav_account :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
+                break;
+            case R.id.nav_listOfDogs:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListOfDogs()).commit();
+                break;
+            case R.id.nav_search :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Search()).commit();
+                break;
+            case R.id.nav_dashboard :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Dashboard()).commit();
+                break;
+            case R.id.nav_services :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Services()).commit();
+                break;
+            case R.id.nav_shelter_help :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Call()).commit();
+                break;
+            case R.id.nav_about :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AboutUs()).commit();
+                break;
+            case R.id.nav_share :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Share()).commit();
+                break;
+            case R.id.nav_exit :
+                moveTaskToBack(true);
+                android.os.Process.killProcess(android.os.Process.myPid());
+                System.exit(1);
+                break;
+        }
+
+        drawer.closeDrawer(GravityCompat.START);
+
+        return true;
+    }
 }

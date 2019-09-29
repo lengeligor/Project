@@ -21,6 +21,7 @@
             android:background="@color/colorPrimaryDark"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@android:color/white"
             android:elevation="4dp">
 
             <TextView
@@ -28,6 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Toolbar"
+                android:fontFamily="@font/righteous"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"/>
 
