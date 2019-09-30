@@ -19,4 +19,9 @@
     <string name="or">alebo</string>
     <string name="sign_up">Zaregistrovať sa</string>
     <string name="moj_pes">Môj pes</string>
+    <string name="meno_psika">Meno psíka</string>
+    <string name="rasa_psika">Rasa psíka</string>
+    <string name="nebezpecnyano_nie">Nebezpečný: áno/nie</string>
+    <string name="adresapsika">Mesto - ulica - číslo domu</string>
+    <string name="pridatpoznamku">Pridať poznámku</string>
 </resources>

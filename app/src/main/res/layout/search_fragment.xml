@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:text="@string/vyhladavanie"
         android:textSize="30sp"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
         android:fontFamily="@font/righteous"
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
