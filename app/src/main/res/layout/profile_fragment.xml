@@ -72,7 +72,7 @@
             android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:id="@+id/city_of_chef"
+            android:id="@+id/city_of_person"
             android:text="@string/sign_up"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="15sp"
@@ -164,6 +164,7 @@
         />
 
     <TextView
+        android:id="@+id/text_for_add_note"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pridatpoznamku"
