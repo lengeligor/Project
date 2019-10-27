@@ -7,8 +7,88 @@
     tools:context=".Login">
 
     <TextView
+        android:id="@+id/login_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="prihlasenie"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:fontFamily="@font/righteous"
+        android:text="@string/prihlasenie"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:id="@+id/login_rlayout"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/square_clear">
+
+        <TextView
+            android:id="@id/login_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_centerHorizontal="true"
+            android:text="@string/e_mail"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_text1"
+            android:layout_centerHorizontal="true"
+            android:autoLink="email"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/login_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_email"
+            android:layout_marginTop="5pt"
+            android:layout_centerHorizontal="true"
+            android:text="@string/heslo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_text2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10pt"
+            android:password="true"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/login_rlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customenterbutton"
+        android:fontFamily="@font/righteous"
+        android:text="@string/prihlas"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/back_to_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5pt"
+        android:fontFamily="@font/righteous"
+        android:text="@string/pokracovat_bez_prihlasenia"
+        android:textColor="@color/colorPrimaryDark" />
 
 </RelativeLayout>

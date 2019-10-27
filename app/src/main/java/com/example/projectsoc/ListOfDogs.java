@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 public class ListOfDogs extends Fragment {
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View layoutInflater = inflater.inflate(R.layout.list_fragment,container,false);
-
 
 
         return layoutInflater;

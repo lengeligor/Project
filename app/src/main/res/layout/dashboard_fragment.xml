@@ -2,15 +2,69 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/oznamy"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
-        android:fontFamily="@font/righteous"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_of_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oznamy"
+                android:textSize="30sp"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/righteous"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+
+            <CheckBox
+                android:id="@+id/find_Dogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_of_fragment"
+                android:layout_marginLeft="10pt" />
+            <TextView
+                android:id="@+id/dashboard_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hladam_psa"
+                android:layout_toEndOf="@+id/find_Dogs"
+                android:layout_alignBaseline="@+id/find_Dogs"
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <CheckBox
+                android:id="@+id/lost_Dogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/find_Dogs"
+                android:layout_toEndOf="@id/dashboard_text1"
+                android:layout_marginLeft="10pt"/>
+            <TextView
+                android:id="@+id/dashboard_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/straten_psici"
+                android:layout_toEndOf="@+id/lost_Dogs"
+                android:layout_alignBaseline="@+id/lost_Dogs"
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <ListView
+                android:id="@+id/listView_dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lost_Dogs"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
 </RelativeLayout>

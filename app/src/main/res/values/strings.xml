@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="enter">enter</string>
-    <string name="_201920">2019/20©</string>
+    <string name="_201920">2020</string>
     <string name="o_nas">O nás</string>
     <string name="odchyt">Odchyt</string>
     <string name="oznamy">Oznamy</string>
@@ -24,4 +24,20 @@
     <string name="nebezpecnyano_nie">Nebezpečný: áno/nie</string>
     <string name="adresapsika">Mesto - ulica - číslo domu</string>
     <string name="pridatpoznamku">Pridať poznámku</string>
+    <string name="hladam_psa">Nájdení psíci</string>
+    <string name="straten_psici">Stratení psíci</string>
+    <string name="popis_apky">Vytvoriť mobilnú aplikáciu, ktorá bude využívať dataset psov mesta Prešov a vlastne vytvorený dataset obchodov a služieb pre psov. Aplikácia musí byť príjemná pre užívateľa a jednoduchá na ovládanie. Má obsahovať ponuku, kde si užívateľ bude môcť prezerať jednotlivé časti ako napríklad svoje konto, zoznam psov, oznamy psíčkarov, mapu a podobne. Prihlásený používateľ bude mať odomknuté viaceré možnosti ako neprihlásený (pridávanie oznamov, poznámok k svojmu psíkovi). Z aplikácie sa bude dať priamo zavolať na odchyt psov ak niekto nájde nebezpečného psa aby sa neocitol v nebezpečenstve. Apku sa bude dať jednoducho zdielať na sociálnu sieť.</string>
+    <string name="o_zakladatelovi">Neprihlásený užívateľ: možnosť registrácie, prezerania si zoznamu psov, služieb, oznamov, mapy, zavolanie odchytovej služby, zdieľanie aplikácie</string>
+    <string name="registracia">Registrácia</string>
+    <string name="meno_a_priezvisko">Meno a priezvisko:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="heslo">Heslo:</string>
+    <string name="potvrd_heslo">Potvrď heslo:</string>
+    <string name="cislo_znamky_vasho_psa">Číslo známky vášho psa:*</string>
+    <string name="nepovinny_daj">*Nepovinný údaj</string>
+    <string name="zaregistruj">Zaregistruj</string>
+    <string name="nepokracovat_v_registracii">Nepokračovať v registrácii</string>
+    <string name="prihlasenie">Prihlásenie</string>
+    <string name="prihlas">Prihlás</string>
+    <string name="pokracovat_bez_prihlasenia">Pokračovať bez prihlásenia</string>
 </resources>

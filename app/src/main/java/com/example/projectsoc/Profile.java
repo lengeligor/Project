@@ -25,18 +25,8 @@ public class Profile extends Fragment implements View.OnClickListener {
     private TextView oldOfPerson;
     private TextView cityOfPerson;
 
-    private TextView myDog;
-    private ImageView imageOfDog;
-    private TextView nameOfDog;
-    private TextView breedOfDog;
-    private TextView dangerousDog;
-    private TextView dogHome;
-
-    private ImageView addNote;
-    private TextView addNoteText;
     private TextView logOut;
 
-    private RelativeLayout dogLayout;
 
 
     @Nullable
@@ -50,10 +40,6 @@ public class Profile extends Fragment implements View.OnClickListener {
 
         }else {
             logOut.setVisibility(View.INVISIBLE);
-            dogLayout.setVisibility(View.INVISIBLE);
-            myDog.setVisibility(View.INVISIBLE);
-            addNote.setVisibility(View.INVISIBLE);
-            addNoteText.setVisibility(View.INVISIBLE);
             nameOfPerson.setOnClickListener(this);
             cityOfPerson.setOnClickListener(this);
         }
@@ -67,16 +53,7 @@ public class Profile extends Fragment implements View.OnClickListener {
         nameOfPerson = layout.findViewById(R.id.name_of_person);
         oldOfPerson = layout.findViewById(R.id.old_of_person);
         cityOfPerson = layout.findViewById(R.id.city_of_person);
-        imageOfDog = layout.findViewById(R.id.dog_image);
-        nameOfDog = layout.findViewById(R.id.name_of_dog);
-        breedOfDog = layout.findViewById(R.id.breed_of_dog);
-        dangerousDog = layout.findViewById(R.id.dangerous_dog);
-        dogHome = layout.findViewById(R.id.dog_home);
-        addNote = layout.findViewById(R.id.add_note);
         logOut = layout.findViewById(R.id.logout_button);
-        dogLayout = layout.findViewById(R.id.dog_profile_layout);
-        myDog = layout.findViewById(R.id.my_dog);
-        addNoteText = layout.findViewById(R.id.text_for_add_note);
     }
 
     @Override
@@ -90,7 +67,6 @@ public class Profile extends Fragment implements View.OnClickListener {
         } else if(logOut.equals(v)) {
             mAuth.signOut();
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
-        }else if (addNote.equals(v)) {
         }
     }
 }

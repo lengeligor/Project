@@ -2,15 +2,69 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/o_nas"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
-        android:fontFamily="@font/righteous"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo_of_app"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_dashboard_24dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/about_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popis_apky"
+                android:layout_below="@+id/logo_of_app"
+                android:padding="15dp"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/image_of_creator1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_account_circle_24dp"
+                android:layout_below="@id/about_text2"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:id="@+id/about_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/image_of_creator1"
+                android:layout_alignTop="@id/image_of_creator1"
+                android:text="@string/o_zakladatelovi"
+                />
+            <ImageView
+                android:id="@+id/image_of_creator2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_account_circle_24dp"
+                android:layout_below="@id/image_of_creator1"
+                android:layout_alignParentRight="true"
+                android:layout_margin="15dp"
+                />
+            <TextView
+                android:id="@+id/about_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/image_of_creator2"
+                android:layout_alignTop="@id/image_of_creator2"
+                android:text="@string/o_zakladatelovi"
+                android:layout_marginLeft="15dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
 </RelativeLayout>
