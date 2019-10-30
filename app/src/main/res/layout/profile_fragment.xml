@@ -4,40 +4,13 @@
     android:layout_height="match_parent"
     android:id="@+id/profile_Rlayout_all">
 
-    <TextView
-        android:id="@+id/name_of_fragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/konto"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
-        android:fontFamily="@font/righteous"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        />
-
-
-    <TextView
-        android:id="@+id/logout_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/log_out"
-        android:fontFamily="@font/righteous"
-        android:textColor="@color/colorAccent"
-        android:textSize="15sp"
-        android:layout_alignLeft="@id/profile_Rlayout"
-        android:layout_alignBaseline="@+id/name_of_fragment"/>
-
-
     <RelativeLayout
         android:id="@+id/profile_Rlayout"
         android:layout_width="160pt"
         android:layout_height="120pt"
         android:background="@drawable/square_clear"
-        android:layout_below="@+id/name_of_fragment"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="50dp">
 
         <ImageView
             android:id="@+id/image_of_person"
@@ -84,6 +57,18 @@
             android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/log_out"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
 
 
 </RelativeLayout>

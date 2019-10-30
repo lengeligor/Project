@@ -40,4 +40,10 @@
     <string name="prihlasenie">Prihlásenie</string>
     <string name="prihlas">Prihlás</string>
     <string name="pokracovat_bez_prihlasenia">Pokračovať bez prihlásenia</string>
+    <string name="zdielaj_nas">Zdieľaj nás aj ty cez sociálne siete</string>
+    <string name="zdielaj_text1">Pomôž aj ty občanom a psíkom tohto mesta a zdieľaj našu apku cez tvoje sociálne siete. Čím viac ľudí ju bude poznať, tým viac zachránených a šťastných psíkov. Záleží nám na našich psíkoch!</string>
+    <string name="Tri_kroky">Sú to 3 jednoduché kroky:</string>
+    <string name="krok_jeden">1. Klikni na naše tlačidlo nižsie</string>
+    <string name="krok_dva">2. Vyber si apku na zdieľanie</string>
+    <string name="krok_tri">3. Odošli to svojim kontaktom</string>
 </resources>

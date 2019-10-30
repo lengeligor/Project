@@ -3,14 +3,100 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/login_text1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:fontFamily="@font/righteous"
+        android:textAlignment="center"
+        android:text="@string/zdielaj_nas"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:id="@+id/share_rlayout"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/square_clear">
+
+        <TextView
+            android:id="@+id/share_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zdielaj_text1"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginTop="5pt"
+            android:padding="2pt"
+            android:layout_marginBottom="5pt"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/share_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_rlayout"
+        android:layout_marginTop="10pt"
+        android:padding="2pt"
+        android:text="@string/Tri_kroky"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/share_step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_text2"
+        android:padding="2pt"
+        android:text="@string/krok_jeden"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/share_step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_step1"
+        android:padding="2pt"
+        android:text="@string/krok_dva"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/share_step3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_step2"
+        android:layout_marginBottom="15pt"
+        android:padding="2pt"
+        android:text="@string/krok_tri"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/customenterbutton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/zdielaj"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/righteous"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/share_step3"
+        />
+
+    <TextView
+        android:id="@+id/back_to_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/zdielaj"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5pt"
         android:fontFamily="@font/righteous"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        />
+        android:text="@string/_201920"
+        android:textColor="@color/colorPrimaryDark" />
+
 </RelativeLayout>
