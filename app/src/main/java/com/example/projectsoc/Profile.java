@@ -10,6 +10,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,16 +24,15 @@ import androidx.fragment.app.Fragment;
 public class Profile extends Fragment implements View.OnClickListener {
 
     private View layout;
-    private FirebaseAuth mAuth;
 
     private ImageView imageOfPerson;
     private TextView nameOfPerson;
-    private TextView oldOfPerson;
-    private TextView cityOfPerson;
+    private TextView or;
+    private TextView registerOfPerson;
 
     private TextView logOut;
 
-
+    private FirebaseAuth mAuth =FirebaseAuth.getInstance();
 
     @Nullable
     @Override
@@ -41,18 +46,17 @@ public class Profile extends Fragment implements View.OnClickListener {
         }else {
             logOut.setVisibility(View.INVISIBLE);
             nameOfPerson.setOnClickListener(this);
-            cityOfPerson.setOnClickListener(this);
+            registerOfPerson.setOnClickListener(this);
         }
         logOut.setOnClickListener(this);
         return layout;
     }
 
     private void initialize(){
-        mAuth =FirebaseAuth.getInstance();
         imageOfPerson = layout.findViewById(R.id.image_of_person);
         nameOfPerson = layout.findViewById(R.id.name_of_person);
-        oldOfPerson = layout.findViewById(R.id.old_of_person);
-        cityOfPerson = layout.findViewById(R.id.city_of_person);
+        or = layout.findViewById(R.id.or);
+        registerOfPerson = layout.findViewById(R.id.register_of_person);
         logOut = layout.findViewById(R.id.logout_button);
     }
 
@@ -61,7 +65,7 @@ public class Profile extends Fragment implements View.OnClickListener {
         if (nameOfPerson.equals(v)) {
             startActivity(new Intent(layout.getContext(), Login.class));
             getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-        } else if (cityOfPerson.equals(v)) {
+        } else if (registerOfPerson.equals(v)) {
             startActivity(new Intent(layout.getContext(), Register.class));
             getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         } else if(logOut.equals(v)) {
@@ -69,4 +73,6 @@ public class Profile extends Fragment implements View.OnClickListener {
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
         }
     }
+
+
 }

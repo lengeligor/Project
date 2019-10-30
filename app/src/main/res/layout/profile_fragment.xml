@@ -60,7 +60,7 @@
             android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:id="@+id/old_of_person"
+            android:id="@+id/or"
             android:text="@string/or"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="15sp"
@@ -72,14 +72,14 @@
             android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:id="@+id/city_of_person"
+            android:id="@+id/register_of_person"
             android:text="@string/sign_up"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="15sp"
             android:fontFamily="@font/righteous"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/old_of_person"
+            android:layout_below="@id/or"
             android:layout_marginTop="3dp"
             android:layout_centerHorizontal="true"/>
 

@@ -17,6 +17,12 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.jar.Attributes;
+
 public class Register extends AppCompatActivity implements View.OnClickListener{
 
     private EditText nameSurname;
@@ -29,7 +35,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
 
     private FirebaseAuth mAuth;
-   // DatabaseReference databaseUsers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +45,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
     private void initialize(){
         mAuth = FirebaseAuth.getInstance();
-       // databaseUsers = FirebaseDatabase.getInstance().getReference("users");
         nameSurname = findViewById(R.id.name_and_surname);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
@@ -64,6 +68,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     }
 
     private void registerPerson() {
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        final DatabaseReference myRef = database.getReference("users");
         final String NameSurname = nameSurname.getText().toString();
         final String Email = email.getText().toString();
         final String Password = password.getText().toString();
@@ -95,6 +101,11 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
+                            User user = new User(NameSurname,Email,DogNumber);
+                            String id = Email.replace("@","f");
+                            id = id.replace(".","f");
+                            id = id.replace("-","f");
+                            myRef.child(id).setValue(user);
                             finish();
                             Intent intent = new Intent(Register.this,MainActivity.class);
                             startActivity(intent);
@@ -104,6 +115,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                         }
                     }
                 });
+
 
     }
 }

@@ -6,13 +6,12 @@ public class User {
     private String mail;
     private String dogNumber;
 
+    public User(){}
+
     public User(String nameSurname, String mail, String dogNumber) {
         this.nameSurname = nameSurname;
         this.mail = mail;
         this.dogNumber = dogNumber;
-    }
-
-    public User() {
     }
 
     public String getNameSurname() {
