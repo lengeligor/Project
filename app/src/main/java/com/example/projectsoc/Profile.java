@@ -1,5 +1,6 @@
 package com.example.projectsoc;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -33,16 +34,16 @@ public class Profile extends Fragment implements View.OnClickListener {
     private TextView logOut;
 
     private FirebaseAuth mAuth =FirebaseAuth.getInstance();
+    private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         layout = inflater.inflate(R.layout.profile_fragment,container,false);
-
         initialize();
-
         if (mAuth.getCurrentUser() != null){
-
+            FirebaseUser user = mAuth.getCurrentUser();
+            readFromDB(user);
         }else {
             logOut.setVisibility(View.INVISIBLE);
             nameOfPerson.setOnClickListener(this);
@@ -72,6 +73,39 @@ public class Profile extends Fragment implements View.OnClickListener {
             mAuth.signOut();
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
         }
+    }
+
+    public void readFromDB(final FirebaseUser user1){
+        mRootRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for (DataSnapshot ds:dataSnapshot.getChildren()) {
+                    User user = new User();
+                    String id = user1.getEmail().replace("@","f");
+                    id = id.replace(".","f");
+                    id = id.replace("-","f");
+                    try {
+                        user.setNameSurname(ds.child(id).getValue(User.class).getNameSurname());        //vyvolanie z Firebase Realtime DB
+                        user.setMail(ds.child(id).getValue(User.class).getMail());
+                        user.setDogNumber(ds.child(id).getValue(User.class).getDogNumber());
+
+                        nameOfPerson.setText(user.getNameSurname());
+                        or.setText(user.getMail());
+                        if(user.getDogNumber() == null || user.getDogNumber().equals("")){
+                            registerOfPerson.setText("Nevlastníš registrovaného psa");
+                        }else{
+                            registerOfPerson.setText(user.getDogNumber());
+                        }
+                    }catch (NullPointerException e){
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+            }
+        });
     }
 
 

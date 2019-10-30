@@ -26,10 +26,19 @@
         android:layout_marginTop="10pt"
         android:background="@drawable/square_clear">
 
+        <ImageView
+            android:id="@+id/login_image"
+            android:layout_width="70pt"
+            android:layout_height="70pt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/avatar" />
+
         <TextView
             android:id="@id/login_text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/login_image"
             android:layout_marginTop="5pt"
             android:layout_centerHorizontal="true"
             android:text="@string/e_mail"
@@ -43,6 +52,7 @@
             android:layout_below="@+id/login_text1"
             android:layout_centerHorizontal="true"
             android:autoLink="email"
+            android:inputType="textEmailAddress"
             android:textAlignment="center"
             android:textSize="12sp" />
 
