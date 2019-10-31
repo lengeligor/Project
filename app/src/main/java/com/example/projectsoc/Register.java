@@ -79,23 +79,23 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         final String RePassword = rePassword.getText().toString();
         final String DogNumber = dogNumber.getText().toString();
         if(TextUtils.isEmpty(NameSurname)){
-            Toast.makeText(this,"Vyplňte meno prosím",Toast.LENGTH_SHORT).show();
+            Toasty.warning(getApplicationContext(),"Zadajte vaše meno",Toast.LENGTH_SHORT).show();
             return;
         }
         if(TextUtils.isEmpty(Email)){
-            Toast.makeText(this,"Vyplňte email prosím",Toast.LENGTH_SHORT).show();
+            Toasty.warning(getApplicationContext(),"Zadajte email",Toast.LENGTH_SHORT).show();
             return;
         }
         if(TextUtils.isEmpty(Password)){
-            Toast.makeText(this,"Vyplňte pole s heslom prosím",Toast.LENGTH_SHORT).show();
+            Toasty.warning(getApplicationContext(),"Zadajte heslo",Toast.LENGTH_SHORT).show();
             return;
         }
         if(TextUtils.isEmpty(RePassword)){
-            Toast.makeText(this,"Zopakujte svoje heslo prosím",Toast.LENGTH_SHORT).show();
+            Toasty.warning(getApplicationContext(),"Zopakujte heslo",Toast.LENGTH_SHORT).show();
             return;
         }
         if(!RePassword.equals(Password)){
-            Toast.makeText(this,"Heslá sa nezhodujú",Toast.LENGTH_SHORT).show();
+            Toasty.error(getApplicationContext(),"Heslá sa nezhodujú",Toast.LENGTH_SHORT).show();
             return;
         }
         mAuth.createUserWithEmailAndPassword(Email,Password)
@@ -110,6 +110,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                             myRef.child(id).setValue(user);
                             finish();
                             Intent intent = new Intent(Register.this,MainActivity.class);
+                            intent.putExtra("Intent","RegisterClass");
                             startActivity(intent);
                             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                         }else {

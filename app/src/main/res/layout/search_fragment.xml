@@ -13,6 +13,7 @@
         android:fontFamily="@font/righteous"
         android:hint="@string/search_string"
         android:textAlignment="textStart"
+        android:inputType="number"
         android:textSize="20sp"
         tools:ignore="MissingConstraints" />
     <ImageView

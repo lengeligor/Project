@@ -2,6 +2,7 @@ package com.example.projectsoc;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import es.dmoral.toasty.Toasty;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -58,7 +59,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         if(v == backToAccount){
             Intent intent = new Intent(Login.this,MainActivity.class);
             intent.putExtra("Intent","LoginClass");
-            System.out.println(intent.getStringExtra("Intent"));
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
@@ -68,11 +68,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         String mail = email.getText().toString().trim();
         String Password = password.getText().toString().trim();
         if(TextUtils.isEmpty(mail)){
-            Toast.makeText(this,"Zadaj email",Toast.LENGTH_SHORT).show();
+            Toasty.warning(getApplicationContext(),"Zadaj email",Toast.LENGTH_SHORT).show();
             return;
         }
         if(TextUtils.isEmpty(Password)){
-            Toast.makeText(this,"Zadaj heslo",Toast.LENGTH_SHORT).show();
+            Toasty.warning(getApplicationContext(),"Zadaj heslo",Toast.LENGTH_SHORT).show();
             return;
         }
         mAuth.signInWithEmailAndPassword(mail,Password)
@@ -81,7 +81,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             finish();
-                            startActivity(new Intent(Login.this,MainActivity.class));
+                            Intent intent = new Intent(Login.this,MainActivity.class);
+                            intent.putExtra("Intent","LoginClass");
+                            startActivity(intent);
                             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                         }else{
                             Toast.makeText(getApplicationContext(),"Zlé prihlasovacie údaje",Toast.LENGTH_SHORT).show();
