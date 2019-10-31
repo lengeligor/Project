@@ -13,9 +13,9 @@
 
             <ImageView
                 android:id="@+id/logo_of_app"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_dashboard_24dp"
+                android:layout_width="60pt"
+                android:layout_height="60pt"
+                android:src="@drawable/logo_dark_small"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
                 />

@@ -8,15 +8,14 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_account_circle_24dp"
-        />
+        android:layout_width="35pt"
+        android:layout_height="35pt"
+        android:src="@drawable/logo_red_small"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="@string/username"
+        android:text="@string/app_name"
         android:textSize="18sp"
         android:fontFamily="@font/righteous"
         android:textColor="@android:color/white"
