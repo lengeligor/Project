@@ -15,6 +15,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -43,8 +44,6 @@ public class Services extends Fragment implements OnMapReadyCallback {
         mView = inflater.inflate(R.layout.services_fragment,container,false);
         requestPermission();
         client = LocationServices.getFusedLocationProviderClient(getActivity());
-
-
         return mView;
     }
 
@@ -77,15 +76,15 @@ public class Services extends Fragment implements OnMapReadyCallback {
                 if( location != null ){
                     latitude = String.valueOf(location.getLatitude());
                     longtitude = String.valueOf(location.getLongitude());
-                    System.out.println(latitude);
-                    System.out.println(longtitude);
+                    LatLng latLng = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longtitude));
                     LatLng positionBasic = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longtitude));
-                    mGoogleMap.addMarker(new MarkerOptions().position(positionBasic).title("Here"));
                     Toast.makeText(getContext(),"Tu sa nachádzaš",Toast.LENGTH_SHORT).show();
-                    CameraPosition cameraPositionBasic = CameraPosition.builder().target(positionBasic).zoom(16).bearing(0)
+                    CameraPosition cameraPositionBasic = CameraPosition.builder().target(positionBasic).zoom(17).bearing(0)
                             .tilt(45).build();
                     googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPositionBasic));
-
+                    MarkerOptions options = new MarkerOptions().position(latLng).title("TY!");
+                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    mGoogleMap.addMarker(options);
                 }
             }
         });

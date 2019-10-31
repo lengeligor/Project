@@ -11,17 +11,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/black"
         android:fontFamily="@font/righteous"
         android:textSize="17sp" />
     <TextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="25pt"
         android:layout_height="wrap_content"
         android:layout_below="@id/category"
         android:layout_marginStart="10dp"
         android:layout_marginTop="7dp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
         android:fontFamily="@font/righteous"
         android:textSize="14sp" />
 </RelativeLayout>
