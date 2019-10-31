@@ -6,12 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+    <Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_arrow_back_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:fontFamily="@font/righteous"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="10pt"/>
+    </Toolbar>
+
     <TextView
         android:id="@+id/login_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10pt"
+        android:layout_below="@id/login_toolbar"
         android:fontFamily="@font/righteous"
         android:text="@string/prihlasenie"
         android:textColor="@color/colorAccent"
@@ -91,16 +117,5 @@
         android:fontFamily="@font/righteous"
         android:text="@string/prihlas"
         android:textColor="@android:color/white" />
-
-    <TextView
-        android:id="@+id/back_to_profile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5pt"
-        android:fontFamily="@font/righteous"
-        android:text="@string/pokracovat_bez_prihlasenia"
-        android:textColor="@color/colorPrimaryDark" />
 
 </RelativeLayout>

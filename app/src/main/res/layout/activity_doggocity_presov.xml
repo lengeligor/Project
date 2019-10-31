@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DoggocityPresov"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/cittywalk">
 
     <RelativeLayout
         android:id="@+id/relativelayout_activityMain"
@@ -23,6 +23,10 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="40sp"
             android:fontFamily="@font/righteous"
+            android:shadowColor="@android:color/white"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
             />
 
         <Button

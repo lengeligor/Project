@@ -1,16 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
 
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_margin="2pt"
+        android:layout_toStartOf="@+id/search_button"
+        android:fontFamily="@font/righteous"
+        android:hint="@string/search_string"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/search_button"
+        android:layout_width="30pt"
+        android:layout_height="30pt"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="2pt"
+        android:src="@drawable/ic_search_24dp" />
     <TextView
+        android:id="@+id/resultCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/vyhladavanie"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
-        android:fontFamily="@font/righteous"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        />
+        android:layout_below="@+id/search_button"
+        android:layout_alignParentEnd="true"
+        android:text="@string/default_value"
+        android:textSize="17sp"
+        android:layout_marginEnd="3pt"/>
+    <TextView
+        android:id="@+id/search_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_button"
+        android:layout_toStartOf="@+id/resultCount"
+        android:text="@string/search_text1"
+        android:textAlignment="textEnd"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/searchedDogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_text1"
+        android:layout_marginTop="5pt" />
+
 </RelativeLayout>

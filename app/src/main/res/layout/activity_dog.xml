@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DogActivity">
+
+    <Toolbar
+        android:id="@+id/dog_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_arrow_back_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:fontFamily="@font/righteous"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="10pt"/>
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/dog_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dog_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30pt"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/plemenoPsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dog_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/cityPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plemenoPsa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityPart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/dangerous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/street"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/view_dog_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dangerous"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20pt"
+        android:background="@drawable/custombuttonmain"
+        android:padding="3pt"
+        android:text="@string/ukaz_domov_psika"
+        android:textColor="@android:color/white"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="3"
+        android:shadowDx="3"
+        android:shadowDy="3"/>
+    <Button
+        android:id="@+id/open_web_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_dog_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/custombuttonmain"
+        android:padding="3pt"
+        android:text="@string/vyhladaj_fotky_psa"
+        android:textColor="@android:color/white"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="3"
+        android:shadowDx="3"
+        android:shadowDy="3"/>
+
+
+</RelativeLayout>

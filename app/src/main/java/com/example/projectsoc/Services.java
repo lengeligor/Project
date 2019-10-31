@@ -1,6 +1,8 @@
 package com.example.projectsoc;
 
 import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -21,6 +23,10 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
@@ -34,6 +40,8 @@ public class Services extends Fragment implements OnMapReadyCallback {
     private GoogleMap mGoogleMap;
     private View mView;
     private FusedLocationProviderClient client;
+
+    private Address address = null;
 
     private String latitude;
     private String longtitude;
@@ -76,15 +84,24 @@ public class Services extends Fragment implements OnMapReadyCallback {
                 if( location != null ){
                     latitude = String.valueOf(location.getLatitude());
                     longtitude = String.valueOf(location.getLongitude());
-                    LatLng latLng = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longtitude));
                     LatLng positionBasic = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longtitude));
-                    Toast.makeText(getContext(),"Tu sa nachádzaš",Toast.LENGTH_SHORT).show();
                     CameraPosition cameraPositionBasic = CameraPosition.builder().target(positionBasic).zoom(17).bearing(0)
                             .tilt(45).build();
                     googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPositionBasic));
-                    MarkerOptions options = new MarkerOptions().position(latLng).title("TY!");
+                    MarkerOptions options = new MarkerOptions().position(positionBasic).title("TY!");
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
                     mGoogleMap.addMarker(options);
+
+                    if (getActivity().getIntent().getStringExtra("PolohaPsa")!= null){
+                        LatLng position = new LatLng(geoLocate().getLatitude(), geoLocate().getLongitude());
+
+                        MarkerOptions optionsForHome = new MarkerOptions().position(position).title("DOMOV PSÍKA");
+                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA));
+                        CameraPosition cameraPosition = CameraPosition.builder().target(position).zoom(16).bearing(0)
+                                .tilt(45).build();
+                        mGoogleMap.addMarker(optionsForHome);
+                        googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+                    }
                 }
             }
         });
@@ -94,5 +111,21 @@ public class Services extends Fragment implements OnMapReadyCallback {
 
     public void requestPermission(){
         ActivityCompat.requestPermissions(getActivity(),new String[]{ACCESS_FINE_LOCATION},1);
+    }
+
+    public Address geoLocate(){
+        String searchString = getActivity().getIntent().getStringExtra("PolohaPsa");
+        Geocoder geocoder = new Geocoder(getContext());
+        List<Address> list = new ArrayList<>();
+        try {
+            list = geocoder.getFromLocationName(searchString,1);
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        if (list.size()>0){
+            address = list.get(0);
+            System.out.println(address.toString());
+        }
+        return address;
     }
 }

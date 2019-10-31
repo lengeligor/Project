@@ -32,11 +32,12 @@ import androidx.fragment.app.Fragment;
 
 public class ListOfDogs extends Fragment {
 
+    private View layoutInflater;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View layoutInflater = inflater.inflate(R.layout.list_fragment,container,false);
+        layoutInflater = inflater.inflate(R.layout.list_fragment,container,false);
         try{
             final ArrayList<HashMap<String, String>> dogList = new ArrayList<>();
             ListView lv = (ListView) layoutInflater.findViewById(R.id.dog_list);
@@ -56,9 +57,9 @@ public class ListOfDogs extends Fragment {
             int c=0;
             final String[] PlemenoPsa = new String[nList.getLength()];
             final String[] dogIDs = new String[nList.getLength()];
-            final String[] farba = new String[nList.getLength()];
             final String[] nebezpecny = new String[nList.getLength()];
             final String[] ulica = new String[nList.getLength()];
+            final String[] castMesta = new String[nList.getLength()];
             for(int i =0;i<nList.getLength();i++){
                 HashMap<String,String> dog = new HashMap<>();
                 Element elm = (Element)nList.item(i);
@@ -67,8 +68,8 @@ public class ListOfDogs extends Fragment {
                     dog.put("CisloZnamky",elm.getAttribute("col_1"));
                     dogIDs[c]=elm.getAttribute("col_1");
                     PlemenoPsa[c]=elm.getAttribute("col_0");
-                    farba[c]=elm.getAttribute("col_3");
-                    nebezpecny[c]=elm.getAttribute("col_4");
+                    nebezpecny[c]=elm.getAttribute("col_3");
+                    castMesta[c] = elm.getAttribute("col_4");
                     ulica[c]=elm.getAttribute("col_5")+" "+elm.getAttribute("col_6").trim();
                     dogList.add(dog);
                     c++;
@@ -79,15 +80,15 @@ public class ListOfDogs extends Fragment {
             lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    /*Intent intent = new Intent(ListOfDogs.this,DogActivity.class);
+                    Intent intent = new Intent(getContext(),DogActivity.class);
                     intent.putExtra("ZnamkaPsa",dogIDs[position]);
                     intent.putExtra("plemenoPsa",PlemenoPsa[position]);
-                    intent.putExtra("farbaPsa",farba[position]);
                     intent.putExtra("nebezpecnyPes",nebezpecny[position]);
+                    intent.putExtra("mestskaCast",castMesta[position]);
                     intent.putExtra("ulicaPsa", ulica[position]);
-                    intent.putExtra("predoslyIntent","ListOfDogs");
+                    intent.putExtra("Intent","ListOfDogs");
                     startActivity(intent);
-                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);*/
+                    getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                 }
             });
         }

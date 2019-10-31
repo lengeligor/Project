@@ -28,11 +28,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+
         if(savedInstanceState == null){
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Dashboard()).commit();
-            navigationView.setCheckedItem(R.id.nav_dashboard);
         }
-
+        if(getIntent().getStringExtra("Intent") != null) {
+            if (getIntent().getStringExtra("Intent").equals("LoginClass") ||
+                    getIntent().getStringExtra("Intent").equals("RegisterClass")) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
+            } else if (getIntent().getStringExtra("Intent").equals("DogActivity")) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListOfDogs()).commit();
+            } else if (getIntent().getStringExtra("Intent").equals("DogActivityOM")){
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Services()).commit();
+            }
+        }
     }
 
     private void initialize(){

@@ -10,6 +10,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,7 +32,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     private EditText rePassword;
     private EditText dogNumber;
     private Button register;
-    private TextView backToAccount;
+    private ImageView backToAccount;
 
 
     private FirebaseAuth mAuth;
@@ -51,7 +52,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         rePassword = findViewById(R.id.re_password);
         dogNumber = findViewById(R.id.number_of_his_dog);
         register = findViewById(R.id.enter_button);
-        backToAccount = findViewById(R.id.back_to_profile);
+        backToAccount = findViewById(R.id.arrow_back);
         register.setOnClickListener(this);
         backToAccount.setOnClickListener(this);
     }
@@ -62,7 +63,9 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
             registerPerson();
         }
         if (v == backToAccount){
-            startActivity(new Intent(Register.this,MainActivity.class));
+            Intent intent = new Intent(Register.this,MainActivity.class);
+            intent.putExtra("Intent","RegisterClass");
+            startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
     }
@@ -95,7 +98,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
             Toast.makeText(this,"Heslá sa nezhodujú",Toast.LENGTH_SHORT).show();
             return;
         }
-
         mAuth.createUserWithEmailAndPassword(Email,Password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override

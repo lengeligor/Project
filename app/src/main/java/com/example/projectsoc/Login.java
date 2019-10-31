@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,7 +28,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     private EditText email;
     private EditText password;
-    private TextView backToAccount;
+    private ImageView backToAccount;
     private Button login;
 
     private FirebaseAuth mAuth;
@@ -43,7 +44,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         mAuth = FirebaseAuth.getInstance();
         email  = findViewById(R.id.login_email);
         password = findViewById(R.id.login_password);
-        backToAccount = findViewById(R.id.back_to_profile);
+        backToAccount = findViewById(R.id.arrow_back);
         login = findViewById(R.id.enter_button);
         login.setOnClickListener(this);
         backToAccount.setOnClickListener(this);
@@ -55,7 +56,10 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             userLogin();
         }
         if(v == backToAccount){
-            startActivity(new Intent(Login.this,MainActivity.class));
+            Intent intent = new Intent(Login.this,MainActivity.class);
+            intent.putExtra("Intent","LoginClass");
+            System.out.println(intent.getStringExtra("Intent"));
+            startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
     }

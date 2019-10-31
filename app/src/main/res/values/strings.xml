@@ -43,7 +43,12 @@
     <string name="zdielaj_nas">Zdieľaj nás aj ty cez sociálne siete</string>
     <string name="zdielaj_text1">Pomôž aj ty občanom a psíkom tohto mesta a zdieľaj našu apku cez tvoje sociálne siete. Čím viac ľudí ju bude poznať, tým viac zachránených a šťastných psíkov. Záleží nám na našich psíkoch!</string>
     <string name="Tri_kroky">Sú to 3 jednoduché kroky:</string>
-    <string name="krok_jeden">1. Klikni na naše tlačidlo nižsie</string>
+    <string name="krok_jeden">1. Klikni na naše tlačidlo nižšie</string>
     <string name="krok_dva">2. Vyber si apku na zdieľanie</string>
     <string name="krok_tri">3. Odošli to svojim kontaktom</string>
+    <string name="ukaz_domov_psika">Ukáž domov psíka</string>
+    <string name="vyhladaj_fotky_psa">Vyhľadaj fotky psa</string>
+    <string name="search_string">Číslo známky:</string>
+    <string name="search_text1">Počet nájdených psov:</string>
+    <string name="default_value">0</string>
 </resources>
