@@ -1,10 +1,12 @@
 package com.example.projectsoc;
 
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +22,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 
@@ -70,7 +73,11 @@ public class Services extends Fragment implements OnMapReadyCallback {
     @Override
     public void onMapReady(final GoogleMap googleMap) {
         MapsInitializer.initialize(getContext());
-
+        try{
+            googleMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(getContext(),R.raw.mapstyle));
+        }catch (Resources.NotFoundException e){
+            e.printStackTrace();
+        }
         mGoogleMap = googleMap;
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
@@ -85,7 +92,7 @@ public class Services extends Fragment implements OnMapReadyCallback {
                     latitude = String.valueOf(location.getLatitude());
                     longtitude = String.valueOf(location.getLongitude());
                     LatLng positionBasic = new LatLng(Double.parseDouble(latitude),Double.parseDouble(longtitude));
-                    CameraPosition cameraPositionBasic = CameraPosition.builder().target(positionBasic).zoom(17).bearing(0)
+                    CameraPosition cameraPositionBasic = CameraPosition.builder().target(positionBasic).zoom(15).bearing(0)
                             .tilt(45).build();
                     googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPositionBasic));
                     MarkerOptions options = new MarkerOptions().position(positionBasic).title("TY!");

@@ -17,50 +17,103 @@
                 android:layout_height="60pt"
                 android:src="@drawable/logo_dark_small"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="20dp"
                 />
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo_of_app"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp" />
+
             <TextView
                 android:id="@+id/about_text2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/popis_apky"
-                android:layout_below="@+id/logo_of_app"
+                android:layout_below="@+id/appName"
                 android:padding="15dp"
                 android:textAlignment="center"
                 />
+
+            <TextView
+                android:id="@+id/creators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_text2"
+                android:layout_marginTop="0dp"
+                android:text="@string/creators"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp" />
+
             <ImageView
                 android:id="@+id/image_of_creator1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_account_circle_24dp"
-                android:layout_below="@id/about_text2"
-                android:layout_margin="15dp"
+                android:src="@drawable/creator1"
+                android:layout_below="@id/creators"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5pt"
                 />
+
+            <TextView
+                android:id="@+id/name_of_creator1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/image_of_creator1"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@id/image_of_creator1"
+                android:text="@string/igor_lengel"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/about_text3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@id/image_of_creator1"
-                android:layout_alignTop="@id/image_of_creator1"
+                android:layout_below="@+id/name_of_creator1"
+                android:textStyle="italic"
+                android:layout_marginTop="2pt"
                 android:text="@string/o_zakladatelovi"
                 />
             <ImageView
                 android:id="@+id/image_of_creator2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_account_circle_24dp"
-                android:layout_below="@id/image_of_creator1"
-                android:layout_alignParentRight="true"
-                android:layout_margin="15dp"
+                android:src="@drawable/katka"
+                android:layout_below="@id/about_text3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5pt"
+                android:layout_marginEnd="15dp"
                 />
+            <TextView
+                android:id="@+id/name_of_creator2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/image_of_creator2"
+                android:layout_marginStart="15dp"
+                android:layout_toStartOf="@id/image_of_creator2"
+                android:text="@string/Katarina_Istonova"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
             <TextView
                 android:id="@+id/about_text4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toStartOf="@id/image_of_creator2"
-                android:layout_alignTop="@id/image_of_creator2"
+                android:layout_below="@id/name_of_creator2"
+                android:textStyle="italic"
+                android:layout_marginTop="2pt"
                 android:text="@string/o_zakladatelovi"
-                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10pt"
                 />
 
         </RelativeLayout>

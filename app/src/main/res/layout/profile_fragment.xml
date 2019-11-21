@@ -58,6 +58,45 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/dog_Rlayout"
+        android:layout_width="160pt"
+        android:layout_height="50pt"
+        android:background="@drawable/square_clear"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profile_Rlayout"
+        android:layout_marginTop="10pt"
+        >
+
+        <TextView
+            android:id="@+id/rasaPsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:layout_marginTop="2pt"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/cisloZnamky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:layout_marginTop="2pt"
+            android:layout_below="@+id/rasaPsa"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/nebezpecnyPes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:layout_marginTop="2pt"
+            android:layout_below="@+id/cisloZnamky"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/logout_button"
         android:layout_width="wrap_content"

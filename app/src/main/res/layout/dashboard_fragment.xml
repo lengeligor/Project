@@ -18,6 +18,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/oznamy"
                 android:textSize="30sp"
+                android:textStyle="bold"
                 android:textColor="@color/colorAccent"
                 android:fontFamily="@font/righteous"
                 android:layout_alignParentRight="true"

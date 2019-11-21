@@ -2,15 +2,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+
     <TextView
+        android:id="@+id/call_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/odchyt"
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15pt"
         android:fontFamily="@font/righteous"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
+        android:text="@string/mestsk_policia"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/call_text2"
+        android:layout_width="120pt"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="10pt"
+        android:text="@string/call_text"
+        android:layout_below="@id/call_text1"/>
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/customenterbutton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/zavolat"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/righteous"
+        android:layout_marginTop="30pt"
+        android:layout_below="@id/call_text2"
         />
+
 </RelativeLayout>
