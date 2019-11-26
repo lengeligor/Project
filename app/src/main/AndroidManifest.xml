@@ -9,12 +9,10 @@
         android:roundIcon="@drawable/logo_dark_small"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".DogActivity"></activity>
-
+        <activity android:name=".DogActivity" />
         <activity
             android:name=".Register"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".Login"
             android:screenOrientation="portrait" />
@@ -30,18 +28,19 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC3pd5W_9Vlq41nKpuqcSK_PtUV-y_H-34" />
     </application>
+
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>

@@ -23,7 +23,6 @@ public class DogActivity extends AppCompatActivity implements View.OnClickListen
     private Button showLocate;
     private Button openBrowser;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

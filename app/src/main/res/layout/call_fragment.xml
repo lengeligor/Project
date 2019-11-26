@@ -14,7 +14,7 @@
         android:textStyle="bold"
         android:textColor="@color/colorAccent"
         android:textSize="25sp" />
-
+    
     <TextView
         android:id="@+id/call_text2"
         android:layout_width="120pt"
