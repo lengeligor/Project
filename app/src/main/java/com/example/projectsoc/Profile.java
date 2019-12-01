@@ -21,6 +21,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.StorageReference;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -75,6 +76,7 @@ public class Profile extends Fragment implements View.OnClickListener {
             registerOfPerson.setOnClickListener(this);
         }
         logOut.setOnClickListener(this);
+        imageOfPerson.setOnClickListener(this);
         return layout;
     }
 
@@ -101,6 +103,10 @@ public class Profile extends Fragment implements View.OnClickListener {
         } else if(logOut.equals(v)) {
             mAuth.signOut();
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
+        } else if(imageOfPerson.equals(v)){
+            startActivity(new Intent(layout.getContext(),UploadPhoto.class));
+            System.out.println("start");
+            getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         }
     }
 

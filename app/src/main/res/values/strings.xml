@@ -26,8 +26,8 @@
     <string name="pridatpoznamku">Pridať poznámku</string>
     <string name="hladam_psa">Nájdení psíci</string>
     <string name="straten_psici">Stratení psíci</string>
-    <string name="popis_apky">Vytvoriť mobilnú aplikáciu, ktorá bude využívať dataset psov mesta Prešov a vlastne vytvorený dataset obchodov a služieb pre psov. Aplikácia musí byť príjemná pre užívateľa a jednoduchá na ovládanie. Má obsahovať ponuku, kde si užívateľ bude môcť prezerať jednotlivé časti ako napríklad svoje konto, zoznam psov, oznamy psíčkarov, mapu a podobne. Prihlásený používateľ bude mať odomknuté viaceré možnosti ako neprihlásený (pridávanie oznamov, poznámok k svojmu psíkovi). Z aplikácie sa bude dať priamo zavolať na odchyt psov ak niekto nájde nebezpečného psa aby sa neocitol v nebezpečenstve. Apku sa bude dať jednoducho zdielať na sociálnu sieť.</string>
-    <string name="o_zakladatelovi">Neprihlásený užívateľ: možnosť registrácie, prezerania si zoznamu psov, služieb, oznamov, mapy, zavolanie odchytovej služby, zdieľanie aplikácie</string>
+    <string name="popis_apky">Aplikácia má pomôcť občanom mesta Prešov a to nie len chovateľom psov ale aj tým ktorí psov nevlastnia. Pre majiteľov psov aplikácia ponúka viaceré možnosti ako napríklad dataset všetkých chovaných psov v meste, dataset s obchodmi ktoré predávajú psie maškrty, hračky ale taktiež aj kde nájdete zverolekára či útulok. Ak nájdete strateného psíka s obojkom, aplikácia umožňuje vyhľadať jeho domov a naviguje vás priamo k jemu chovateľovi. Pre psíkov bez obojkov alebo nebezpečných odporúčame zavolať odchytovú službu, ktorú v meste Prešov vykonáva mestská polícia. Zavolať im môžete priamo z appky. Samozrejme v aplikácií nesmú chýbať ani inzeráty o stratených a nájdených psíkoch.</string>
+    <string name="o_zakladatelovi">Som študent strednej školy v Prešove a tvorba mobilných aplikácií ma veľmi baví. Ak chceš vidieť moje práce odporúčam ti navštíviť moj web alebo ig: prog.igor.</string>
     <string name="registracia">Registrácia</string>
     <string name="meno_a_priezvisko">Meno a priezvisko:</string>
     <string name="e_mail">E-mail:</string>
@@ -55,6 +55,8 @@
     <string name="igor_lengel">Igor Lengel</string>
     <string name="Katarina_Istonova">Katarína Ištoňová</string>
     <string name="mestsk_policia">Mestská polícia</string>
-    <string name="call_text">Mestská polícia vykonáva pre občanov aj služby v oblasti odchytu túlavých zvierat , ktoré sú potom umiestňované do karanténnej stanice na Bajkalskej ulici v Prešove. V prípade, že uvidíte túlavé zviera a jeho osud Vám nie je ľahostajný, oznámte im to. Odchyt sa vykonáva výlučne v katastri mesta Prešov a na základe zmluvy o spolupráci s obcou Ľubotice aj v katastri uvedenej obce</string>
+    <string name="call_text">Mestská polícia vykonáva pre občanov aj služby v oblasti odchytu túlavých zvierat , ktoré sú potom umiestňované do karanténnej stanice na Bajkalskej ulici v Prešove. V prípade, že uvidíte túlavé zviera a jeho osud Vám nie je ľahostajný, oznámte im to. Odchyt sa vykonáva výlučne v katastri mesta Prešov a na základe zmluvy o spolupráci s obcou Ľubotice aj v katastri uvedenej obce.</string>
     <string name="zavolat">Zavolať</string>
+    <string name="vyber_si_obrazok">Vyber si obrázok</string>
+    <string name="potvrdit">Potvrdiť</string>
 </resources>

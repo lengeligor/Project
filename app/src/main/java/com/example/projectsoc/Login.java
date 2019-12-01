@@ -60,7 +60,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             Intent intent = new Intent(Login.this,MainActivity.class);
             intent.putExtra("Intent","LoginClass");
             startActivity(intent);
-            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         }
     }
 
@@ -91,5 +91,17 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     }
                 });
     }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
 
 }
