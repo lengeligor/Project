@@ -4,33 +4,29 @@
         <def>
             <column name="Nazov utulku" col_id="col0" type="V2" size="0" precision="0" null="true"/>
             <column name="Adresa" col_id="col1" type="V2" size="0" precision="0" null="true"/>
-            <column name="Cislo" col_id="col2" type="V2" size="0" precision="0" null="true"/>
-            <column name="Mesto" col_id="col3" type="V2" size="0" precision="0" null="true"/>
-            <column name="Druh" col_id="col4" type="V2" size="0" precision="0" null="true"/>
+            <column name="Druh" col_id="col2" type="V2" size="0" precision="0" null="true"/>
         </def>
         <data>
-            <row col0="Presovski havkaci" col1="Bajkalská" col2="28" col3="Prešov" col4="utulok"/>
-            <row col0="Sloboda zvierat" col1="Slovenská" col2="28" col3="Prešov" col4="utulok"/>
-            <row col0="Priatelia zvierat" col1="Mirka Nešpora" col2="8" col3="Prešov" col4="utulok"/>
-	    <row col0="Presovski havkaci" col1="Bajkalská" col2="28" col3="Prešov" col4="utulok"/>
-            <row col0="Veterinárna ambulancia" col1="Tomášikova" col2="6810/58" col3="Prešov" col4="zverolekar"/>
-            <row col0="Pavúk Vladimír MVDr." col1="Volgogradská" col2="4794/86" col3="Prešov" col4="zverolekar"/>
-	    <row col0="Veterinárna klinika Solivet" col1="Kutuzova" col2="13760/9A" col3="Prešov" col4="zverolekar"/>
-            <row col0="Plutovet - MVDr. Dušan Sabol" col1="Jána Pavla II." col2="7" col3="Prešov" col4="zverolekar"/>
-            <row col0="Veterinárna ambulancia L&L, MVDr. Ličák" col1="Námestie mládeže" col2="7352/1A" col3="Prešov" col4="zverolekar"/>
-	    <row col0="Veterinárna ambulancia" col1="Októbrová" col2="30" col3="Prešov" col4="zverolekar"/>
-            <row col0="Veterinárna ambulancia Dúbrava" col1="Bajkalská" col2="4871/28" col3="Prešov" col4="zverolekar"/>
-            <row col0="Veterinárna ambulancia OPÁL" col1="Zemplínska" col2="8311/9" col3="Prešov" col4="zverolekar"/>
-	    <row col0="Vetesis s.r.o." col1="Námestie mládeže" col2="1" col3="Prešov" col4="zverolekar"/>
-            <row col0="Petrík Miroslav MVDr." col1="K amfiteátru" col2="2817/8" col3="Prešov" col4="zverolekar"/>
-	    <row col0="Chovateľské potreby DONA" col1="Levočská" col2="6128/20" col3="Prešov" col4="obchod"/>
-	    <row col0="HAPPY PETS s.r.o." col1="Košická" col2="6" col3="Prešov" col4="obchod"/>
-	    <row col0="Baff s.r.o." col1="Masarykova" col2="2722/22" col3="Prešov" col4="obchod"/>
-	    <row col0="My Pet Shop" col1="Vihorlatská" col2="12485" col3="Prešov" col4="obchod"/>
-	    <row col0="Chovateľské potreby Šťastná labka" col1="Tomášikova" col2="8/A" col3="Prešov" col4="obchod"/>
-	    <row col0="Super Zoo" col1="Armádneho generála Svobodu" col2="13832/21" col3="Prešov" col4="obchod"/>
-	    <row col0="Krajina Zdravia" col1="" col2="" col3="Prešov" col4="obchod"/>
-	    <row col0="SUPER ZOO" col1="Volgogradská" col2="12906/7A" col3="Prešov" col4="obchod"/>
+            <row col0="Presovski havkaci" col1="Prešov Bajkalská 28" col2="utulok"/>
+            <row col0="Sloboda zvierat" col1="Prešov Slovenská 28" col2="utulok"/>
+            <row col0="Priatelia zvierat" col1="Prešov Mirka Nešpora 8" col2="utulok"/>
+            <row col0="Veterinárna ambulancia" col1="Prešov Tomášikova 6810/58" col2="zverolekar"/>
+            <row col0="Pavúk Vladimír MVDr." col1="Prešov Volgogradská 4794/86" col2="zverolekar"/>
+	        <row col0="Veterinárna klinika Solivet" col1="Prešov Kutuzova 13760/9A" col2="zverolekar"/>
+            <row col0="Plutovet MVDr. Dušan Sabol" col1="Prešov Jána Pavla II. 7" col2="zverolekar"/>
+            <row col0="Veterinárna ambulancia LandL, MVDr. Ličák" col1="Prešov Námestie mládeže 7352/1A" col2="zverolekar"/>
+	        <row col0="Veterinárna ambulancia" col1="Prešov Októbrová 30" col2="zverolekar"/>
+            <row col0="Veterinárna ambulancia Dúbrava" col1="Prešov Bajkalská 4871/28" col2="zverolekar"/>
+            <row col0="Veterinárna ambulancia OPÁL" col1="Prešov Zemplínska 8311/9" col2="zverolekar"/>
+	        <row col0="Vetesis s.r.o." col1="Prešov Námestie mládeže 1" col2="zverolekar"/>
+            <row col0="Petrík Miroslav MVDr." col1="Prešov K amfiteátru 2817/8" col2="zverolekar"/>
+	        <row col0="Chovateľské potreby DONA" col1="Prešov Levočská 6128/20" col2="obchod"/>
+	        <row col0="HAPPY PETS s.r.o." col1="Prešov Košická 6" col2="obchod"/>
+	        <row col0="Baff s.r.o." col1="Prešov Masarykova 2722/22" col2="obchod"/>
+	        <row col0="My Pet Shop" col1="Prešov Vihorlatská 12485" col2="obchod"/>
+	        <row col0="Chovateľské potreby Šťastná labka" col1="Prešov Tomášikova 8/A" col2="obchod"/>
+	        <row col0="Super Zoo" col1="Prešov Armádneho generála Svobodu 13832/21" col2="obchod"/>
+	        <row col0="SUPER ZOO" col1="Prešov Volgogradská 12906/7A" col2="obchod"/>
         </data>
     </rs>
 </ds>

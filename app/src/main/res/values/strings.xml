@@ -59,4 +59,9 @@
     <string name="zavolat">Zavolať</string>
     <string name="vyber_si_obrazok">Vyber si obrázok</string>
     <string name="potvrdit">Potvrdiť</string>
+    <string name="ty">Ty</string>
+    <string name="domov_psika">Domov psíka</string>
+    <string name="zverolekar">Zverolekár</string>
+    <string name="utulok">Útulok</string>
+    <string name="obchod_so_zv_pot">Obchod so zv. pot.</string>
 </resources>

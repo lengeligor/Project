@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         if(getIntent().getStringExtra("Intent") != null) {
             if (getIntent().getStringExtra("Intent").equals("LoginClass") ||
-                    getIntent().getStringExtra("Intent").equals("RegisterClass")) {
+                    getIntent().getStringExtra("Intent").equals("RegisterClass") ||
+                    getIntent().getStringExtra("Intent").equals("UploadPhoto")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
             } else if (getIntent().getStringExtra("Intent").equals("DogActivity")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListOfDogs()).commit();
@@ -82,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Dashboard()).commit();
                 break;
             case R.id.nav_services :
+                getIntent().putExtra("Services","services");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Services()).commit();
                 break;
             case R.id.nav_shelter_help :

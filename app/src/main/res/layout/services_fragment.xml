@@ -1,10 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <com.google.android.gms.maps.MapView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/map"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeMapLFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/map"
+        android:alpha="0.5"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/placeAzure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1pt"
+            android:src="@drawable/ic_place_azure" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/placeAzure"
+            android:layout_alignBottom="@+id/placeAzure"
+            android:text="@string/ty" />
+
+        <ImageView
+            android:id="@+id/placeMagenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeAzure"
+            android:layout_marginTop="1pt"
+            android:src="@drawable/ic_place_magenta" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/placeMagenta"
+            android:layout_alignBottom="@id/placeMagenta"
+            android:text="@string/domov_psika" />
+
+        <ImageView
+            android:id="@+id/placeRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeMagenta"
+            android:layout_marginTop="1pt"
+            android:src="@drawable/ic_place_red" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/placeRed"
+            android:layout_alignBottom="@id/placeRed"
+            android:text="@string/zverolekar" />
+
+        <ImageView
+            android:id="@+id/placeOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeRed"
+            android:layout_marginTop="1pt"
+            android:src="@drawable/ic_place_orange" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/placeOrange"
+            android:layout_alignBottom="@id/placeOrange"
+            android:text="@string/utulok" />
+
+        <ImageView
+            android:id="@+id/placeYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeOrange"
+            android:layout_marginTop="1pt"
+            android:src="@drawable/ic_place_yellow" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/placeYellow"
+            android:layout_alignBottom="@id/placeYellow"
+            android:text="@string/obchod_so_zv_pot" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -69,6 +69,7 @@ public class Profile extends Fragment implements View.OnClickListener {
         dogLayout.setVisibility(View.INVISIBLE);
         if (mAuth.getCurrentUser() != null){
             FirebaseUser user = mAuth.getCurrentUser();
+            imageOfPerson.setOnClickListener(this);
             readFromDB(user);
         }else {
             logOut.setVisibility(View.INVISIBLE);
@@ -76,7 +77,6 @@ public class Profile extends Fragment implements View.OnClickListener {
             registerOfPerson.setOnClickListener(this);
         }
         logOut.setOnClickListener(this);
-        imageOfPerson.setOnClickListener(this);
         return layout;
     }
 
