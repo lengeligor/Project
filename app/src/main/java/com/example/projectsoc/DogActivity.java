@@ -73,7 +73,13 @@ public class DogActivity extends AppCompatActivity implements View.OnClickListen
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         }if(v == openBrowser) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/imghp?hl=en"));
+            String []rasa = plemenoPsa.getText().toString().split(" ");
+            String url = "http://www.google.com/search?q=";
+            for (int i = 0 ; i < rasa.length ; i++){
+                rasa[i] = rasa[i].trim();
+                url += rasa[i]+"+";
+            }
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
         }
     }
