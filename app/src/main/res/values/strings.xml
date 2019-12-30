@@ -64,4 +64,7 @@
     <string name="zverolekar">Zverolekár</string>
     <string name="utulok">Útulok</string>
     <string name="obchod_so_zv_pot">Obchod so zv. pot.</string>
+    <string name="zaznamy_psa">Záznamy psa</string>
+    <string name="save">Uložiť</string>
+    <string name="hintRecord">Tu si môžeš zapisovať údaje o tvojom psovi..</string>
 </resources>

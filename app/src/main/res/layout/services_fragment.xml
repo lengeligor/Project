@@ -28,8 +28,8 @@
             android:id="@+id/text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/placeAzure"
             android:layout_alignBottom="@+id/placeAzure"
+            android:layout_toEndOf="@id/placeAzure"
             android:text="@string/ty" />
 
         <ImageView
@@ -44,8 +44,8 @@
             android:id="@+id/text2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/placeMagenta"
             android:layout_alignBottom="@id/placeMagenta"
+            android:layout_toEndOf="@id/placeMagenta"
             android:text="@string/domov_psika" />
 
         <ImageView
@@ -60,8 +60,8 @@
             android:id="@+id/text3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/placeRed"
             android:layout_alignBottom="@id/placeRed"
+            android:layout_toEndOf="@id/placeRed"
             android:text="@string/zverolekar" />
 
         <ImageView
@@ -76,8 +76,8 @@
             android:id="@+id/text4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/placeOrange"
             android:layout_alignBottom="@id/placeOrange"
+            android:layout_toEndOf="@id/placeOrange"
             android:text="@string/utulok" />
 
         <ImageView
@@ -92,8 +92,8 @@
             android:id="@+id/text5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/placeYellow"
             android:layout_alignBottom="@id/placeYellow"
+            android:layout_toEndOf="@id/placeYellow"
             android:text="@string/obchod_so_zv_pot" />
 
     </RelativeLayout>

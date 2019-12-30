@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/righteous"
-            android:layout_marginTop="2pt"
+            android:layout_marginTop="6pt"
             android:layout_centerHorizontal="true"
             />
         <TextView
@@ -96,6 +96,17 @@
             />
 
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/zaznamyPsa"
+        android:layout_width="160pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dog_Rlayout"
+        android:layout_marginTop="5pt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/zaznamy_psa"
+        android:background="@drawable/custombuttonmain"
+        android:textColor="@android:color/white"/>
 
     <TextView
         android:id="@+id/logout_button"

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -60,6 +61,7 @@ public class Profile extends Fragment implements View.OnClickListener {
     private TextView cisloZnamky;
     private TextView nebezpecnyPes;
     private String search = "";
+    private Button zaznamy;
 
     private TextView logOut;
 
@@ -73,9 +75,11 @@ public class Profile extends Fragment implements View.OnClickListener {
         layout = inflater.inflate(R.layout.profile_fragment,container,false);
         initialize();
         dogLayout.setVisibility(View.INVISIBLE);
+        zaznamy.setVisibility(View.INVISIBLE);
         if (mAuth.getCurrentUser() != null){
             FirebaseUser user = mAuth.getCurrentUser();
             imageOfPerson.setOnClickListener(this);
+            zaznamy.setOnClickListener(this);
             readFromDB(user);
             setImage();
         }else {
@@ -97,6 +101,7 @@ public class Profile extends Fragment implements View.OnClickListener {
         cisloZnamky = layout.findViewById(R.id.cisloZnamky);
         nebezpecnyPes = layout.findViewById(R.id.nebezpecnyPes);
         dogLayout = layout.findViewById(R.id.dog_Rlayout);
+        zaznamy = layout.findViewById(R.id.zaznamyPsa);
     }
 
     @Override
@@ -112,7 +117,9 @@ public class Profile extends Fragment implements View.OnClickListener {
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
         } else if(imageOfPerson.equals(v)){
             startActivity(new Intent(layout.getContext(),UploadPhoto.class));
-            System.out.println("start");
+            getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+        }else if(zaznamy.equals(v)){
+            startActivity(new Intent(layout.getContext(),Records.class));
             getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         }
     }
@@ -138,6 +145,7 @@ public class Profile extends Fragment implements View.OnClickListener {
                         }else{
                             search = user.getDogNumber();
                             dogLayout.setVisibility(View.VISIBLE);
+                            zaznamy.setVisibility(View.VISIBLE);
                             searchDog();
                         }
                     }catch (NullPointerException e){

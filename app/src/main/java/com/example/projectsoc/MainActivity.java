@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if(getIntent().getStringExtra("Intent") != null) {
             if (getIntent().getStringExtra("Intent").equals("LoginClass") ||
                     getIntent().getStringExtra("Intent").equals("RegisterClass") ||
-                    getIntent().getStringExtra("Intent").equals("UploadPhoto")) {
+                    getIntent().getStringExtra("Intent").equals("UploadPhoto") ||
+                    getIntent().getStringExtra("Intent").equals("RecordsClass")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
             } else if (getIntent().getStringExtra("Intent").equals("DogActivity")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListOfDogs()).commit();
