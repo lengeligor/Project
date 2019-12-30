@@ -19,12 +19,14 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
@@ -42,6 +44,7 @@ public class UploadPhoto extends AppCompatActivity {
 
     private StorageReference storageReference;
     private DatabaseReference databaseReference;
+    private StorageTask uploadTask;
     private FirebaseAuth mAuth =FirebaseAuth.getInstance();
 
 
@@ -60,8 +63,12 @@ public class UploadPhoto extends AppCompatActivity {
         });
         upload.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v){
-                uploadFile();
+            public void onClick(View v) {
+                if (uploadTask != null && uploadTask.isInProgress()) {
+                    Toasty.warning(getApplicationContext(),"Obrázok sa načítava",Toast.LENGTH_SHORT).show();
+                } else {
+                    uploadFile();
+                }
             }
         });
         backToAccount.setOnClickListener(new View.OnClickListener(){
@@ -84,7 +91,7 @@ public class UploadPhoto extends AppCompatActivity {
     private void uploadFile() {
         if(ImageUri != null){
             StorageReference fileReference = storageReference.child(mAuth.getCurrentUser().getUid()+"." + getFileExtension(ImageUri));
-            fileReference.putFile(ImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            uploadTask = fileReference.putFile(ImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                     Handler handler = new Handler();
@@ -93,20 +100,27 @@ public class UploadPhoto extends AppCompatActivity {
                         public void run() {
                             progressBar.setProgress(0);
                         }
-                    }, 5000);
-                    Toasty.success(getApplicationContext(),"Profilová fotka bola uložená",Toast.LENGTH_SHORT).show();
-                    //Upload upload = new Upload(mAuth.getCurrentUser().getUid(),);                 //problem
-                    /*
-                    *
-                    *
-                    *
-                    *       DOROBIT
-                    *
-                    *
-                    *
-                    * */
-
+                    }, 500);
+                    if (taskSnapshot.getMetadata() != null) {
+                        if (taskSnapshot.getMetadata().getReference() != null) {
+                            Task<Uri> result = taskSnapshot.getStorage().getDownloadUrl();
+                            result.addOnSuccessListener(new OnSuccessListener<Uri>() {
+                                @Override
+                                public void onSuccess(Uri uri) {
+                                    String imageUrl = uri.toString();
+                                    Upload upload = new Upload(imageUrl);
+                                    String uploadID = databaseReference.push().getKey();
+                                    databaseReference.child(uploadID).setValue(upload);
+                                }
+                            });
                         }
+                    }
+                    Toasty.success(getApplicationContext(),"Profilová fotka bola uložená",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(UploadPhoto.this,MainActivity.class);
+                    intent.putExtra("Intent","UploadPhoto");
+                    startActivity(intent);
+                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {

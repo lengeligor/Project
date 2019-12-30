@@ -2,6 +2,7 @@ package com.example.projectsoc;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +14,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -22,6 +24,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -42,6 +45,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import es.dmoral.toasty.Toasty;
+
 public class Profile extends Fragment implements View.OnClickListener {
 
     private View layout;
@@ -59,6 +64,7 @@ public class Profile extends Fragment implements View.OnClickListener {
     private TextView logOut;
 
     private FirebaseAuth mAuth =FirebaseAuth.getInstance();
+    private DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("profilePhotos");
     private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
 
     @Nullable
@@ -71,6 +77,7 @@ public class Profile extends Fragment implements View.OnClickListener {
             FirebaseUser user = mAuth.getCurrentUser();
             imageOfPerson.setOnClickListener(this);
             readFromDB(user);
+            setImage();
         }else {
             logOut.setVisibility(View.INVISIBLE);
             nameOfPerson.setOnClickListener(this);
@@ -176,6 +183,24 @@ public class Profile extends Fragment implements View.OnClickListener {
         catch (IOException | ParserConfigurationException | SAXException e) {
             e.printStackTrace();
         }
+    }
+
+    private void setImage(){
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for (DataSnapshot postSnapshot : dataSnapshot.getChildren()){
+                    Upload upload = postSnapshot.getValue(Upload.class);
+                    Picasso.with(getContext()).load(Uri.parse(upload.getUrl())).into(imageOfPerson);
+                    System.out.println(upload.getUrl() + " string");
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                Toasty.error(getContext(),"Nepodarilo sa nahrať profilovú fotku", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
 
