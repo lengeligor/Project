@@ -69,6 +69,7 @@
             android:layout_below="@+id/register_text2"
             android:layout_centerHorizontal="true"
             android:textAlignment="center"
+            android:inputType="text"
             android:textSize="12sp"/>
 
         <TextView
@@ -111,6 +112,7 @@
             android:layout_below="@+id/register_text4"
             android:layout_centerHorizontal="true"
             android:password="true"
+            android:inputType="textPassword"
             android:textAlignment="center"
             android:textSize="12sp" />
 
@@ -133,6 +135,7 @@
             android:layout_centerHorizontal="true"
             android:password="true"
             android:textAlignment="center"
+            android:inputType="textPassword"
             android:textSize="12sp" />
 
         <TextView
