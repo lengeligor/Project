@@ -137,7 +137,6 @@ public class Profile extends Fragment implements View.OnClickListener {
                         user.setNameSurname(ds.child(id).getValue(User.class).getNameSurname());        //vyvolanie z Firebase Realtime DB
                         user.setMail(ds.child(id).getValue(User.class).getMail());
                         user.setDogNumber(ds.child(id).getValue(User.class).getDogNumber());
-
                         nameOfPerson.setText(user.getNameSurname());
                         or.setText(user.getMail());
                         if(user.getDogNumber() == null || user.getDogNumber().equals("")){
@@ -200,10 +199,8 @@ public class Profile extends Fragment implements View.OnClickListener {
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()){
                     Upload upload = postSnapshot.getValue(Upload.class);
                     Picasso.with(getContext()).load(Uri.parse(upload.getUrl())).into(imageOfPerson);
-                    System.out.println(upload.getUrl() + " string");
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
                 Toasty.error(getContext(),"Nepodarilo sa nahrať profilovú fotku", Toast.LENGTH_SHORT).show();

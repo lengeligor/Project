@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -25,7 +27,8 @@ public class Records extends AppCompatActivity implements View.OnClickListener {
     private Button save;
     private EditText editText;
 
-    private final String FILE_NAME = "records.txt";
+    private FirebaseAuth mAuth =FirebaseAuth.getInstance();
+    private String FILE_NAME;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +43,7 @@ public class Records extends AppCompatActivity implements View.OnClickListener {
         backToProfile = findViewById(R.id.arrow_back);
         save = findViewById(R.id.save);
         editText = findViewById(R.id.editText);
+        FILE_NAME = mAuth.getCurrentUser().getUid();
         load();
     }
 
@@ -62,7 +66,6 @@ public class Records extends AppCompatActivity implements View.OnClickListener {
     private void save(){
         String text = editText.getText().toString();
         FileOutputStream fos = null;
-
         try {
             fos = openFileOutput(FILE_NAME,MODE_PRIVATE);
             fos.write(text.getBytes());

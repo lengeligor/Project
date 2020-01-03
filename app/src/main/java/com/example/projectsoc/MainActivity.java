@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListOfDogs()).commit();
             } else if (getIntent().getStringExtra("Intent").equals("DogActivityOM")){
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Services()).commit();
+            }else if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Dashboard()).commit();
             }
         }
     }

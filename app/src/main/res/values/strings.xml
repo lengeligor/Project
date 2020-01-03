@@ -67,4 +67,6 @@
     <string name="zaznamy_psa">Záznamy psa</string>
     <string name="save">Uložiť</string>
     <string name="hintRecord">Tu si môžeš zapisovať údaje o tvojom psovi..</string>
+    <string name="stratil_som_psika">Stratil som psíka</string>
+    <string name="nasiel_som_psika">Našiel som psíka</string>
 </resources>
