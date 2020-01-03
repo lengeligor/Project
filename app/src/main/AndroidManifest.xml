@@ -20,7 +20,8 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".AddNoteActivity"></activity>
+        <activity android:name=".NoticeActivity"></activity>
+        <activity android:name=".AddNoteActivity" />
         <activity android:name=".Records" />
         <activity android:name=".UploadPhoto" />
         <activity android:name=".DogActivity" />

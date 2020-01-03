@@ -9,15 +9,17 @@ public class Note {
     private String phoneNumber;
     private String date;
     private String userID;
+    private String urlImage;
 
     public Note(){}
 
-    public Note(String title, String description, String phoneNumber, String date, String userID) {
+    public Note(String title, String description, String phoneNumber, String date, String userID, String urlImage) {
         this.title = title;
         this.description = description;
         this.phoneNumber = phoneNumber;
         this.date = date;
         this.userID = userID;
+        this.urlImage = urlImage;
     }
 
     public String getTitle() {
@@ -58,5 +60,13 @@ public class Note {
 
     public void setUserID(String userID) {
         this.userID = userID;
+    }
+
+    public String getUrlImage() {
+        return urlImage;
+    }
+
+    public void setUrlImage(String urlImage) {
+        this.urlImage = urlImage;
     }
 }

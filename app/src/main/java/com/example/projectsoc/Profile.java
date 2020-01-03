@@ -116,7 +116,9 @@ public class Profile extends Fragment implements View.OnClickListener {
             mAuth.signOut();
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Profile()).commit();
         } else if(imageOfPerson.equals(v)){
-            startActivity(new Intent(layout.getContext(),UploadPhoto.class));
+            Intent intent = new Intent(getContext(),UploadPhoto.class);
+            intent.putExtra("Intent","Profile");
+            startActivity(intent);
             getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         }else if(zaznamy.equals(v)){
             startActivity(new Intent(layout.getContext(),Records.class));
@@ -198,7 +200,9 @@ public class Profile extends Fragment implements View.OnClickListener {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()){
                     Upload upload = postSnapshot.getValue(Upload.class);
-                    Picasso.with(getContext()).load(Uri.parse(upload.getUrl())).into(imageOfPerson);
+                    if (mAuth.getCurrentUser().getUid().equals(upload.getUser())) {
+                        Picasso.with(getContext()).load(Uri.parse(upload.getUrl())).fit().centerCrop().into(imageOfPerson);
+                    }
                 }
             }
             @Override

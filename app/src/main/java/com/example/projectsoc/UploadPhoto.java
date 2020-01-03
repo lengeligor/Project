@@ -75,6 +75,9 @@ public class UploadPhoto extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(UploadPhoto.this,MainActivity.class);
+                if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
+                    intent = new Intent(UploadPhoto.this,AddNoteActivity.class);
+                }
                 intent.putExtra("Intent","UploadPhoto");
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
@@ -90,7 +93,12 @@ public class UploadPhoto extends AppCompatActivity {
 
     private void uploadFile() {
         if(ImageUri != null){
-            StorageReference fileReference = storageReference.child(mAuth.getCurrentUser().getUid()+"." + getFileExtension(ImageUri));
+            //curent time + Uid
+            StorageReference fileReference = storageReference.child(mAuth.getCurrentUser().getUid() + "." + getFileExtension(ImageUri));
+            if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
+                fileReference = storageReference.child(System.currentTimeMillis()+mAuth.getCurrentUser().getUid()
+                        + "." + getFileExtension(ImageUri));
+            }
             uploadTask = fileReference.putFile(ImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -108,12 +116,20 @@ public class UploadPhoto extends AppCompatActivity {
                                 @Override
                                 public void onSuccess(Uri uri) {
                                     String imageUrl = uri.toString();
-                                    Upload upload = new Upload(imageUrl);
+                                    Upload upload = new Upload(imageUrl,mAuth.getCurrentUser().getUid());
                                     String uploadID = databaseReference.push().getKey();
                                     databaseReference.child(uploadID).setValue(upload);
                                 }
                             });
                         }
+                    }
+                    if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
+                        Toasty.success(getApplicationContext(),"Fotka sa nahrala",Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(UploadPhoto.this,AddNoteActivity.class);
+                        intent.putExtra("Intent", "UploadPhoto");
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                        return;
                     }
                     Toasty.success(getApplicationContext(),"Profilová fotka bola uložená",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(UploadPhoto.this,MainActivity.class);
@@ -161,8 +177,13 @@ public class UploadPhoto extends AppCompatActivity {
         upload = findViewById(R.id.upload);
         imageView = findViewById(R.id.image_view);
         progressBar = findViewById(R.id.progress_bar);
-        storageReference = FirebaseStorage.getInstance().getReference("profilePhotos");
-        databaseReference = FirebaseDatabase.getInstance().getReference("profilePhotos");
+        if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")){
+            storageReference = FirebaseStorage.getInstance().getReference("notePhotos");
+            databaseReference = FirebaseDatabase.getInstance().getReference("notePhotos");
+        }else if(getIntent().getStringExtra("Intent").equals("Profile")){
+            storageReference = FirebaseStorage.getInstance().getReference("profilePhotos");
+            databaseReference = FirebaseDatabase.getInstance().getReference("profilePhotos");
+        }
     }
 
     @Override

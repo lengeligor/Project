@@ -9,7 +9,7 @@
     >
 
     <Toolbar
-        android:id="@+id/register_toolbar"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimaryDark"
@@ -33,75 +33,95 @@
             android:layout_marginStart="10pt"/>
     </Toolbar>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/register_toolbar"
-        android:padding="5pt">
-
-        <CheckBox
-            android:id="@+id/find_Dogs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:layout_marginTop="5pt" />
-
-        <TextView
-            android:id="@+id/dashboard_text1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/find_Dogs"
-            android:layout_toEndOf="@+id/find_Dogs"
-            android:text="@string/nasiel_som_psika"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="17sp" />
-
-        <CheckBox
-            android:id="@+id/lost_Dogs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/find_Dogs"
-            android:layout_toEndOf="@id/dashboard_text1" />
-
-        <TextView
-            android:id="@+id/dashboard_text2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/lost_Dogs"
-            android:layout_toEndOf="@+id/lost_Dogs"
-            android:text="@string/stratil_som_psika"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="17sp" />
 
 
-        <EditText
-            android:id="@+id/phone_number"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Phone"
-            android:layout_below="@id/find_Dogs"
-            android:inputType="phone" />
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:padding="5pt">
 
-        <EditText
-            android:id="@+id/description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Description"
-            android:layout_below="@id/phone_number"
-            android:inputType="textMultiLine" />
+            <ImageView
+                android:id="@+id/addPhoto"
+                android:layout_width="70pt"
+                android:layout_height="70pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginBottom="5pt"
+                android:src="@drawable/ic_add_a_photo"
+                android:layout_centerHorizontal="true"/>
 
-        <Button
-            android:id="@+id/save_note"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/customenterbutton"
-            android:fontFamily="@font/righteous"
-            android:text="@string/save"
-            android:textColor="@android:color/white"
-            android:layout_marginBottom="5pt"/>
+            <RelativeLayout
+                android:id="@+id/Rlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addPhoto"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/find_Dogs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_marginTop="5pt" />
+
+                <TextView
+                    android:id="@+id/dashboard_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/find_Dogs"
+                    android:layout_toEndOf="@+id/find_Dogs"
+                    android:text="@string/nasiel_som_psika"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17sp" />
+
+                <CheckBox
+                    android:id="@+id/lost_Dogs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/find_Dogs"
+                    />
+
+                <TextView
+                    android:id="@+id/dashboard_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lost_Dogs"
+                    android:layout_toEndOf="@+id/lost_Dogs"
+                    android:text="@string/stratil_som_psika"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Rlayout"
+                android:hint="Telefónny kontakt"
+                android:layout_marginTop="5pt"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Popis psíka"
+                android:layout_below="@id/phone_number"
+                android:layout_marginTop="5pt"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/save_note"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/customenterbutton"
+                android:fontFamily="@font/righteous"
+                android:text="@string/save"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="5pt"/>
     </RelativeLayout>
 
 </RelativeLayout>
