@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             } else if (getIntent().getStringExtra("Intent").equals("DogActivityOM")){
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Services()).commit();
             }else if (getIntent().getStringExtra("Intent").equals("AddNoteActivity") ||
-                    getIntent().getStringExtra("Intent").equals("NoticeActivity")) {
+                    getIntent().getStringExtra("Intent").equals("NoticeActivity") ||
+                    getIntent().getStringExtra("Intent").equals("BottomSheetDialog")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Dashboard()).commit();
             }
         }

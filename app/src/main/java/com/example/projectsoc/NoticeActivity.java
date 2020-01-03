@@ -3,15 +3,18 @@ package com.example.projectsoc;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 public class NoticeActivity extends AppCompatActivity {
 
     private TextView textViewTitle, textViewDescription, textViewPhoneNUmber;
-    private ImageView arrowBack;
+    private ImageView arrowBack, image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,7 @@ public class NoticeActivity extends AppCompatActivity {
             textViewTitle.setText(getIntent().getStringExtra("Title"));
             textViewDescription.setText(getIntent().getStringExtra("Description"));
             textViewPhoneNUmber.setText(getIntent().getStringExtra("PhoneNumber"));
+            Picasso.with(getApplicationContext()).load(Uri.parse(getIntent().getStringExtra("Url"))).fit().centerCrop().into(image);
         }
         arrowBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +44,6 @@ public class NoticeActivity extends AppCompatActivity {
         textViewDescription = findViewById(R.id.description);
         textViewPhoneNUmber = findViewById(R.id.phone_number);
         arrowBack = findViewById(R.id.arrow_back);
+        image = findViewById(R.id.image);
     }
 }

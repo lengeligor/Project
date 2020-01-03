@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="5pt"
+    >
+
+    <RelativeLayout
+        android:id="@+id/Rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5pt"
+        android:layout_marginBottom="5pt">
+
+        <CheckBox
+            android:id="@+id/find_Dogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt" />
+
+        <TextView
+            android:id="@+id/dashboard_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/find_Dogs"
+            android:layout_toEndOf="@+id/find_Dogs"
+            android:text="@string/hladam_psa"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/lost_Dogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/dashboard_text1"
+            android:layout_margin="2pt"
+            android:layout_alignBaseline="@id/find_Dogs"
+            />
+
+        <TextView
+            android:id="@+id/dashboard_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lost_Dogs"
+            android:layout_toEndOf="@+id/lost_Dogs"
+            android:text="@string/straten_psici"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/potvrdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3pt"
+        android:text="ok"
+        android:layout_gravity="center"
+        android:background="@drawable/custombuttonmain"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

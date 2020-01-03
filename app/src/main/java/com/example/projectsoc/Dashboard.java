@@ -25,7 +25,7 @@ import com.google.firebase.firestore.Query;
 
 import es.dmoral.toasty.Toasty;
 
-public class Dashboard extends Fragment{
+public class Dashboard extends Fragment {
 
     View layoutInflater;
 
@@ -34,14 +34,31 @@ public class Dashboard extends Fragment{
     private CollectionReference notebookRef = db.collection("dashboard");
 
     private NoteAdapter adapter;
-    private CheckBox lostDogs, findDogs;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         layoutInflater = inflater.inflate(R.layout.dashboard_fragment,container,false);
 
-        setUpRecyclerView();
+
+        Query query = notebookRef.orderBy("date", Query.Direction.DESCENDING);
+
+        if (getActivity().getIntent().getStringExtra("Query") != null &&
+                !getActivity().getIntent().getStringExtra("Query").isEmpty()){
+            if (getActivity().getIntent().getStringExtra("Query").equals("lostDogs")) {
+                query = notebookRef.whereEqualTo("title", "Stratil sa mi psík");
+                setUpRecyclerView(query);
+            }
+            else if (getActivity().getIntent().getStringExtra("Query").equals("findDogs")) {
+                query = notebookRef.whereEqualTo("title", "Našiel som psíka");
+
+                setUpRecyclerView(query);
+            }else {
+                setUpRecyclerView(query);
+            }
+        }else {
+            setUpRecyclerView(query);
+        }
 
         FloatingActionButton buttonAddNote = layoutInflater.findViewById(R.id.btn_add_note);
         buttonAddNote.setOnClickListener(new View.OnClickListener() {
@@ -51,20 +68,25 @@ public class Dashboard extends Fragment{
                 getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
+        FloatingActionButton buttonFilterNote = layoutInflater.findViewById(R.id.btn_filter_note);
+        buttonFilterNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BottomSheetDialog bottomSheetDialog = new BottomSheetDialog();
+                bottomSheetDialog.show(getFragmentManager(),"bottomSheet");
+            }
+        });
         return layoutInflater;
     }
 
-    private void  setUpRecyclerView(){
-        Query query = notebookRef.orderBy("date", Query.Direction.DESCENDING);
+    private void  setUpRecyclerView(Query query){
         FirestoreRecyclerOptions<Note> options = new FirestoreRecyclerOptions.Builder<Note>()
                 .setQuery(query,Note.class).build();
         adapter = new NoteAdapter(options);
         RecyclerView recyclerView = layoutInflater.findViewById(R.id.recycler_view);
-        recyclerView.invalidate();
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(adapter);
-
 
         // VYMAZANIE OZNAMU
         if (firebaseAuth.getCurrentUser() != null) {
@@ -80,8 +102,6 @@ public class Dashboard extends Fragment{
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Dashboard()).commit();
                 }
             }).attachToRecyclerView(recyclerView);
-        }else{
-            Toasty.error(getContext(),"Odstrániť oznam môže len prihlásený užívateľ", Toast.LENGTH_SHORT).show();
         }
 
         //ROZKLIKNUTIE OZNAMU
@@ -93,6 +113,7 @@ public class Dashboard extends Fragment{
                 intent.putExtra("Title",note.getTitle() );
                 intent.putExtra("Description", note.getDescription() );
                 intent.putExtra("PhoneNumber", note.getPhoneNumber());
+                intent.putExtra("Url",note.getUrlImage() );
                 intent.putExtra("Intent", "Dashboard");
                 startActivity(intent);
                 getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);

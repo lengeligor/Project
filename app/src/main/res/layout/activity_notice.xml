@@ -52,6 +52,15 @@
                 android:textColor="@color/colorAccent"
                 android:textSize="22sp"/>
 
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100pt"
+                android:layout_height="120pt"
+                android:layout_below="@id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5pt"
+                android:layout_marginBottom="5pt"/>
+
             <TextView
                 android:id="@+id/description"
                 android:layout_width="wrap_content"
@@ -59,19 +68,30 @@
                 android:layout_marginTop="5pt"
                 android:layout_centerHorizontal="true"
                 android:text="AAAA"
-                android:layout_below="@+id/title"
+                android:layout_below="@+id/image"
                 android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5pt"
+                android:layout_centerHorizontal="true"
+                android:text="AAAA"
+                android:layout_below="@+id/description"
+                android:textColor="@color/colorAccent"
                 android:textSize="15sp"/>
 
             <TextView
                 android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/description"
+                android:layout_below="@+id/person"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5pt"
                 android:text="@string/telefonny_kontakt"
-                android:textColor="@color/colorAccent"
+                android:textColor="@android:color/black"
                 android:textSize="17sp" />
 
             <TextView
@@ -82,7 +102,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/textview1"
                 android:text="AAAA"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="15sp"/>
 
         </RelativeLayout>

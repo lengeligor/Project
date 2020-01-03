@@ -140,7 +140,9 @@ public class AddNoteActivity extends AppCompatActivity {
         }
 
         CollectionReference notebookRef = FirebaseFirestore.getInstance().collection("dashboard");
-        notebookRef.add(new Note(title,descriptionString, telephone, currentDate,firebaseAuth.getCurrentUser().getUid(),url));
+        User user = new User();
+        notebookRef.add(new Note(title,descriptionString, telephone, currentDate,firebaseAuth.getCurrentUser().getUid(),
+                url));
         Toasty.success(getApplicationContext(),"Oznam bol pridaný", Toast.LENGTH_SHORT).show();
         finish();
     }

@@ -69,4 +69,5 @@ public class Note {
     public void setUrlImage(String urlImage) {
         this.urlImage = urlImage;
     }
+
 }
