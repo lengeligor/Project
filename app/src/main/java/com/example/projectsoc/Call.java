@@ -29,7 +29,7 @@ public class Call extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                String number = "0944331442";
+                String number = "159";
                 intent.setData(Uri.parse("tel: " + number));
                 if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CALL_PHONE)!=
                         PackageManager.PERMISSION_GRANTED){

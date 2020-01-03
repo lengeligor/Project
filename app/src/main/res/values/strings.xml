@@ -27,7 +27,7 @@
     <string name="hladam_psa">Nájdení psíci</string>
     <string name="straten_psici">Stratení psíci</string>
     <string name="popis_apky">Aplikácia má pomôcť občanom mesta Prešov a to nie len chovateľom psov ale aj tým ktorí psov nevlastnia. Pre majiteľov psov aplikácia ponúka viaceré možnosti ako napríklad dataset všetkých chovaných psov v meste, dataset s obchodmi ktoré predávajú psie maškrty, hračky ale taktiež aj kde nájdete zverolekára či útulok. Ak nájdete strateného psíka s obojkom, aplikácia umožňuje vyhľadať jeho domov a naviguje vás priamo k jemu chovateľovi. Pre psíkov bez obojkov alebo nebezpečných odporúčame zavolať odchytovú službu, ktorú v meste Prešov vykonáva mestská polícia. Zavolať im môžete priamo z appky. Samozrejme v aplikácií nesmú chýbať ani inzeráty o stratených a nájdených psíkoch.</string>
-    <string name="o_zakladatelovi">Som študent strednej školy v Prešove a tvorba mobilných aplikácií ma veľmi baví. Ak chceš vidieť moje práce odporúčam ti navštíviť moj web alebo ig: prog.igor.</string>
+    <string name="o_zakladatelovi">Pochádzam z Vranova nad Toľou a som študentom strednej školy v Prešove. Vo voľnom čase hrám futbal alebo korčuľujem. Ak chceš vidieť čo som vytvoril tak si môžeš pozrieť moje projekty na https://github.com/lengeligor </string>
     <string name="registracia">Registrácia</string>
     <string name="meno_a_priezvisko">Meno a priezvisko:</string>
     <string name="e_mail">E-mail:</string>
