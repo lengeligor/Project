@@ -40,7 +40,7 @@
             <item
                 android:id="@+id/nav_about"
                 android:icon="@drawable/ic_group_24dp"
-                android:title="O nás" />
+                android:title="O apke" />
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share_24dp"

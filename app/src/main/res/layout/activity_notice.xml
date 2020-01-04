@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
-        android:padding="8pt" >
+        android:padding="8pt">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -70,28 +70,20 @@
                 android:text="AAAA"
                 android:layout_below="@+id/image"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"/>
-
-            <TextView
-                android:id="@+id/person"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5pt"
-                android:layout_centerHorizontal="true"
-                android:text="AAAA"
-                android:layout_below="@+id/description"
-                android:textColor="@color/colorAccent"
-                android:textSize="15sp"/>
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginRight="3pt"
+                android:layout_marginLeft="3pt"/>
 
             <TextView
                 android:id="@+id/textview1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/person"
+                android:layout_below="@+id/description"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5pt"
                 android:text="@string/telefonny_kontakt"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="17sp" />
 
             <TextView
@@ -102,7 +94,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/textview1"
                 android:text="AAAA"
-                android:textColor="@color/colorAccent"
+                android:textColor="@android:color/black"
                 android:textSize="15sp"/>
 
         </RelativeLayout>
