@@ -1,4 +1,4 @@
-package com.example.projectsoc;
+package com.doggocity.projectsoc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.doggocity.projectsoc.R;
 import com.squareup.picasso.Picasso;
 
 public class NoticeActivity extends AppCompatActivity {

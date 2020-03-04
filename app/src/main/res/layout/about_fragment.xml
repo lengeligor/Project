@@ -45,7 +45,7 @@
                 android:shadowDy="4"
                 android:shadowRadius="4"
                 />
-
+<!--
             <TextView
                 android:id="@+id/creators"
                 android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="4"/>
-
+            -->
         </RelativeLayout>
 
     </ScrollView>

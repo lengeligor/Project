@@ -1,4 +1,4 @@
-package com.example.projectsoc;
+package com.doggocity.projectsoc;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,20 +9,19 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.Switch;
 import android.widget.Toast;
 
+import com.doggocity.projectsoc.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
-import java.util.jar.Attributes;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
 
@@ -33,7 +32,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     private EditText dogNumber;
     private Button register;
     private ImageView backToAccount;
-
+    private CheckBox agreement;
+    private Switch company;
 
     private FirebaseAuth mAuth;
 
@@ -53,6 +53,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         dogNumber = findViewById(R.id.number_of_his_dog);
         register = findViewById(R.id.enter_button);
         backToAccount = findViewById(R.id.arrow_back);
+        agreement = findViewById(R.id.agreement_checkbox);
+        company = findViewById(R.id.switch_organization);
         register.setOnClickListener(this);
         backToAccount.setOnClickListener(this);
     }
@@ -98,6 +100,11 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
             Toasty.error(getApplicationContext(),"Heslá sa nezhodujú",Toast.LENGTH_SHORT).show();
             return;
         }
+        if(!agreement.isChecked()){
+            Toasty.warning(getApplicationContext(),"Potrebné odsúhlasiť podmienky",Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         mAuth.createUserWithEmailAndPassword(Email,Password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override

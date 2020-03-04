@@ -1,4 +1,4 @@
-package com.example.projectsoc;
+package com.doggocity.projectsoc;
 
 public class User {
 

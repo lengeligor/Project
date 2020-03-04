@@ -1,6 +1,4 @@
-package com.example.projectsoc;
-
-import java.util.Date;
+package com.doggocity.projectsoc;
 
 public class Note {
 

@@ -1,20 +1,20 @@
-package com.example.projectsoc;
+package com.doggocity.projectsoc;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.doggocity.projectsoc.R;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -23,7 +23,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 
-import es.dmoral.toasty.Toasty;
+import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
 public class Dashboard extends Fragment {
 
@@ -39,8 +39,7 @@ public class Dashboard extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         layoutInflater = inflater.inflate(R.layout.dashboard_fragment,container,false);
-
-
+        ActivityCompat.requestPermissions(getActivity(),new String[]{ACCESS_FINE_LOCATION},1);
         Query query = notebookRef.orderBy("date", Query.Direction.DESCENDING);
 
         if (getActivity().getIntent().getStringExtra("Query") != null &&
@@ -51,7 +50,6 @@ public class Dashboard extends Fragment {
             }
             else if (getActivity().getIntent().getStringExtra("Query").equals("findDogs")) {
                 query = notebookRef.whereEqualTo("title", "Našiel som psíka");
-
                 setUpRecyclerView(query);
             }else {
                 setUpRecyclerView(query);

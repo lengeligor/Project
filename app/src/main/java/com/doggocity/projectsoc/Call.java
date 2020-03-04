@@ -1,4 +1,4 @@
-package com.example.projectsoc;
+package com.doggocity.projectsoc;
 
 import android.Manifest;
 import android.content.Intent;
@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
+
+import com.doggocity.projectsoc.R;
 
 public class Call extends Fragment {
 

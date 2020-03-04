@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DogActivity">
+    tools:context="com.doggocity.projectsoc.DogActivity">
 
     <Toolbar
         android:id="@+id/dog_toolbar"

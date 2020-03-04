@@ -1,4 +1,4 @@
-package com.example.projectsoc;
+package com.doggocity.projectsoc;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,6 +11,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.doggocity.projectsoc.R;
 import com.google.android.material.navigation.NavigationView;
 
 
@@ -100,10 +101,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_share :
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Share()).commit();
                 break;
-            case R.id.nav_exit :
-                moveTaskToBack(true);
-                android.os.Process.killProcess(android.os.Process.myPid());
-                System.exit(1);
+            case R.id.nav_help_organization :
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HelpOrganization()).commit();
                 break;
         }
 

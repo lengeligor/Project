@@ -33,8 +33,8 @@
     <string name="e_mail">E-mail:</string>
     <string name="heslo">Heslo:</string>
     <string name="potvrd_heslo">Potvrď heslo:</string>
-    <string name="cislo_znamky_vasho_psa">Číslo známky vášho psa:*</string>
-    <string name="nepovinny_daj">*Nepovinný údaj</string>
+    <string name="cislo_znamky_vasho_psa">Číslo známky vášho psa:</string>
+    <string name="nepovinny_daj">(Nepovinný údaj)</string>
     <string name="zaregistruj">Zaregistruj</string>
     <string name="nepokracovat_v_registracii">Nepokračovať v registrácii</string>
     <string name="prihlasenie">Prihlásenie</string>
@@ -70,4 +70,5 @@
     <string name="stratil_som_psika">Stratil som psíka</string>
     <string name="nasiel_som_psika">Našiel som psíka</string>
     <string name="telefonny_kontakt">Telefónny kontakt:</string>
+    <string name="organizacia">Organizácia:</string>
 </resources>

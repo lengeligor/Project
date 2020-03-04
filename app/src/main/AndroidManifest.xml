@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.projectsoc">
+    package="com.doggocity.projectsoc">
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -20,21 +20,30 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".NoticeActivity"></activity>
-        <activity android:name=".AddNoteActivity" />
-        <activity android:name=".Records" />
-        <activity android:name=".UploadPhoto" />
-        <activity android:name=".DogActivity" />
-        <activity android:name=".Register" />
-        <activity android:name=".Login" />
-        <activity android:name=".DoggocityPresov">
+        <activity android:name="com.doggocity.projectsoc.NoticeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.AddNoteActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.Records"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.UploadPhoto"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.DogActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.Register"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.doggocity.projectsoc.DoggocityPresov"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.doggocity.projectsoc.MainActivity"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

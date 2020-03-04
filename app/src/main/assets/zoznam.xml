@@ -34,6 +34,7 @@
       <row col_0="Jack Russell Teriér" col_1="6649" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  21A     " />
       <row col_0="Španiel Kráľ Karol" col_1="2127" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  27      " />
       <row col_0="Leonberger" col_1="5556" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  39      " />
+      <row col_0="Kríženec" col_1="7601" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  40      " />
       <row col_0="Nemecký ovčiak" col_1="5177" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  49      " />
       <row col_0="Kríženec" col_1="6850" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  53      " />
       <row col_0="Yorkshirský teriér" col_1="6262" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Fintická" col_6="  55      " />
@@ -52,8 +53,9 @@
       <row col_0="Beauceron" col_1="7019" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Gaštanová" col_6="  10      " />
       <row col_0="Americký staffordshirský teriér" col_1="3846" col_2="Trikolóra" col_3="Nie" col_4="Nižná Šebastová" col_5="Gaštanová" col_6="  14      " />
       <row col_0="Bernský salašnícky pes" col_1="6894" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Genplk. Jána Ambruša" col_6="   3      " />
-      <row col_0="Doberman" col_1="1551" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Genplk. Jána Ambruša" col_6="   5      " />
+      <row col_0="Doberman" col_1="7699" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Genplk. Jána Ambruša" col_6="   5      " />
       <row col_0="Kríženec" col_1="6481" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Haburská" col_6="   1      " />
+      <row col_0="Kríženec" col_1="7726" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Haburská" col_6="   1      " />
       <row col_0="Cavalier king charles spaniel" col_1="14036" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Haburská" col_6="   4      " />
       <row col_0="Bígl" col_1="14591" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Haburská" col_6="   5      " />
       <row col_0="Sibírsky husky" col_1="5287" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Haburská" col_6="  11      " />
@@ -92,7 +94,7 @@
       <row col_0="Staffordshirský bulteriér" col_1="14666" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Mateja Murgaša" col_6="   7      " />
       <row col_0="Yorkshirský teriér" col_1="14941" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Mateja Murgaša" col_6="   8      " />
       <row col_0="Bišon" col_1="6166" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Mateja Murgaša" col_6="  12      " />
-      <row col_0="Kokeršpaniel" col_1="6157" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Mateja Murgaša" col_6="  22      " />
+      <row col_0="Kríženec" col_1="6609" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Nová" col_6="   8      " />
       <row col_0="srnči ratlík" col_1="2893" col_2="Čierna" col_3="Nie" col_4="Nižná Šebastová" col_5="Nová" col_6="   9      " />
       <row col_0="Yorkshirský teriér" col_1="2732" col_2="Trikolóra" col_3="Nie" col_4="Nižná Šebastová" col_5="Nová" col_6="  12      " />
       <row col_0="Slovenský kopov" col_1="898" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Nová" col_6="  15      " />
@@ -112,7 +114,7 @@
       <row col_0="Bišon" col_1="14332" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Poľná" col_6="  20      " />
       <row col_0="Bišon" col_1="4333" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Poľná" col_6="  22      " />
       <row col_0="Špic" col_1="7076" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Potočná" col_6="   8      " />
-      <row col_0="Špic" col_1="4514" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Potočná" col_6="  19      " />
+      <row col_0="Špic" col_1="7642" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Potočná" col_6="  19      " />
       <row col_0="Nemecký ovčiak" col_1="14120" col_2="Hnedá" col_3="Nie" col_4="Nižná Šebastová" col_5="Potočná" col_6="  25      " />
       <row col_0="Kríženec" col_1="14945" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Potočná" col_6="  27      " />
       <row col_0="Kríženec" col_1="2866" col_2="Hnedá" col_3="Nie" col_4="Nižná Šebastová" col_5="Potočná" col_6="  32      " />
@@ -124,7 +126,6 @@
       <row col_0="Jack Russell Teriér" col_1="5132" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  12      " />
       <row col_0="Jazvečík - králičí krátkosrstý" col_1="6155" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  12      " />
       <row col_0="Gavalir Španiel" col_1="6682" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  13      " />
-      <row col_0="Kríženec" col_1="14263" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  14      " />
       <row col_0="Labradorský retriever" col_1="14895" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  14      " />
       <row col_0="Kríženec" col_1="574" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  16      " />
       <row col_0="Retriever" col_1="456" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Rybárska" col_6="  28      " />
@@ -162,7 +163,6 @@
       <row col_0="Čau-čau" col_1="4265" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  28      " />
       <row col_0="Ratlík" col_1="4487" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  28      " />
       <row col_0="Kríženec" col_1="5163" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  29      " />
-      <row col_0="Kríženec" col_1="1656" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  32      " />
       <row col_0="Sibírsky husky" col_1="7687" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  40      " />
       <row col_0="Kokeršpaniel" col_1="6421" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  43      " />
       <row col_0="Nemecký ovčiak" col_1="628" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Strážnická" col_6="  44      " />
@@ -179,6 +179,7 @@
       <row col_0="Labradorský retriever" col_1="2837" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  15A     " />
       <row col_0="Čivava" col_1="4601" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  21      " />
       <row col_0="boxer" col_1="6402" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  21      " />
+      <row col_0="Čínsky chocholatý pes" col_1="7041" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  21      " />
       <row col_0="Belgický ovčiak" col_1="6512" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  23      " />
       <row col_0="Belgický ovčiak" col_1="5876" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  29      " />
       <row col_0="Zlatý retriever" col_1="5026" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Šebastovská" col_6="  31      " />
@@ -188,7 +189,6 @@
       <row col_0="Veľký bradač" col_1="2746" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="   3      " />
       <row col_0="Bradáč" col_1="6831" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="   3      " />
       <row col_0="Bradáč" col_1="6878" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="   3      " />
-      <row col_0="Špic" col_1="881" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="   5      " />
       <row col_0="Rotvajler" col_1="" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="   8      " />
       <row col_0="Americký staffordshirský teriér" col_1="6951" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="   9      " />
       <row col_0="Labradorský retriever" col_1="5390" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Trnková" col_6="  14      " />
@@ -205,6 +205,7 @@
       <row col_0="Jazvečík" col_1="6580" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vodná" col_6="  30      " />
       <row col_0="Kríženec" col_1="2096" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vodná" col_6="  42      " />
       <row col_0="Kaukazský pastierský pes" col_1="14541" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vodná" col_6="  42      " />
+      <row col_0="Kríženec" col_1="1559" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vodná" col_6="  44      " />
       <row col_0="Foxteriér" col_1="6633" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vodná" col_6="  48      " />
       <row col_0="Nemecká doga" col_1="6369" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vodná" col_6="  54      " />
       <row col_0="Zlatý retriever" col_1="5089" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  18      " />
@@ -214,7 +215,6 @@
       <row col_0="Nemecký ovčiak" col_1="6448" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  55      " />
       <row col_0="westík" col_1="3943" col_2="Biela" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  57      " />
       <row col_0="Jack Russell Teriér" col_1="4406" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  69      " />
-      <row col_0="Labradorský retriever" col_1="3579" col_2="svetlá" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  77A     " />
       <row col_0="Nemecký ovčiak" col_1="5749" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  85      " />
       <row col_0="Nemecký ovčiak" col_1="5748" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Vranovská" col_6="  85      " />
       <row col_0="Mops" col_1="6568" col_2="" col_3="Nie" col_4="Nižná Šebastová" col_5="Za traťou" col_6="   8      " />
@@ -244,7 +244,7 @@
       <row col_0="Bišon" col_1="7053" col_2="" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="   4      " />
       <row col_0="Aljašský malamut" col_1="7602" col_2="" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="   4      " />
       <row col_0="Bígl" col_1="2040" col_2="" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="   9      " />
-      <row col_0="Nemecký špic" col_1="5281" col_2="" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="   9      " />
+      <row col_0="Nemecký špic" col_1="7644" col_2="" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="   9      " />
       <row col_0="Kríženec" col_1="4031" col_2="horčicová" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="  13      " />
       <row col_0="Kríženec" col_1="6934" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Alexandra Matušku" col_6="  13      " />
       <row col_0="Kavalier King" col_1="6553" col_2="" col_3="Nie" col_4="Prešov" col_5="Alexeja Duchoňa" col_6="   7      " />
@@ -263,13 +263,13 @@
       <row col_0="Kríženec" col_1="14215" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  24      " />
       <row col_0="Yorkshirský teriér" col_1="5742" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  24      " />
       <row col_0="Pudel" col_1="6747" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  24      " />
-      <row col_0="Kríženec" col_1="6829" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  24      " />
       <row col_0="Maltézky psík" col_1="7665" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  24      " />
       <row col_0="Kríženec" col_1="4511" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  26      " />
       <row col_0="Yorkshirský teriér" col_1="5669" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  26      " />
       <row col_0="Kríženec" col_1="6451" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  26      " />
       <row col_0="Kríženec" col_1="6519" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  26      " />
       <row col_0="shi-tzu" col_1="6582" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  26      " />
+      <row col_0="Kríženec" col_1="6150" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  26      " />
       <row col_0="Kríženec" col_1="5989" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  28      " />
       <row col_0="Kríženec" col_1="6300" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  28      " />
       <row col_0="Ši-cu" col_1="738" col_2="" col_3="Nie" col_4="Prešov" col_5="Antona Prídavka" col_6="  30      " />
@@ -289,7 +289,7 @@
       <row col_0="srnči ratlík" col_1="334" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  14      " />
       <row col_0="Jack Russell Teriér" col_1="4524" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  20      " />
       <row col_0="Yorkshirský teriér" col_1="6667" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  20      " />
-      <row col_0="Jazvečík" col_1="6283" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  20      " />
+      <row col_0="Jazvečík" col_1="7055" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  20      " />
       <row col_0="bígel" col_1="357" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  22      " />
       <row col_0="Čivava" col_1="689" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  24      " />
       <row col_0="Čivava" col_1="14538" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  24      " />
@@ -304,7 +304,7 @@
       <row col_0="Nemecký ovčiak" col_1="14610" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  36      " />
       <row col_0="Belgický ovčiak" col_1="6484" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  36      " />
       <row col_0="Nemecká doga" col_1="4163" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  38      " />
-      <row col_0="Malý bradáč" col_1="1033" col_2="čierna" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  38      " />
+      <row col_0="Malý bradáč" col_1="6727" col_2="čierna" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  38      " />
       <row col_0="Čivava" col_1="5463" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  40      " />
       <row col_0="Jack Russell Teriér" col_1="4697" col_2="" col_3="Nie" col_4="Prešov" col_5="Arm. gen. Svobodu" col_6="  42      " />
       <row col_0="Kríženec" col_1="6378" col_2="" col_3="Nie" col_4="Prešov" col_5="Átriová" col_6="   1      " />
@@ -324,8 +324,6 @@
       <row col_0="Jazvečík" col_1="5272" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="   9      " />
       <row col_0="Yorkshirský teriér" col_1="6016" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="   9      " />
       <row col_0="Maltézky psík" col_1="14061" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="  11      " />
-      <row col_0="Bulteriér" col_1="9000" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="  12B     " />
-      <row col_0="Gavalier Kráľ Karol" col_1="4365" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="  18      " />
       <row col_0="Kríženec" col_1="3286" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="  20      " />
       <row col_0="Springer spaniel" col_1="6353" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="  22      " />
       <row col_0="Anglický kokršpaniel" col_1="6723" col_2="" col_3="Nie" col_4="Prešov" col_5="Bajkalská" col_6="  24      " />
@@ -351,6 +349,7 @@
       <row col_0="Čivava" col_1="5925" col_2="" col_3="Nie" col_4="Prešov" col_5="Bernolákova" col_6="  12      " />
       <row col_0="Rotvajler" col_1="1101" col_2="" col_3="Nie" col_4="Prešov" col_5="Bernolákova" col_6="  13      " />
       <row col_0="Kríženec" col_1="4532" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Bernolákova" col_6="  15      " />
+      <row col_0="Yorkshirský teriér" col_1="7646" col_2="" col_3="Nie" col_4="Prešov" col_5="Bernolákova" col_6="  15      " />
       <row col_0="Nemecký ovčiak" col_1="2397" col_2="" col_3="Nie" col_4="Prešov" col_5="Bezručova" col_6="   2      " />
       <row col_0="Ruský chrt - barzoj" col_1="6919" col_2="" col_3="Nie" col_4="Prešov" col_5="Bezručova" col_6="   4      " />
       <row col_0="Ruský chrt - barzoj" col_1="7031" col_2="" col_3="Nie" col_4="Prešov" col_5="Bezručova" col_6="   4      " />
@@ -387,7 +386,6 @@
       <row col_0="Kríženec" col_1="6549" col_2="" col_3="Nie" col_4="Prešov" col_5="Bratislavská" col_6="  10      " />
       <row col_0="Bostonský terier" col_1="5498" col_2="" col_3="Nie" col_4="Prešov" col_5="Broskyňová" col_6="  12      " />
       <row col_0="shi-tzu" col_1="4411" col_2="" col_3="Nie" col_4="Prešov" col_5="Budovateľská" col_6="   2      " />
-      <row col_0="Yorkshirský teriér" col_1="6107" col_2="" col_3="Nie" col_4="Prešov" col_5="Budovateľská" col_6="   5      " />
       <row col_0="Bišon" col_1="3316" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Budovateľská" col_6="   6      " />
       <row col_0="Bígl" col_1="4007" col_2="" col_3="Nie" col_4="Prešov" col_5="Budovateľská" col_6="   9      " />
       <row col_0="Bavorský farbiar" col_1="14248" col_2="" col_3="Nie" col_4="Prešov" col_5="Budovateľská" col_6="  16      " />
@@ -415,7 +413,6 @@
       <row col_0="Rodézsky ridgeback" col_1="14331" col_2="" col_3="Nie" col_4="Prešov" col_5="Cemjata" col_6="" />
       <row col_0="Kríženec" col_1="5986" col_2="" col_3="Nie" col_4="Prešov" col_5="Cemjata" col_6="" />
       <row col_0="Bišon" col_1="14850" col_2="" col_3="Nie" col_4="Prešov" col_5="Čapajevova" col_6="   2      " />
-      <row col_0="Kríženec" col_1="7074" col_2="" col_3="Nie" col_4="Prešov" col_5="Čapajevova" col_6="  10      " />
       <row col_0="Čivava" col_1="6230" col_2="" col_3="Nie" col_4="Prešov" col_5="Čapajevova" col_6="  14      " />
       <row col_0="boxer" col_1="95" col_2="" col_3="Nie" col_4="Prešov" col_5="Čapajevova" col_6="  28      " />
       <row col_0="Čivava" col_1="1198" col_2="" col_3="Nie" col_4="Prešov" col_5="Čapajevova" col_6="  28A     " />
@@ -442,7 +439,6 @@
       <row col_0="Jack Russell Teriér" col_1="5438" col_2="" col_3="Nie" col_4="Prešov" col_5="Čerešňová" col_6="  29      " />
       <row col_0="Labradorský retriever" col_1="5122" col_2="" col_3="Nie" col_4="Prešov" col_5="Čerešňová" col_6="  34      " />
       <row col_0="Pudel" col_1="3652" col_2="" col_3="Nie" col_4="Prešov" col_5="Čerešňová" col_6="  34      " />
-      <row col_0="Kríženec" col_1="5302" col_2="" col_3="Nie" col_4="Prešov" col_5="Čerešňová" col_6="  39      " />
       <row col_0="Kaukazský pastierský pes" col_1="2898" col_2="Sivá" col_3="Nie" col_4="Prešov" col_5="Čerešňová" col_6="  43      " />
       <row col_0="Bradáč" col_1="4578" col_2="Sivá" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="   4      " />
       <row col_0="Kríženec" col_1="4450" col_2="" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="   4      " />
@@ -461,6 +457,7 @@
       <row col_0="Nemecký ovčiak" col_1="14439" col_2="Sivočierna" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  22      " />
       <row col_0="Coton de Tulear" col_1="3432" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  22      " />
       <row col_0="Čivava" col_1="5920" col_2="" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  22      " />
+      <row col_0="Kokeršpaniel" col_1="14148" col_2="" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  24      " />
       <row col_0="Jack Russell Teriér" col_1="5145" col_2="" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  24      " />
       <row col_0="Bulteriér" col_1="7082" col_2="" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  24      " />
       <row col_0="Kríženec" col_1="2445" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Čergovská" col_6="  26      " />
@@ -492,7 +489,6 @@
       <row col_0="Mops" col_1="6394" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  26A     " />
       <row col_0="shi-tzu" col_1="4988" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  58      " />
       <row col_0="Labradorský retriever" col_1="6091" col_2="Béžová" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  60      " />
-      <row col_0="Kríženec" col_1="5212" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  62      " />
       <row col_0="Jack Rasel Parson" col_1="5200" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  70      " />
       <row col_0="Jack Russell Teriér" col_1="5484" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  70      " />
       <row col_0="Kríženec" col_1="2187" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  74      " />
@@ -501,7 +497,6 @@
       <row col_0="Kríženec" col_1="14845" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  82      " />
       <row col_0="Tosa" col_1="14808" col_2="" col_3="Nie" col_4="Prešov" col_5="Dilongova" col_6="  88      " />
       <row col_0="Nemecká doga" col_1="6611" col_2="" col_3="Nie" col_4="Prešov" col_5="Dubová" col_6="   5      " />
-      <row col_0="Pittbull" col_1="4765" col_2="" col_3="Nie" col_4="Prešov" col_5="Dubová" col_6="   6      " />
       <row col_0="Kríženec" col_1="6396" col_2="" col_3="Nie" col_4="Prešov" col_5="Dubová" col_6="   6      " />
       <row col_0="Neurčené" col_1="14973" col_2="" col_3="Nie" col_4="Prešov" col_5="Dubová" col_6="   7      " />
       <row col_0="Zlatý retriever" col_1="4025" col_2="" col_3="Nie" col_4="Prešov" col_5="Dubová" col_6="   8      " />
@@ -531,6 +526,7 @@
       <row col_0="Bígl" col_1="4413" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  60      " />
       <row col_0="Šarplaninský pastierský pes" col_1="14835" col_2="" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  62      " />
       <row col_0="Nemecký krátkosrstý stavač" col_1="6663" col_2="" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  63      " />
+      <row col_0="Stavač" col_1="7750" col_2="" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  63      " />
       <row col_0="Kríženec" col_1="4597" col_2="" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  64      " />
       <row col_0="Weimarský stavač" col_1="5123" col_2="" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  70      " />
       <row col_0="Leonberger" col_1="7056" col_2="" col_3="Nie" col_4="Prešov" col_5="Dúbravská" col_6="  70      " />
@@ -547,7 +543,6 @@
       <row col_0="Kríženec" col_1="5857" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   1      " />
       <row col_0="Kríženec" col_1="6978" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   1      " />
       <row col_0="Teriér" col_1="4880" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   2      " />
-      <row col_0="Čínsky chocholatý pes" col_1="2495" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   3      " />
       <row col_0="Kríženec" col_1="5569" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   4      " />
       <row col_0="Nemecký ovčiak" col_1="6222" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   6      " />
       <row col_0="shi-tzu" col_1="6701" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="   6      " />
@@ -564,6 +559,7 @@
       <row col_0="Ratlík" col_1="5576" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  18      " />
       <row col_0="Staffordshirský bulteriér" col_1="6361" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  19      " />
       <row col_0="Labradorský retriever" col_1="6298" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  19      " />
+      <row col_0="Nemecký boxer" col_1="7647" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  20      " />
       <row col_0="Jack Rasel Parson" col_1="5977" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  21      " />
       <row col_0="Nemecký ovčiak" col_1="6070" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  21      " />
       <row col_0="Kríženec" col_1="6261" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  22      " />
@@ -574,7 +570,6 @@
       <row col_0="Francúzsky buldoček" col_1="14853" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  32      " />
       <row col_0="Yorkshirský teriér" col_1="6374" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  34      " />
       <row col_0="Labradorský retriever" col_1="6856" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  36      " />
-      <row col_0="Bígl" col_1="4484" col_2="" col_3="Nie" col_4="Prešov" col_5="Ďumbierska" col_6="  40      " />
       <row col_0="Kokeršpaniel" col_1="1040" col_2="" col_3="Nie" col_4="Prešov" col_5="Engelsova" col_6="   1      " />
       <row col_0="Kríženec" col_1="5555" col_2="" col_3="Nie" col_4="Prešov" col_5="Engelsova" col_6="   2      " />
       <row col_0="Čivava" col_1="2730" col_2="Neurčená" col_3="Nie" col_4="Prešov" col_5="Engelsova" col_6="   6      " />
@@ -594,6 +589,7 @@
       <row col_0="Zlatý retriever" col_1="6049" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  12      " />
       <row col_0="Labradorský retriever" col_1="5926" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  13      " />
       <row col_0="Ratlík" col_1="3321" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  14      " />
+      <row col_0="Kríženec" col_1="7632" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  14      " />
       <row col_0="srnči ratlík" col_1="14889" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  17      " />
       <row col_0="Pražský krysařík" col_1="5706" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  17      " />
       <row col_0="Kríženec" col_1="14286" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  19      " />
@@ -610,8 +606,11 @@
       <row col_0="Bišon" col_1="14588" col_2="" col_3="Nie" col_4="Prešov" col_5="Exnárova" col_6="  32      " />
       <row col_0="shi-tzu" col_1="4513" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="   3      " />
       <row col_0="Čivava" col_1="499" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="   4      " />
+      <row col_0="Maltézky psík" col_1="7674" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="   4      " />
       <row col_0="Kríženec" col_1="" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="   8      " />
       <row col_0="Belgický ovčiak" col_1="6823" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="   8      " />
+      <row col_0="Yorkshirský teriér" col_1="6673" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="  14      " />
+      <row col_0="Yorkshirský teriér" col_1="7663" col_2="" col_3="Nie" col_4="Prešov" col_5="Federátov" col_6="  16      " />
       <row col_0="Kavalier King" col_1="4923" col_2="" col_3="Nie" col_4="Prešov" col_5="Floriánova" col_6="   8      " />
       <row col_0="Labradorský retriever" col_1="35" col_2="" col_3="Nie" col_4="Prešov" col_5="Floriánova" col_6="  12      " />
       <row col_0="Jack Rasel Parson" col_1="5674" col_2="" col_3="Nie" col_4="Prešov" col_5="Fraňa Kráľa" col_6="   1      " />
@@ -642,6 +641,8 @@
       <row col_0="Anglický kokršpaniel" col_1="731" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  14      " />
       <row col_0="Kríženec" col_1="5596" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  19      " />
       <row col_0="Kríženec" col_1="6395" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  22      " />
+      <row col_0="Kríženec" col_1="7614" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  27      " />
+      <row col_0="Kríženec" col_1="6474" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  27      " />
       <row col_0="Kokeršpaniel" col_1="3382" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  29      " />
       <row col_0="Baset" col_1="6702" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  35      " />
       <row col_0="Kríženec" col_1="5655" col_2="" col_3="Nie" col_4="Prešov" col_5="Fučíkova" col_6="  35      " />
@@ -651,7 +652,6 @@
       <row col_0="Kríženec" col_1="6501" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="   9      " />
       <row col_0="Kríženec" col_1="6412" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="   9      " />
       <row col_0="Kríženec" col_1="7695" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="   9      " />
-      <row col_0="Yorkshirský teriér" col_1="1036" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="  12      " />
       <row col_0="Jack Russell Teriér" col_1="5995" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="  17      " />
       <row col_0="Labradorský retriever" col_1="5481" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="  19      " />
       <row col_0="Jack Rasel Parson" col_1="5935" col_2="" col_3="Nie" col_4="Prešov" col_5="Gorkého" col_6="  27      " />
@@ -709,8 +709,10 @@
       <row col_0="Kríženec" col_1="2388" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  44      " />
       <row col_0="Kríženec" col_1="3632" col_2="zlato-hnedá" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  49      " />
       <row col_0="Sedmohradský durič" col_1="6466" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  51A     " />
+      <row col_0="Nemecký ovčiak" col_1="7636" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  53      " />
       <row col_0="Kríženec" col_1="14322" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  54      " />
       <row col_0="Jack Rasel Parson" col_1="6312" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  55      " />
+      <row col_0="Pudel" col_1="7645" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  58      " />
       <row col_0="Bradáč" col_1="1659" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="  60      " />
       <row col_0="Toy pudel" col_1="5467" col_2="" col_3="Nie" col_4="Prešov" col_5="Horárska" col_6="" />
       <row col_0="Kríženec" col_1="6965" col_2="" col_3="Nie" col_4="Prešov" col_5="Horská" col_6="   4      " />
@@ -725,7 +727,6 @@
       <row col_0="Francúzsky buldoček" col_1="2778" col_2="" col_3="Nie" col_4="Prešov" col_5="Hviezdoslavova" col_6="   2      " />
       <row col_0="Americký staffordshirský teriér" col_1="6614" col_2="" col_3="Nie" col_4="Prešov" col_5="Hviezdoslavova" col_6="   5      " />
       <row col_0="Kríženec" col_1="70" col_2="" col_3="Nie" col_4="Prešov" col_5="Hviezdoslavova" col_6="   9      " />
-      <row col_0="Yorkshirský teriér" col_1="5793" col_2="" col_3="Nie" col_4="Prešov" col_5="Jabloňová" col_6="   3      " />
       <row col_0="Kríženec" col_1="6454" col_2="" col_3="Nie" col_4="Prešov" col_5="Jabloňová" col_6="   8      " />
       <row col_0="Kríženec" col_1="6319" col_2="" col_3="Nie" col_4="Prešov" col_5="Jabloňová" col_6="   8      " />
       <row col_0="Aljašský malamut" col_1="1458" col_2="" col_3="Nie" col_4="Prešov" col_5="Jabloňová" col_6="  12      " />
@@ -822,9 +823,9 @@
       <row col_0="Belgický ovčiak" col_1="2147" col_2="" col_3="Nie" col_4="Prešov" col_5="Jazdecká" col_6="  36      " />
       <row col_0="Bišon" col_1="1940" col_2="" col_3="Nie" col_4="Prešov" col_5="Jazdecká" col_6="  36A     " />
       <row col_0="Labradorský retriever" col_1="4651" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="   2      " />
-      <row col_0="Nemecký ovčiak" col_1="5885" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="   5      " />
       <row col_0="Kríženec" col_1="14481" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="   6A     " />
       <row col_0="Kríženec" col_1="6676" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="   9      " />
+      <row col_0="Americký staffordshirský teriér" col_1="7080" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="   9      " />
       <row col_0="cavalier" col_1="14842" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="  10      " />
       <row col_0="Slovenský čuvač" col_1="5873" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="  16      " />
       <row col_0="Kríženec" col_1="5859" col_2="" col_3="Nie" col_4="Prešov" col_5="Jelenia" col_6="  19      " />
@@ -876,7 +877,6 @@
       <row col_0="Kokeršpaniel" col_1="6266" col_2="" col_3="Nie" col_4="Prešov" col_5="Justičná" col_6="  12      " />
       <row col_0="Yorkshirský teriér" col_1="6156" col_2="" col_3="Nie" col_4="Prešov" col_5="Justičná" col_6="  12      " />
       <row col_0="Kríženec" col_1="527" col_2="" col_3="Nie" col_4="Prešov" col_5="K amfiteátru" col_6="   1      " />
-      <row col_0="Nemecký boxer" col_1="3684" col_2="Zlatobiela" col_3="Nie" col_4="Prešov" col_5="K amfiteátru" col_6="   2      " />
       <row col_0="Írsky seter" col_1="4950" col_2="" col_3="Nie" col_4="Prešov" col_5="K amfiteátru" col_6="   6      " />
       <row col_0="Čínsky chocholatý pes" col_1="14164" col_2="" col_3="Nie" col_4="Prešov" col_5="K amfiteátru" col_6="   6      " />
       <row col_0="Kolia" col_1="4118" col_2="" col_3="Nie" col_4="Prešov" col_5="K amfiteátru" col_6="   8      " />
@@ -952,7 +952,6 @@
       <row col_0="Foxteriér" col_1="14700" col_2="" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  26A     " />
       <row col_0="Appenzellský salašnícky pes" col_1="14602" col_2="" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  28      " />
       <row col_0="Maďarská vyžla" col_1="6773" col_2="" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  29      " />
-      <row col_0="Teriér Jones" col_1="215" col_2="" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  31      " />
       <row col_0="Yorkshirský teriér" col_1="4671" col_2="" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  31      " />
       <row col_0="Yorkshirský teriér" col_1="3900" col_2="čierna" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  39      " />
       <row col_0="Švajčiarsky biely ovčiak" col_1="14568" col_2="" col_3="Nie" col_4="Prešov" col_5="Kollárova" col_6="  41      " />
@@ -967,7 +966,6 @@
       <row col_0="Americký staffordshirský teriér" col_1="5471" col_2="" col_3="Nie" col_4="Prešov" col_5="Košická" col_6="  14      " />
       <row col_0="Kríženec" col_1="14676" col_2="" col_3="Nie" col_4="Prešov" col_5="Košická" col_6="  16      " />
       <row col_0="Kríženec" col_1="14677" col_2="" col_3="Nie" col_4="Prešov" col_5="Košická" col_6="  16      " />
-      <row col_0="Kríženec" col_1="366" col_2="" col_3="Nie" col_4="Prešov" col_5="Košická" col_6="" />
       <row col_0="Čivava" col_1="4471" col_2="" col_3="Nie" col_4="Prešov" col_5="Kotrádova" col_6="   2      " />
       <row col_0="Yorkshirský teriér" col_1="5314" col_2="" col_3="Nie" col_4="Prešov" col_5="Kotrádova" col_6="   2      " />
       <row col_0="Bostonský terier" col_1="6248" col_2="" col_3="Nie" col_4="Prešov" col_5="Kotrádova" col_6="   6      " />
@@ -992,12 +990,15 @@
       <row col_0="Kríženec" col_1="14917" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="   8      " />
       <row col_0="Jack Russell Teriér" col_1="5075" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="  10      " />
       <row col_0="Maďarský krátkosrstý stavač" col_1="6694" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="  10      " />
+      <row col_0="Yorkshirský teriér" col_1="14744" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="  12      " />
       <row col_0="Kríženec" col_1="741" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="  12      " />
       <row col_0="Labradorský retriever" col_1="5473" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="  18B     " />
       <row col_0="Rotvajler" col_1="764" col_2="" col_3="Nie" col_4="Prešov" col_5="Krížna" col_6="  28      " />
       <row col_0="Kríženec" col_1="6966" col_2="Žíhana" col_3="Nie" col_4="Prešov" col_5="Ku Brezinám" col_6="  46      " />
       <row col_0="Slovenský čuvač" col_1="2480" col_2="" col_3="Nie" col_4="Prešov" col_5="Ku Brezinám" col_6="  48      " />
       <row col_0="Nemecký ovčiak" col_1="6781" col_2="" col_3="Nie" col_4="Prešov" col_5="Ku Brezinám" col_6="" />
+      <row col_0="srnči ratlík" col_1="7729" col_2="" col_3="Nie" col_4="Prešov" col_5="Ku Kyslej vode" col_6="   6      " />
+      <row col_0="Yorkshirský teriér" col_1="7746" col_2="" col_3="Nie" col_4="Prešov" col_5="Ku Kyslej vode" col_6="   6      " />
       <row col_0="Nemecký ovčiak" col_1="5143" col_2="" col_3="Nie" col_4="Prešov" col_5="Ku Kyslej vode" col_6="  13      " />
       <row col_0="Kríženec" col_1="4149" col_2="horčicová" col_3="Nie" col_4="Prešov" col_5="Kúpeľná" col_6="   7      " />
       <row col_0="Maltézky psík" col_1="7062" col_2="" col_3="Nie" col_4="Prešov" col_5="Kúpeľná" col_6="   7      " />
@@ -1006,7 +1007,6 @@
       <row col_0="Bišon" col_1="14841" col_2="" col_3="Nie" col_4="Prešov" col_5="Kúty" col_6="  16A     " />
       <row col_0="Kríženec" col_1="5147" col_2="" col_3="Nie" col_4="Prešov" col_5="Kúty" col_6="  16A     " />
       <row col_0="Bradáč" col_1="3797" col_2="" col_3="Nie" col_4="Prešov" col_5="Kúty" col_6="" />
-      <row col_0="Kríženec" col_1="6989" col_2="" col_3="Nie" col_4="Prešov" col_5="Kúty" col_6="" />
       <row col_0="Labradorský retriever" col_1="14261" col_2="" col_3="Nie" col_4="Prešov" col_5="Kuzmányho" col_6="   4      " />
       <row col_0="Jack Russell Teriér" col_1="5144" col_2="" col_3="Nie" col_4="Prešov" col_5="Kuzmányho" col_6="   4      " />
       <row col_0="Nemecký ovčiak" col_1="736" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Kuzmányho" col_6="   6A     " />
@@ -1028,6 +1028,7 @@
       <row col_0="Yorkshirský teriér" col_1="5657" col_2="" col_3="Nie" col_4="Prešov" col_5="L. Novomeského" col_6="  14      " />
       <row col_0="Mops" col_1="3277" col_2="" col_3="Nie" col_4="Prešov" col_5="L. Novomeského" col_6="  20      " />
       <row col_0="Jazvečík" col_1="4056" col_2="" col_3="Nie" col_4="Prešov" col_5="L. Novomeského" col_6="  22      " />
+      <row col_0="Maltézky psík" col_1="5819" col_2="" col_3="Nie" col_4="Prešov" col_5="L. Novomeského" col_6="  24      " />
       <row col_0="Nemecký ovčiak" col_1="14087" col_2="" col_3="Nie" col_4="Prešov" col_5="Ľ. Podjavorinskej" col_6="  22      " />
       <row col_0="Nemecký ovčiak" col_1="3754" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Lesík delostrelcov" col_6="   1      " />
       <row col_0="Nemecký ovčiak" col_1="3753" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Lesík delostrelcov" col_6="   1      " />
@@ -1038,7 +1039,6 @@
       <row col_0="Yorkshirský teriér" col_1="6917" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesík delostrelcov" col_6="  10      " />
       <row col_0="Zlatý retriever" col_1="4432" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesík delostrelcov" col_6="  12      " />
       <row col_0="Labradorský retriever" col_1="14123" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesík delostrelcov" col_6="  12      " />
-      <row col_0="Sibírsky husky" col_1="1973" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesná" col_6="   6      " />
       <row col_0="Zlatý retriever" col_1="6048" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesná" col_6="   8A     " />
       <row col_0="Yorkshirský teriér" col_1="1936" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesná" col_6="  10      " />
       <row col_0="Havalský psík" col_1="5439" col_2="" col_3="Nie" col_4="Prešov" col_5="Lesná" col_6="  29      " />
@@ -1060,6 +1060,7 @@
       <row col_0="Labradorský retriever" col_1="14964" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  27      " />
       <row col_0="westík" col_1="2950" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  28      " />
       <row col_0="Yorkshirský teriér" col_1="6766" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  49      " />
+      <row col_0="srnči ratlík" col_1="7615" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  51      " />
       <row col_0="Americký kokeršpaniel" col_1="6461" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  53      " />
       <row col_0="Buldog" col_1="7047" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  55      " />
       <row col_0="Yorkshirský teriér" col_1="3395" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  57      " />
@@ -1071,7 +1072,6 @@
       <row col_0="Maltézky psík" col_1="5323" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  73      " />
       <row col_0="Francúzsky buldoček" col_1="6971" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  73      " />
       <row col_0="Kríženec" col_1="5812" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  77      " />
-      <row col_0="Kríženec" col_1="6078" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  79      " />
       <row col_0="Francúzsky buldoček" col_1="6567" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  85      " />
       <row col_0="Kríženec" col_1="6170" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  89      " />
       <row col_0="Americký toy teriér" col_1="6995" col_2="" col_3="Nie" col_4="Prešov" col_5="Levočská" col_6="  95      " />
@@ -1105,7 +1105,6 @@
       <row col_0="Labradorský retriever" col_1="14679" col_2="" col_3="Nie" col_4="Prešov" col_5="Líščia" col_6="   5      " />
       <row col_0="Jazvečík" col_1="1209" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="   1      " />
       <row col_0="Kríženec" col_1="6497" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="   1      " />
-      <row col_0="Maltézky psík" col_1="6153" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="   2      " />
       <row col_0="Kokeršpaniel" col_1="6589" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="   4      " />
       <row col_0="Kríženec" col_1="6019" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="   5      " />
       <row col_0="Yorkshirský teriér" col_1="6675" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="   5      " />
@@ -1117,6 +1116,7 @@
       <row col_0="Yorkshirský teriér" col_1="5861" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  10      " />
       <row col_0="Kríženec" col_1="6127" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  10      " />
       <row col_0="staffordshirský americký teriér" col_1="7009" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  10      " />
+      <row col_0="Maltézky psík" col_1="7066" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  10      " />
       <row col_0="Jack Russell Teriér" col_1="4165" col_2="Trikolóra" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  11      " />
       <row col_0="Kríženec" col_1="7099" col_2="" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  11      " />
       <row col_0="Jack Russell Teriér" col_1="3375" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Magurská" col_6="  12      " />
@@ -1156,12 +1156,14 @@
       <row col_0="Baston teriér" col_1="4577" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  13      " />
       <row col_0="Nemecký ovčiak" col_1="1220" col_2="čierna" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  17      " />
       <row col_0="Jack Russell Teriér" col_1="6802" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  18      " />
-      <row col_0="Kríženec" col_1="3666" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  31      " />
+      <row col_0="Zlatý retriever" col_1="7650" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  28      " />
       <row col_0="Yorkshirský teriér" col_1="5575" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  39      " />
       <row col_0="Yorkshirský teriér" col_1="2588" col_2="trieslová modrá" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  40      " />
       <row col_0="Staffordshirský bulteriér" col_1="2888" col_2="horčicová" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  40      " />
       <row col_0="Americký pitbullteriér" col_1="5947" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  42      " />
       <row col_0="Maltézky psík" col_1="6131" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  42      " />
+      <row col_0="staffordshirský americký teriér" col_1="7679" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  42      " />
+      <row col_0="Kríženec" col_1="7079" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  44      " />
       <row col_0="Yorkshirský teriér" col_1="5503" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  46      " />
       <row col_0="Bulteriér" col_1="5210" col_2="" col_3="Nie" col_4="Prešov" col_5="Marka Čulena" col_6="  47      " />
       <row col_0="Jazvečík" col_1="5760" col_2="" col_3="Nie" col_4="Prešov" col_5="Martina Benku" col_6="   1      " />
@@ -1182,12 +1184,12 @@
       <row col_0="Kríženec" col_1="6340" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   1      " />
       <row col_0="Maltézky psík" col_1="4809" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   2      " />
       <row col_0="Čivava" col_1="5577" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   2      " />
-      <row col_0="Kríženec" col_1="6738" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   2      " />
-      <row col_0="Staffordshirský bulteriér" col_1="6094" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   2      " />
       <row col_0="Čivava" col_1="2876" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   3      " />
       <row col_0="Yorkshirský teriér" col_1="14972" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   3      " />
       <row col_0="Kríženec" col_1="6133" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   4      " />
-      <row col_0="Kríženec" col_1="6351" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   5      " />
+      <row col_0="Kríženec" col_1="7691" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   5      " />
+      <row col_0="Yorkshirský teriér" col_1="7050" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   5      " />
+      <row col_0="kríženec špice" col_1="7714" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   5      " />
       <row col_0="Ratlík" col_1="4843" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   6      " />
       <row col_0="Kríženec" col_1="5941" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   6      " />
       <row col_0="Bradáč" col_1="6849" col_2="" col_3="Nie" col_4="Prešov" col_5="Matice slovenskej" col_6="   6      " />
@@ -1213,7 +1215,6 @@
       <row col_0="Borderská kólia" col_1="5654" col_2="" col_3="Nie" col_4="Prešov" col_5="Matúša Trenčianskeho" col_6="  18      " />
       <row col_0="Akita inu" col_1="6744" col_2="" col_3="Nie" col_4="Prešov" col_5="Maybaumova" col_6="   2      " />
       <row col_0="Pudel" col_1="14729" col_2="" col_3="Nie" col_4="Prešov" col_5="Maybaumova" col_6="   7      " />
-      <row col_0="Bradáč" col_1="1482" col_2="" col_3="Nie" col_4="Prešov" col_5="Maybaumova" col_6="   8      " />
       <row col_0="Čivava" col_1="2242" col_2="" col_3="Nie" col_4="Prešov" col_5="Maybaumova" col_6="  11      " />
       <row col_0="Jazvečík" col_1="5198" col_2="" col_3="Nie" col_4="Prešov" col_5="Maybaumova" col_6="  16      " />
       <row col_0="srnči ratlík" col_1="5607" col_2="" col_3="Nie" col_4="Prešov" col_5="Maybaumova" col_6="  16      " />
@@ -1246,7 +1247,6 @@
       <row col_0="Pudel" col_1="14672" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="   5      " />
       <row col_0="Labradorský retriever" col_1="14140" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="   6      " />
       <row col_0="Kríženec" col_1="4961" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="   8      " />
-      <row col_0="Cane corso" col_1="5321" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="  10      " />
       <row col_0="Jack Russell Teriér" col_1="7020" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="  15      " />
       <row col_0="Pyrenejský ovčiak s dlhou srsťou v tvári" col_1="7092" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="  15      " />
       <row col_0="Kríženec" col_1="7672" col_2="" col_3="Nie" col_4="Prešov" col_5="Mičurinova" col_6="  21      " />
@@ -1257,7 +1257,7 @@
       <row col_0="Maltézky psík" col_1="7067" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   3      " />
       <row col_0="Kríženec" col_1="14223" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   4      " />
       <row col_0="Kríženec" col_1="6789" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   4      " />
-      <row col_0="Jazvečík - štandartný krátkosrstý" col_1="6503" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   5      " />
+      <row col_0="Jazvečík - štandartný krátkosrstý" col_1="7038" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   5      " />
       <row col_0="Akita inu" col_1="6619" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   5      " />
       <row col_0="Nemecký ovčiak" col_1="14867" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   7      " />
       <row col_0="Anglický kokršpaniel" col_1="6219" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="   8      " />
@@ -1272,7 +1272,7 @@
       <row col_0="Nemecký ovčiak" col_1="129" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  23      " />
       <row col_0="Maltézky psík" col_1="1024" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  23      " />
       <row col_0="Maltézky psík" col_1="4591" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  23      " />
-      <row col_0="Malý hladkosrstý pinč" col_1="3839" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  27      " />
+      <row col_0="Malý hladkosrstý pinč" col_1="7054" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  27      " />
       <row col_0="Waleský špringeršpaniel" col_1="1296" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  28      " />
       <row col_0="Yorkshirský teriér" col_1="5079" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  29      " />
       <row col_0="Bišon" col_1="5943" col_2="" col_3="Nie" col_4="Prešov" col_5="Mirka Nešpora" col_6="  29      " />
@@ -1327,7 +1327,7 @@
       <row col_0="Nemecký ovčiak" col_1="6363" col_2="" col_3="Nie" col_4="Prešov" col_5="Mojmírova" col_6="   7      " />
       <row col_0="Kríženec" col_1="3138" col_2="Béžová" col_3="Nie" col_4="Prešov" col_5="Mojmírova" col_6="  15      " />
       <row col_0="Bígl" col_1="3123" col_2="" col_3="Nie" col_4="Prešov" col_5="Mojmírova" col_6="  19      " />
-      <row col_0="Nemecký špic" col_1="1892" col_2="" col_3="Nie" col_4="Prešov" col_5="Mojmírova" col_6="  21      " />
+      <row col_0="Maltézky psík" col_1="7745" col_2="" col_3="Nie" col_4="Prešov" col_5="Mojmírova" col_6="  23      " />
       <row col_0="Jack Russell Teriér" col_1="14570" col_2="" col_3="Nie" col_4="Prešov" col_5="Moyzesova" col_6="  12A     " />
       <row col_0="Kríženec" col_1="5211" col_2="" col_3="Nie" col_4="Prešov" col_5="Moyzesova" col_6="  14      " />
       <row col_0="Zlatý retriever" col_1="4944" col_2="zlato-hnedá" col_3="Nie" col_4="Prešov" col_5="Moyzesova" col_6="  16      " />
@@ -1353,15 +1353,13 @@
       <row col_0="Yorkshirský teriér" col_1="2878" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   5      " />
       <row col_0="Yorkshirský teriér" col_1="4080" col_2="horčicová" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   5      " />
       <row col_0="Slovenský kopov" col_1="4600" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   5      " />
-      <row col_0="Kríženec" col_1="825" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   6      " />
       <row col_0="Americký staffordshirský teriér" col_1="6210" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   6      " />
-      <row col_0="Jazvečík" col_1="235" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   7      " />
-      <row col_0="Jack Russell Teriér" col_1="3717" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   7      " />
       <row col_0="Kríženec" col_1="6081" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   7      " />
-      <row col_0="Pudel" col_1="6923" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   7      " />
+      <row col_0="Pudel" col_1="1872" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   7      " />
       <row col_0="Kríženec" col_1="2408" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   8      " />
       <row col_0="Teriér Jones" col_1="1256" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   9      " />
       <row col_0="Yorkshirský teriér" col_1="3111" col_2="Sivočierna" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="   9      " />
+      <row col_0="Čivava" col_1="3557" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  11      " />
       <row col_0="cavalier" col_1="3218" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  12      " />
       <row col_0="Bavorský farbiar" col_1="6417" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  13      " />
       <row col_0="Kríženec" col_1="14492" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  15      " />
@@ -1371,6 +1369,7 @@
       <row col_0="Kríženec" col_1="6086" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  23      " />
       <row col_0="Anglický kokršpaniel" col_1="2688" col_2="žltá" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  24      " />
       <row col_0="Maltézky psík" col_1="6391" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  25      " />
+      <row col_0="Kríženec" col_1="7785" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  25      " />
       <row col_0="Čínsky chocholatý pes" col_1="4975" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  26      " />
       <row col_0="Labradorský retriever" col_1="6429" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  26      " />
       <row col_0="Yorkshirský teriér" col_1="4434" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  31      " />
@@ -1386,7 +1385,6 @@
       <row col_0="Kríženec" col_1="6244" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  45      " />
       <row col_0="Jack Russell Teriér" col_1="3046" col_2="Trikolóra" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  47      " />
       <row col_0="Pudel" col_1="5687" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  47      " />
-      <row col_0="Hovawart" col_1="2155" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  49      " />
       <row col_0="Toy pudel" col_1="5036" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  49      " />
       <row col_0="Jack Russell Teriér" col_1="14724" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  49      " />
       <row col_0="Yorkshirský teriér" col_1="6952" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  49      " />
@@ -1395,7 +1393,6 @@
       <row col_0="Yorkshirský teriér" col_1="5758" col_2="" col_3="Nie" col_4="Prešov" col_5="Mukačevská" col_6="  57      " />
       <row col_0="Nemecký ovčiak" col_1="7061" col_2="" col_3="Nie" col_4="Prešov" col_5="Murárska" col_6="   4      " />
       <row col_0="Kríženec" col_1="6325" col_2="" col_3="Nie" col_4="Prešov" col_5="Murárska" col_6="   6      " />
-      <row col_0="Kríženec" col_1="6976" col_2="" col_3="Nie" col_4="Prešov" col_5="Murárska" col_6="   6      " />
       <row col_0="Yorkshirský teriér" col_1="3283" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Murárska" col_6="   9      " />
       <row col_0="Yorkshirský teriér" col_1="3467" col_2="čierno - hnedá" col_3="Nie" col_4="Prešov" col_5="Murárska" col_6="   9      " />
       <row col_0="Gordonov seter" col_1="5437" col_2="" col_3="Nie" col_4="Prešov" col_5="Murárska" col_6="  10      " />
@@ -1410,8 +1407,8 @@
       <row col_0="Westhighland white teriér" col_1="3323" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  22A     " />
       <row col_0="Lhasa apso" col_1="6670" col_2="" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  24      " />
       <row col_0="Labradorský retriever" col_1="7013" col_2="" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  29      " />
+      <row col_0="Yorkshirský teriér" col_1="7676" col_2="" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  31      " />
       <row col_0="Švajčiarsky biely ovčiak" col_1="3073" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  32      " />
-      <row col_0="Retriever" col_1="2275" col_2="" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  34      " />
       <row col_0="Kríženec" col_1="6612" col_2="" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  37      " />
       <row col_0="Kríženec" col_1="3537" col_2="" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  46      " />
       <row col_0="Pinč" col_1="851" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Na Rúrkach" col_6="  49      " />
@@ -1432,7 +1429,6 @@
       <row col_0="Hovawart" col_1="3705" col_2="Neuvedená" col_3="Nie" col_4="Prešov" col_5="Narcisová" col_6="   4      " />
       <row col_0="Labradorský retriever" col_1="6578" col_2="" col_3="Nie" col_4="Prešov" col_5="Narcisová" col_6="   7      " />
       <row col_0="Kríženec" col_1="6725" col_2="" col_3="Nie" col_4="Prešov" col_5="Nemčíkova" col_6="   5      " />
-      <row col_0="Nemecký ovčiak" col_1="1002" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="   6      " />
       <row col_0="Nemecký ovčiak" col_1="1003" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="   6      " />
       <row col_0="Nemecký ovčiak" col_1="1004" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="   6      " />
       <row col_0="Maltézky psík" col_1="5999" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="   7      " />
@@ -1443,10 +1439,12 @@
       <row col_0="Nemecký špic" col_1="14156" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  26      " />
       <row col_0="Kríženec" col_1="4491" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  29      " />
       <row col_0="Teriér" col_1="6303" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  29      " />
-      <row col_0="Kríženec" col_1="6600" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  31      " />
+      <row col_0="Kríženec" col_1="7033" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  29      " />
       <row col_0="Kríženec" col_1="6104" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  31      " />
+      <row col_0="Kríženec" col_1="6600" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  31      " />
       <row col_0="Jack Russell Teriér" col_1="5776" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  33      " />
       <row col_0="Francúzsky buldoček" col_1="6167" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  33      " />
+      <row col_0="Kríženec" col_1="5479" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  33      " />
       <row col_0="Bradáč" col_1="5446" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  38      " />
       <row col_0="Kríženec" col_1="5213" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  46      " />
       <row col_0="Americký staffordshirský teriér" col_1="5173" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  46      " />
@@ -1455,7 +1453,6 @@
       <row col_0="Yorkshirský teriér" col_1="4305" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  60      " />
       <row col_0="Cavalier king charles spaniel" col_1="14048" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  68      " />
       <row col_0="Yorkshirský teriér" col_1="6983" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  68      " />
-      <row col_0="Kríženec" col_1="3208" col_2="Trikolóra" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  72      " />
       <row col_0="Yorkshirský teriér" col_1="5240" col_2="" col_3="Nie" col_4="Prešov" col_5="Obrancov mieru" col_6="  72      " />
       <row col_0="Kríženec" col_1="250" col_2="" col_3="Nie" col_4="Prešov" col_5="Odborárska" col_6="   1      " />
       <row col_0="Bradáč" col_1="7039" col_2="" col_3="Nie" col_4="Prešov" col_5="Odborárska" col_6="   2      " />
@@ -1500,11 +1497,14 @@
       <row col_0="Jazvečík" col_1="5480" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  46      " />
       <row col_0="Kríženec" col_1="3248" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  47      " />
       <row col_0="Jack Russell Teriér" col_1="3902" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  48      " />
+      <row col_0="Kríženec" col_1="7637" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  48      " />
       <row col_0="Maltézky psík" col_1="3491" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  49      " />
       <row col_0="westík" col_1="4360" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  50      " />
       <row col_0="Pudel" col_1="6375" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  50      " />
+      <row col_0="Kríženec" col_1="7677" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  50      " />
       <row col_0="Nemecký ovčiak" col_1="7697" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  52      " />
       <row col_0="Kokeršpaniel" col_1="5856" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  56      " />
+      <row col_0="Kríženec" col_1="2678" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  56      " />
       <row col_0="Pudel" col_1="14349" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  59      " />
       <row col_0="Yorkshirský teriér" col_1="14067" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  61      " />
       <row col_0="Kríženec" col_1="6591" col_2="" col_3="Nie" col_4="Prešov" col_5="Októbrová" col_6="  67      " />
@@ -1575,7 +1575,6 @@
       <row col_0="Staffordshirský bulteriér" col_1="1305" col_2="" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  31      " />
       <row col_0="Jazvečík - králičí hrubosrstý" col_1="4911" col_2="" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  31      " />
       <row col_0="Jack Russell Teriér" col_1="4479" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  32      " />
-      <row col_0="Yorkshirský teriér" col_1="14744" col_2="" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  33      " />
       <row col_0="Zlatý retriever" col_1="4468" col_2="Zlatá" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  34      " />
       <row col_0="Kríženec" col_1="6061" col_2="" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  34      " />
       <row col_0="Kokeršpaniel" col_1="3136" col_2="zlato-hnedá" col_3="Nie" col_4="Prešov" col_5="Pavlovičovo námestie" col_6="  35      " />
@@ -1606,6 +1605,7 @@
       <row col_0="Kríženec" col_1="6826" col_2="" col_3="Nie" col_4="Prešov" col_5="Petőfiho" col_6="  29      " />
       <row col_0="Bernský salašnícky pes" col_1="6632" col_2="" col_3="Nie" col_4="Prešov" col_5="Plavárenská" col_6="   2      " />
       <row col_0="boxer" col_1="14236" col_2="" col_3="Nie" col_4="Prešov" col_5="Plavárenská" col_6="   6      " />
+      <row col_0="Kríženec" col_1="7675" col_2="" col_3="Nie" col_4="Prešov" col_5="Plzenská" col_6="  15      " />
       <row col_0="Kríženec" col_1="5694" col_2="" col_3="Nie" col_4="Prešov" col_5="Plzenská" col_6="  25      " />
       <row col_0="Kríženec" col_1="5695" col_2="" col_3="Nie" col_4="Prešov" col_5="Plzenská" col_6="  25      " />
       <row col_0="Kríženec" col_1="5850" col_2="" col_3="Nie" col_4="Prešov" col_5="Plzenská" col_6="  27      " />
@@ -1632,6 +1632,7 @@
       <row col_0="Nemecký ovčiak" col_1="1459" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  38      " />
       <row col_0="Kokeršpaniel" col_1="6469" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  40B     " />
       <row col_0="Beagle" col_1="4655" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  41      " />
+      <row col_0="Nemecký ovčiak" col_1="7678" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  43      " />
       <row col_0="Nemecký ovčiak" col_1="3745" col_2="čierno-sivá" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  46      " />
       <row col_0="Nemecký ovčiak" col_1="138" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  46      " />
       <row col_0="Kolia" col_1="6198" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  51      " />
@@ -1639,7 +1640,7 @@
       <row col_0="Bígl" col_1="14428" col_2="Trikolóra" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  55      " />
       <row col_0="Kríženec" col_1="512" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  61      " />
       <row col_0="Bolonský psík" col_1="7625" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  63      " />
-      <row col_0="Yorkshirský teriér" col_1="4426" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  71      " />
+      <row col_0="Labradorský retriever" col_1="7641" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  64      " />
       <row col_0="Nemecký ovčiak" col_1="5381" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  72      " />
       <row col_0="Kríženec" col_1="4345" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  72      " />
       <row col_0="Kríženec" col_1="2701" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Pod Kamennou baňou" col_6="  74      " />
@@ -1653,7 +1654,7 @@
       <row col_0="Kríženec" col_1="5870" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod komínom" col_6="  14      " />
       <row col_0="Kríženec" col_1="5888" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Šalgovíkom" col_6="   1      " />
       <row col_0="Nemecký ovčiak" col_1="2384" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Šalgovíkom" col_6="   6      " />
-      <row col_0="Labradorský retriever" col_1="6526" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Šalgovíkom" col_6="  10      " />
+      <row col_0="Yorkshirský teriér" col_1="7686" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Šalgovíkom" col_6="  13      " />
       <row col_0="Kaukazský pastierský pes" col_1="2171" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Táborom" col_6="   5      " />
       <row col_0="Nemecký ovčiak" col_1="6149" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Táborom" col_6="  11      " />
       <row col_0="Kríženec" col_1="6530" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Táborom" col_6="  16      " />
@@ -1662,7 +1663,6 @@
       <row col_0="Kríženec" col_1="6034" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Táborom" col_6="  33      " />
       <row col_0="Kríženec" col_1="6272" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Táborom" col_6="  33      " />
       <row col_0="Yorkshirský teriér" col_1="5537" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Vinicami" col_6="   1      " />
-      <row col_0="Yorkshirský teriér" col_1="5505" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Vinicami" col_6="   3      " />
       <row col_0="Neurčené" col_1="9001" col_2="" col_3="Nie" col_4="Prešov" col_5="Pod Vinicami" col_6="   5      " />
       <row col_0="Yorkshirský teriér" col_1="3028" col_2="Sivočierna" col_3="Nie" col_4="Prešov" col_5="Pod Vinicami" col_6="   6      " />
       <row col_0="Sibírsky husky" col_1="3789" col_2="Sivá" col_3="Nie" col_4="Prešov" col_5="Pod Vinicami" col_6="   7A     " />
@@ -1703,7 +1703,6 @@
       <row col_0="Kríženec" col_1="6818" col_2="" col_3="Nie" col_4="Prešov" col_5="Pöschlova" col_6="  29      " />
       <row col_0="Aljašský malamut" col_1="5845" col_2="" col_3="Nie" col_4="Prešov" col_5="Pöschlova" col_6="  31      " />
       <row col_0="Americký kokeršpaniel" col_1="681" col_2="čierna" col_3="Nie" col_4="Prešov" col_5="Pöschlova" col_6="  50      " />
-      <row col_0="Maďarský puli" col_1="6716" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Pöschlova" col_6="  52      " />
       <row col_0="westík" col_1="6911" col_2="" col_3="Nie" col_4="Prešov" col_5="Pöschlova" col_6="  54      " />
       <row col_0="Zlatý retriever" col_1="1961" col_2="" col_3="Nie" col_4="Prešov" col_5="Pöschlova" col_6="  54      " />
       <row col_0="Šar-pei" col_1="4967" col_2="" col_3="Nie" col_4="Prešov" col_5="Požiarnická" col_6="   5      " />
@@ -1721,7 +1720,6 @@
       <row col_0="Čivava" col_1="3980" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   1      " />
       <row col_0="Kokeršpaniel" col_1="405" col_2="krémová" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   1      " />
       <row col_0="Kríženec" col_1="14582" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   1      " />
-      <row col_0="Kríženec" col_1="1342" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
       <row col_0="Čivava" col_1="892" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
       <row col_0="Írsky seter" col_1="4085" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
       <row col_0="Labradorský retriever" col_1="3209" col_2="žltá" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
@@ -1729,7 +1727,8 @@
       <row col_0="boxer" col_1="4026" col_2="horčicová" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
       <row col_0="Yorkshirský teriér" col_1="6227" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
       <row col_0="Kríženec" col_1="6085" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
-      <row col_0="Maltézky psík" col_1="7077" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
+      <row col_0="Nemecký špic" col_1="7085" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
+      <row col_0="Kríženec" col_1="14263" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   3      " />
       <row col_0="Maltézky psík" col_1="5536" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   5      " />
       <row col_0="Americký pitbullteriér" col_1="6215" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   5      " />
       <row col_0="Kríženec" col_1="6443" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="   5      " />
@@ -1742,6 +1741,7 @@
       <row col_0="Labradorský retriever" col_1="5917" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  11      " />
       <row col_0="sharpei" col_1="6597" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  12      " />
       <row col_0="Kríženec" col_1="6141" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  15      " />
+      <row col_0="Yorkshirský teriér" col_1="7617" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  15      " />
       <row col_0="Jazvečík" col_1="2286" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  16      " />
       <row col_0="Maltézky psík" col_1="6163" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  16      " />
       <row col_0="Aljašský malamut" col_1="6816" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  24      " />
@@ -1760,6 +1760,7 @@
       <row col_0="Nemecký ovčiak" col_1="4767" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  41      " />
       <row col_0="Yorkshirský teriér" col_1="5485" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  41      " />
       <row col_0="staffordshirský americký teriér" col_1="6098" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  41      " />
+      <row col_0="Kríženec" col_1="7684" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  41      " />
       <row col_0="Kríženec" col_1="5448" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  42      " />
       <row col_0="Čivava" col_1="4229" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  43      " />
       <row col_0="Yorkshirský teriér" col_1="14775" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  43      " />
@@ -1785,6 +1786,7 @@
       <row col_0="Nemecký boxer" col_1="3767" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  64      " />
       <row col_0="Pudel" col_1="14456" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  65      " />
       <row col_0="Kríženec" col_1="6409" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  66      " />
+      <row col_0="Špic" col_1="5946" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  66      " />
       <row col_0="staffordshirský americký teriér" col_1="6453" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  67      " />
       <row col_0="Yorkshirský teriér" col_1="6397" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  68      " />
       <row col_0="Bígl" col_1="14432" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  77      " />
@@ -1793,7 +1795,6 @@
       <row col_0="Yorkshirský teriér" col_1="5547" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  81      " />
       <row col_0="Čivava" col_1="6955" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  81      " />
       <row col_0="Kríženec" col_1="4618" col_2="čierna" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  83      " />
-      <row col_0="Ratlík" col_1="6199" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  83      " />
       <row col_0="Kríženec" col_1="6207" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  83      " />
       <row col_0="Yorkshirský teriér" col_1="5327" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  85      " />
       <row col_0="Maltézky psík" col_1="6504" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  85      " />
@@ -1806,7 +1807,7 @@
       <row col_0="Kríženec" col_1="5076" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  93      " />
       <row col_0="Maďarská vyžla" col_1="4673" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  95      " />
       <row col_0="Kríženec" col_1="6838" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  95      " />
-      <row col_0="Yorkshirský teriér" col_1="14443" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  97      " />
+      <row col_0="Yorkshirský teriér" col_1="7073" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  97      " />
       <row col_0="Čivava" col_1="5190" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  97      " />
       <row col_0="Kavalier King" col_1="5704" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  97      " />
       <row col_0="Kríženec" col_1="6457" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6="  97      " />
@@ -1821,7 +1822,6 @@
       <row col_0="Kríženec" col_1="2291" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 101      " />
       <row col_0="Americký staffordshirský teriér" col_1="5160" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 101      " />
       <row col_0="Jazvečík" col_1="6862" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 101      " />
-      <row col_0="Čivava" col_1="6536" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 105      " />
       <row col_0="Maltézky psík" col_1="14398" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 123      " />
       <row col_0="Anglický kokršpaniel" col_1="14905" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 125      " />
       <row col_0="Akita inu" col_1="6257" col_2="" col_3="Nie" col_4="Prešov" col_5="Prostějovská" col_6=" 125      " />
@@ -1857,6 +1857,7 @@
       <row col_0="Kríženec" col_1="4282" col_2="" col_3="Nie" col_4="Prešov" col_5="Ružová" col_6="  35      " />
       <row col_0="Kríženec" col_1="4320" col_2="" col_3="Nie" col_4="Prešov" col_5="Ružová" col_6="  39      " />
       <row col_0="Nemecký ovčiak" col_1="3763" col_2="Sivočierna" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="   6      " />
+      <row col_0="Yorkshirský teriér" col_1="7627" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="   6      " />
       <row col_0="Čivava" col_1="14922" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  10      " />
       <row col_0="cavalier" col_1="6741" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  11      " />
       <row col_0="Čivava" col_1="1035" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  15      " />
@@ -1868,7 +1869,6 @@
       <row col_0="Stavač" col_1="6805" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  23      " />
       <row col_0="Kríženec" col_1="3991" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  24      " />
       <row col_0="Kríženec" col_1="7623" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  24      " />
-      <row col_0="Americký pitbullteriér" col_1="3524" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  27      " />
       <row col_0="Anglický kokršpaniel" col_1="6758" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  27      " />
       <row col_0="Ši-cu" col_1="3765" col_2="" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  30      " />
       <row col_0="Yorkshirský teriér" col_1="14642" col_2="Zlatočierna" col_3="Nie" col_4="Prešov" col_5="Sabinovská" col_6="  30      " />
@@ -1935,7 +1935,6 @@
       <row col_0="Nemecký boxer" col_1="5252" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  10      " />
       <row col_0="Jack Russell Teriér" col_1="6005" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  10      " />
       <row col_0="Maltézky psík" col_1="7621" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  11      " />
-      <row col_0="Labradorský retriever" col_1="2292" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  13      " />
       <row col_0="Kríženec" col_1="2835" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  13      " />
       <row col_0="Kríženec" col_1="6093" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  13      " />
       <row col_0="Bígl" col_1="3103" col_2="Trikolóra" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  14      " />
@@ -1962,6 +1961,7 @@
       <row col_0="Maltézky psík" col_1="6776" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  30      " />
       <row col_0="Yorkshirský teriér" col_1="14285" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  31      " />
       <row col_0="Čivava" col_1="14790" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  31      " />
+      <row col_0="Neurčené" col_1="6637" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  31      " />
       <row col_0="Yorkshirský teriér" col_1="2447" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  33      " />
       <row col_0="Yorkshirský teriér" col_1="7007" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  36      " />
       <row col_0="Kríženec" col_1="4256" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  36      " />
@@ -1972,6 +1972,7 @@
       <row col_0="Mops" col_1="7087" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  39      " />
       <row col_0="Kríženec" col_1="5969" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  41      " />
       <row col_0="Čivava" col_1="6477" col_2="" col_3="Nie" col_4="Prešov" col_5="Sibírska" col_6="  41      " />
+      <row col_0="Yorkshirský teriér" col_1="5604" col_2="" col_3="Nie" col_4="Prešov" col_5="Sídlisko duklianskych hrdinov" col_6="   4      " />
       <row col_0="Ratlík" col_1="5023" col_2="" col_3="Nie" col_4="Prešov" col_5="Sídlisko duklianskych hrdinov" col_6="   6      " />
       <row col_0="Maltézky psík" col_1="5693" col_2="" col_3="Nie" col_4="Prešov" col_5="Sídlisko duklianskych hrdinov" col_6="  10      " />
       <row col_0="Kríženec" col_1="6268" col_2="" col_3="Nie" col_4="Prešov" col_5="Sídlisko duklianskych hrdinov" col_6="  10      " />
@@ -1991,10 +1992,11 @@
       <row col_0="Bradáč" col_1="1133" col_2="" col_3="Nie" col_4="Prešov" col_5="Sládkovičova" col_6="  19      " />
       <row col_0="Maltézky psík" col_1="2917" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Sládkovičova" col_6="  26      " />
       <row col_0="Nemecký ovčiak" col_1="5477" col_2="" col_3="Nie" col_4="Prešov" col_5="Sládkovičova" col_6="  26A     " />
-      <row col_0="Kríženec" col_1="5805" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Sládkovičova" col_6="  28      " />
+      <row col_0="Kríženec" col_1="7619" col_2="" col_3="Nie" col_4="Prešov" col_5="Sládkovičova" col_6="  28      " />
       <row col_0="Kríženec" col_1="4846" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="   6      " />
       <row col_0="Kríženec" col_1="6515" col_2="" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="  10      " />
       <row col_0="Bígl" col_1="6456" col_2="" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="  16      " />
+      <row col_0="Maďarská vyžla" col_1="7068" col_2="" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="  16      " />
       <row col_0="Labradorský retriever" col_1="5893" col_2="" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="  17      " />
       <row col_0="Nemecký ovčiak" col_1="6565" col_2="" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="" />
       <row col_0="Nemecký ovčiak" col_1="6959" col_2="" col_3="Nie" col_4="Prešov" col_5="Slávičia" col_6="" />
@@ -2025,6 +2027,7 @@
       <row col_0="Švajčiarsky biely ovčiak" col_1="6342" col_2="" col_3="Nie" col_4="Prešov" col_5="Srnčia" col_6="   8      " />
       <row col_0="Yorkshirský teriér" col_1="5307" col_2="" col_3="Nie" col_4="Prešov" col_5="Srnčia" col_6="  10      " />
       <row col_0="Kríženec" col_1="5882" col_2="" col_3="Nie" col_4="Prešov" col_5="Srnčia" col_6="  10      " />
+      <row col_0="Teriér" col_1="4995" col_2="" col_3="Nie" col_4="Prešov" col_5="Stavbárska" col_6="   2      " />
       <row col_0="Rhodeský ridgeback" col_1="908" col_2="" col_3="Nie" col_4="Prešov" col_5="Stavbárska" col_6="   3      " />
       <row col_0="Weimarský stavač" col_1="6745" col_2="" col_3="Nie" col_4="Prešov" col_5="Stavbárska" col_6="   6      " />
       <row col_0="Kríženec" col_1="5103" col_2="" col_3="Nie" col_4="Prešov" col_5="Stavbárska" col_6="  10      " />
@@ -2034,18 +2037,17 @@
       <row col_0="Kríženec" col_1="1344" col_2="" col_3="Nie" col_4="Prešov" col_5="Stavbárska" col_6="  39      " />
       <row col_0="Kríženec" col_1="5142" col_2="" col_3="Nie" col_4="Prešov" col_5="Stavbárska" col_6="  47      " />
       <row col_0="Kokeršpaniel" col_1="5918" col_2="" col_3="Nie" col_4="Prešov" col_5="Súľovská" col_6="   1A     " />
-      <row col_0="Kríženec" col_1="6839" col_2="" col_3="Nie" col_4="Prešov" col_5="Súľovská" col_6="   7      " />
+      <row col_0="Kríženec" col_1="7671" col_2="" col_3="Nie" col_4="Prešov" col_5="Súľovská" col_6="   7      " />
       <row col_0="Nemecký ovčiak" col_1="7689" col_2="" col_3="Nie" col_4="Prešov" col_5="Súľovská" col_6="  12D     " />
-      <row col_0="Pudel" col_1="5643" col_2="" col_3="Nie" col_4="Prešov" col_5="Surdok" col_6="   6      " />
       <row col_0="Špic" col_1="5014" col_2="" col_3="Nie" col_4="Prešov" col_5="Surdok" col_6="   7      " />
       <row col_0="Retriever" col_1="6746" col_2="" col_3="Nie" col_4="Prešov" col_5="Surdok" col_6="  12      " />
       <row col_0="Borderský teriér" col_1="5872" col_2="" col_3="Nie" col_4="Prešov" col_5="Svätoplukova" col_6="  11      " />
-      <row col_0="Staffordshirský bulteriér" col_1="996" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="   1      " />
       <row col_0="Kríženec" col_1="6509" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="   7      " />
       <row col_0="Bišon" col_1="5933" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  11      " />
       <row col_0="Maltézky psík" col_1="7610" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  11      " />
       <row col_0="Čivava" col_1="14307" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  15      " />
       <row col_0="Maltézky psík" col_1="14116" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  17      " />
+      <row col_0="Kríženec" col_1="7739" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  21      " />
       <row col_0="Dalmatínsky pes" col_1="1696" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  22      " />
       <row col_0="Kríženec" col_1="14189" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  23      " />
       <row col_0="Kríženec" col_1="6523" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  28      " />
@@ -2058,18 +2060,18 @@
       <row col_0="Labradorský retriever" col_1="5696" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  47      " />
       <row col_0="Nemecký ovčiak" col_1="6286" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  55      " />
       <row col_0="Belgický ovčiak" col_1="6617" col_2="" col_3="Nie" col_4="Prešov" col_5="Šafárikova" col_6="  55      " />
-      <row col_0="Nemecký ovčiak" col_1="7033" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovec" col_6="" />
       <row col_0="Bígl" col_1="5847" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="   5      " />
       <row col_0="Labradorský retriever" col_1="1570" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  10A     " />
       <row col_0="Kríženec" col_1="5353" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  12      " />
+      <row col_0="Čivava" col_1="6536" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  14      " />
       <row col_0="Maďarská vyžla" col_1="5164" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  16      " />
       <row col_0="Kríženec" col_1="6431" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  18      " />
       <row col_0="Borderská kólia" col_1="4257" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  21      " />
       <row col_0="Nemecký ovčiak" col_1="4153" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  22      " />
       <row col_0="Yorkshirský teriér" col_1="14418" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  22      " />
       <row col_0="Írsky vlkodav" col_1="5039" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  25      " />
+      <row col_0="Nemecký špic" col_1="7749" col_2="" col_3="Nie" col_4="Prešov" col_5="Šidlovská" col_6="  28      " />
       <row col_0="Nemecký špic" col_1="792" col_2="" col_3="Nie" col_4="Prešov" col_5="Škultétyho" col_6="   2      " />
-      <row col_0="Nemecká doga" col_1="5581" col_2="" col_3="Nie" col_4="Prešov" col_5="Škultétyho" col_6="   9      " />
       <row col_0="Yorkshirský teriér" col_1="5864" col_2="" col_3="Nie" col_4="Prešov" col_5="Škultétyho" col_6="   9      " />
       <row col_0="Kríženec" col_1="271" col_2="" col_3="Nie" col_4="Prešov" col_5="Škultétyho" col_6="  10      " />
       <row col_0="Labradorský retriever" col_1="6102" col_2="" col_3="Nie" col_4="Prešov" col_5="Škultétyho" col_6="  11      " />
@@ -2158,7 +2160,6 @@
       <row col_0="Slovenský čuvač" col_1="5293" col_2="" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  30B     " />
       <row col_0="Bígl" col_1="5402" col_2="" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  30B     " />
       <row col_0="Čivava" col_1="5426" col_2="" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  31      " />
-      <row col_0="Nemecký špic" col_1="3749" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  32      " />
       <row col_0="Ši-cu" col_1="14819" col_2="" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  32      " />
       <row col_0="Nemecký ovčiak" col_1="3158" col_2="Pálená" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  32A     " />
       <row col_0="Cane corso" col_1="6152" col_2="Žíhana" col_3="Nie" col_4="Prešov" col_5="Tatranská" col_6="  33      " />
@@ -2179,6 +2180,7 @@
       <row col_0="Labradorský retriever" col_1="1501" col_2="" col_3="Nie" col_4="Prešov" col_5="Tehelná" col_6="  55      " />
       <row col_0="Yorkshirský teriér" col_1="3300" col_2="" col_3="Nie" col_4="Prešov" col_5="Tehelná" col_6="  62      " />
       <row col_0="Nemecký ovčiak" col_1="5506" col_2="" col_3="Nie" col_4="Prešov" col_5="Terchovská" col_6="   3C     " />
+      <row col_0="Kríženec" col_1="7769" col_2="" col_3="Nie" col_4="Prešov" col_5="Terchovská" col_6="   5      " />
       <row col_0="Jack Russell Teriér" col_1="6691" col_2="" col_3="Nie" col_4="Prešov" col_5="Terchovská" col_6="   6      " />
       <row col_0="Čivava" col_1="5849" col_2="" col_3="Nie" col_4="Prešov" col_5="Terchovská" col_6="  16B     " />
       <row col_0="Jazvečík" col_1="14299" col_2="" col_3="Nie" col_4="Prešov" col_5="Terchovská" col_6="  24      " />
@@ -2242,7 +2244,6 @@
       <row col_0="Pudel" col_1="6426" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   3      " />
       <row col_0="Kríženec" col_1="6059" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   4      " />
       <row col_0="Kokeršpaniel" col_1="5494" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   5      " />
-      <row col_0="Pudel" col_1="7645" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   5      " />
       <row col_0="Jack Russell Teriér" col_1="4586" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   7      " />
       <row col_0="Yorkshirský teriér" col_1="7083" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   7      " />
       <row col_0="Bišon" col_1="6033" col_2="" col_3="Nie" col_4="Prešov" col_5="Vansovej" col_6="   7      " />
@@ -2264,12 +2265,12 @@
       <row col_0="Ratlík" col_1="4291" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   3      " />
       <row col_0="Maltézky psík" col_1="5186" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   3      " />
       <row col_0="shi-tzu" col_1="6853" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   3      " />
-      <row col_0="Yorkshirský teriér" col_1="6308" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   3      " />
       <row col_0="Bišon" col_1="6893" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   4      " />
       <row col_0="Yorkshirský teriér" col_1="4101" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   5      " />
       <row col_0="shi-tzu" col_1="0001" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   8      " />
       <row col_0="Kríženec" col_1="193" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   9      " />
       <row col_0="Čivava" col_1="5700" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   9      " />
+      <row col_0="Yorkshirský teriér" col_1="7094" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="   9      " />
       <row col_0="Bradáč" col_1="14832" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="  10      " />
       <row col_0="Kríženec" col_1="14532" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="  10      " />
       <row col_0="Kríženec" col_1="14522" col_2="" col_3="Nie" col_4="Prešov" col_5="Vihorlatská" col_6="  10      " />
@@ -2355,7 +2356,6 @@
       <row col_0="Labradorský retriever" col_1="6946" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  26      " />
       <row col_0="Westhighland white teriér" col_1="5355" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  28      " />
       <row col_0="papillon" col_1="6389" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  28      " />
-      <row col_0="Bišon" col_1="4521" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  34      " />
       <row col_0="Zlatý retriever" col_1="5922" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  34      " />
       <row col_0="Yorkshirský teriér" col_1="2250" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  40      " />
       <row col_0="Labradorský retriever" col_1="6377" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  40      " />
@@ -2370,8 +2370,6 @@
       <row col_0="Nemecký ovčiak" col_1="386" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  58      " />
       <row col_0="Kríženec" col_1="6891" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  58      " />
       <row col_0="Kríženec" col_1="5029" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  60      " />
-      <row col_0="Nemecký ovčiak" col_1="4509" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  64      " />
-      <row col_0="Kríženec" col_1="4510" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  64      " />
       <row col_0="Kríženec" col_1="14394" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  66      " />
       <row col_0="Maltézky psík" col_1="4154" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  68      " />
       <row col_0="Yorkshirský teriér" col_1="4315" col_2="" col_3="Nie" col_4="Prešov" col_5="Volgogradská" col_6="  70      " />
@@ -2396,9 +2394,11 @@
       <row col_0="Západosibírska lajka" col_1="6808" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  34      " />
       <row col_0="Weimarský stavač" col_1="5542" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  37      " />
       <row col_0="Nemecký špic" col_1="4053" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  45      " />
+      <row col_0="Kríženec" col_1="7634" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  45      " />
       <row col_0="Nemecký ovčiak" col_1="14537" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  51      " />
       <row col_0="Nemecký ovčiak" col_1="3282" col_2="Sivá" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  55      " />
       <row col_0="Bernský salašnícky pes" col_1="956" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  57      " />
+      <row col_0="Kríženec" col_1="6706" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  62A     " />
       <row col_0="Kríženec" col_1="1929" col_2="" col_3="Nie" col_4="Prešov" col_5="Vydumanec" col_6="  73      " />
       <row col_0="Kríženec" col_1="6683" col_2="" col_3="Nie" col_4="Prešov" col_5="Východná" col_6="   8      " />
       <row col_0="Kríženec" col_1="3049" col_2="šedá" col_3="Nie" col_4="Prešov" col_5="Východná" col_6="  15      " />
@@ -2406,6 +2406,7 @@
       <row col_0="Kokeršpaniel" col_1="14007" col_2="" col_3="Nie" col_4="Prešov" col_5="Weberova" col_6="  11      " />
       <row col_0="Yorkshirský teriér" col_1="14975" col_2="" col_3="Nie" col_4="Prešov" col_5="Wolkerova" col_6="   1      " />
       <row col_0="Kríženec" col_1="3813" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Wolkerova" col_6="   5      " />
+      <row col_0="Yorkshirský teriér" col_1="7607" col_2="" col_3="Nie" col_4="Prešov" col_5="Wolkerova" col_6="  11      " />
       <row col_0="Kríženec" col_1="5562" col_2="" col_3="Nie" col_4="Prešov" col_5="Wolkerova" col_6="  17      " />
       <row col_0="Maltézky psík" col_1="3904" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Wolkerova" col_6="  25      " />
       <row col_0="Zlatý retriever" col_1="4178" col_2="" col_3="Nie" col_4="Prešov" col_5="Wolkerova" col_6="  25      " />
@@ -2416,6 +2417,7 @@
       <row col_0="Kríženec" col_1="5166" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  21      " />
       <row col_0="Nemecký ovčiak" col_1="6627" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  22A     " />
       <row col_0="Beagle" col_1="6528" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  30      " />
+      <row col_0="Maďarská vyžla" col_1="7660" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  39      " />
       <row col_0="Jack Russell Teriér" col_1="5451" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  41      " />
       <row col_0="Bernský salašnícky pes" col_1="14493" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  42      " />
       <row col_0="Borderská kólia" col_1="7657" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  46      " />
@@ -2425,6 +2427,7 @@
       <row col_0="Kríženec" col_1="2619" col_2="Neurčená" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  55      " />
       <row col_0="Labradorský retriever" col_1="3483" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  61      " />
       <row col_0="Nórsky lundehund" col_1="5840" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  62      " />
+      <row col_0="Nemecký ovčiak" col_1="7045" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  62      " />
       <row col_0="Nemecký ovčiak" col_1="14005" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  70      " />
       <row col_0="Nemecký ovčiak" col_1="1071" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  76      " />
       <row col_0="Yorkshirský teriér" col_1="4535" col_2="" col_3="Nie" col_4="Prešov" col_5="Za Kalváriou" col_6="  88      " />
@@ -2444,7 +2447,6 @@
       <row col_0="Jazvečík" col_1="14448" col_2="" col_3="Nie" col_4="Prešov" col_5="Záborského" col_6="   8      " />
       <row col_0="Nemecký ovčiak" col_1="14938" col_2="" col_3="Nie" col_4="Prešov" col_5="Záborského" col_6="  14      " />
       <row col_0="Yorkshirský teriér" col_1="5883" col_2="" col_3="Nie" col_4="Prešov" col_5="Záborského" col_6="  14      " />
-      <row col_0="Jazvečík" col_1="4148" col_2="Hnedá" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="   3      " />
       <row col_0="Jazvečík" col_1="6302" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="   4      " />
       <row col_0="Nemecký ovčiak" col_1="3683" col_2="Pálená" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="   6      " />
       <row col_0="Argentínska doga" col_1="14807" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="   8      " />
@@ -2463,17 +2465,14 @@
       <row col_0="Austrálsky ovčiak" col_1="6175" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  35      " />
       <row col_0="Yorkshirský teriér" col_1="5117" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  36      " />
       <row col_0="Labradorský retriever" col_1="14644" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  37      " />
-      <row col_0="Labradorský retriever" col_1="6284" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  38      " />
       <row col_0="Špic" col_1="6172" col_2="Žíhana" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  39      " />
       <row col_0="Jazvečík - trpaslíči dlhosrstý" col_1="7036" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  40      " />
       <row col_0="Špic" col_1="4457" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradná" col_6="  46      " />
-      <row col_0="Čivava" col_1="3665" col_2="Biela" col_3="Nie" col_4="Prešov" col_5="Záhradnícka" col_6="   1      " />
       <row col_0="Čivava" col_1="1514" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradnícka" col_6="   2      " />
       <row col_0="Pudel" col_1="14305" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradnícka" col_6="  12      " />
       <row col_0="Kríženec" col_1="5514" col_2="" col_3="Nie" col_4="Prešov" col_5="Záhradnícka" col_6="  14      " />
       <row col_0="Nemecký ovčiak" col_1="6496" col_2="" col_3="Nie" col_4="Prešov" col_5="Zajačia" col_6="  17      " />
       <row col_0="Bernský salašnícky pes" col_1="5894" col_2="" col_3="Nie" col_4="Prešov" col_5="Zajačia" col_6="  33      " />
-      <row col_0="Anglický buldog" col_1="5895" col_2="" col_3="Nie" col_4="Prešov" col_5="Zajačia" col_6="  33      " />
       <row col_0="Nemecký ovčiak" col_1="5020" col_2="" col_3="Nie" col_4="Prešov" col_5="Zajačia" col_6="  41      " />
       <row col_0="Bradáč" col_1="5080" col_2="" col_3="Nie" col_4="Prešov" col_5="Zajačia" col_6="  41      " />
       <row col_0="Jazvečík" col_1="5149" col_2="" col_3="Nie" col_4="Prešov" col_5="Zajačia" col_6="  41      " />
@@ -2481,7 +2480,6 @@
       <row col_0="Yorkshirský teriér" col_1="14939" col_2="" col_3="Nie" col_4="Prešov" col_5="Zápotockého" col_6="   1      " />
       <row col_0="Nemecký ovčiak" col_1="4327" col_2="" col_3="Nie" col_4="Prešov" col_5="Zápotockého" col_6="   4      " />
       <row col_0="Trpaslíčí špic" col_1="5587" col_2="" col_3="Nie" col_4="Prešov" col_5="Zápotockého" col_6="   7      " />
-      <row col_0="Nemecký špic" col_1="5332" col_2="" col_3="Nie" col_4="Prešov" col_5="Zápotockého" col_6="  13      " />
       <row col_0="Kríženec" col_1="3186" col_2="Čierna" col_3="Nie" col_4="Prešov" col_5="Zápotockého" col_6="  15      " />
       <row col_0="Kríženec" col_1="4356" col_2="" col_3="Nie" col_4="Prešov" col_5="Zápotockého" col_6="  21      " />
       <row col_0="Kríženec" col_1="5257" col_2="" col_3="Nie" col_4="Prešov" col_5="Zemplínska" col_6="   3      " />
@@ -2505,6 +2503,7 @@
       <row col_0="Stavač" col_1="3560" col_2="" col_3="Nie" col_4="Prešov" col_5="Zimný potok" col_6="  33      " />
       <row col_0="Čivava" col_1="6147" col_2="" col_3="Nie" col_4="Prešov" col_5="Zimný potok" col_6="  33      " />
       <row col_0="Čivava" col_1="6537" col_2="" col_3="Nie" col_4="Prešov" col_5="Zimný potok" col_6="  33      " />
+      <row col_0="Zlatý retriever" col_1="6153" col_2="" col_3="Nie" col_4="Prešov" col_5="Zimný potok" col_6="  43      " />
       <row col_0="Yorkshirský teriér" col_1="14854" col_2="" col_3="Nie" col_4="Prešov" col_5="Zimný potok" col_6="" />
       <row col_0="Francúzsky buldoček" col_1="6990" col_2="" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="   3      " />
       <row col_0="Nemecký ovčiak" col_1="1983" col_2="" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  13      " />
@@ -2517,7 +2516,6 @@
       <row col_0="Kokeršpaniel" col_1="3605" col_2="Bielo-čierna" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  26      " />
       <row col_0="Maltézky psík" col_1="5375" col_2="" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  27      " />
       <row col_0="Kríženec" col_1="1267" col_2="" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  28      " />
-      <row col_0="Kríženec" col_1="3494" col_2="Hnedočierna" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  29      " />
       <row col_0="Rotvajler" col_1="39" col_2="" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  33      " />
       <row col_0="Nemecký ovčiak" col_1="138" col_2="" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  35      " />
       <row col_0="Zlatý retriever" col_1="14320" col_2="Béžová" col_3="Nie" col_4="Prešov" col_5="Železničiarska" col_6="  36      " />
@@ -2541,10 +2539,11 @@
       <row col_0="Francúzsky buldoček" col_1="6656" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6="  44      " />
       <row col_0="Kríženec" col_1="2533" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6="  74      " />
       <row col_0="Faraónsky chrt" col_1="1576" col_2="Rudohnedá" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6="  76      " />
-      <row col_0="Kríženec" col_1="5911" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6="  76      " />
       <row col_0="Yorkshirský teriér" col_1="14182" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6="  82      " />
+      <row col_0="Jazvečík" col_1="17934" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6="  92      " />
       <row col_0="Nemecký špic" col_1="697" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 100      " />
       <row col_0="Yorkshirský teriér" col_1="5781" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 100      " />
+      <row col_0="Kríženec" col_1="5911" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 104      " />
       <row col_0="Kríženec" col_1="6352" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 114      " />
       <row col_0="Kríženec" col_1="5772" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 114      " />
       <row col_0="Pudel" col_1="4196" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 124      " />
@@ -2552,11 +2551,11 @@
       <row col_0="Čivava" col_1="5128" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 128      " />
       <row col_0="Čivava" col_1="14020" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 130      " />
       <row col_0="Yorkshirský teriér" col_1="6343" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 130      " />
+      <row col_0="Bradáč" col_1="7635" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 138      " />
       <row col_0="Kríženec" col_1="2047" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 148      " />
       <row col_0="Jack Russell Teriér" col_1="6748" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 152      " />
       <row col_0="Cane corso" col_1="5040" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 166      " />
       <row col_0="Labradorský retriever" col_1="4552" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 168      " />
-      <row col_0="Kríženec" col_1="6474" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 170      " />
       <row col_0="Yorkshirský teriér" col_1="2734" col_2="Sivá" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 186      " />
       <row col_0="Kríženec" col_1="6245" col_2="" col_3="Nie" col_4="Prešov" col_5="17. novembra" col_6=" 186      " />
       <row col_0="Velšpring španiel" col_1="3981" col_2="bielohnedá" col_3="Nie" col_4="Prešov" col_5="19. januára" col_6="   1      " />
@@ -2600,6 +2599,7 @@
       <row col_0="Bulmastif" col_1="5276" col_2="" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="   4      " />
       <row col_0="Labradorský retriever" col_1="5735" col_2="" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="   5      " />
       <row col_0="Zlatý retriever" col_1="6751" col_2="" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="   9      " />
+      <row col_0="Francúzsky buldoček" col_1="14515" col_2="" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="  12      " />
       <row col_0="Maltézky psík" col_1="6228" col_2="Biela" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="  15      " />
       <row col_0="Beauceron" col_1="1517" col_2="" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="  31      " />
       <row col_0="Kríženec" col_1="3584" col_2="Čierno-biela" col_3="Nie" col_4="Solivar" col_5="Čajkovského" col_6="  35      " />
@@ -2634,7 +2634,7 @@
       <row col_0="Pekinský palácový psík" col_1="1805" col_2="" col_3="Nie" col_4="Solivar" col_5="Gápľová" col_6="  70A     " />
       <row col_0="Bígl" col_1="2900" col_2="Neurčená" col_3="Nie" col_4="Solivar" col_5="Gápľová" col_6="  80      " />
       <row col_0="Nemecký ovčiak" col_1="6090" col_2="" col_3="Nie" col_4="Solivar" col_5="Gápľová" col_6="  82      " />
-      <row col_0="Sibírsky husky" col_1="7071" col_2="" col_3="Nie" col_4="Solivar" col_5="Gápľová" col_6="  92      " />
+      <row col_0="Sibírsky husky" col_1="7097" col_2="" col_3="Nie" col_4="Solivar" col_5="Gápľová" col_6="  92      " />
       <row col_0="Nemecký ovčiak" col_1="14600" col_2="" col_3="Nie" col_4="Solivar" col_5="Gápľová" col_6="  96      " />
       <row col_0="Kríženec" col_1="834" col_2="" col_3="Nie" col_4="Solivar" col_5="Chalupkova" col_6="   1      " />
       <row col_0="Kríženec" col_1="6875" col_2="" col_3="Nie" col_4="Solivar" col_5="Chalupkova" col_6="   4      " />
@@ -2706,6 +2706,7 @@
       <row col_0="Labradorský retriever" col_1="14200" col_2="" col_3="Nie" col_4="Solivar" col_5="Jiráskova" col_6="  71      " />
       <row col_0="Nemecký ovčiak" col_1="5561" col_2="" col_3="Nie" col_4="Solivar" col_5="Jiráskova" col_6="  76      " />
       <row col_0="Kríženec" col_1="14408" col_2="" col_3="Nie" col_4="Solivar" col_5="K studničke" col_6="   2      " />
+      <row col_0="Anglický buldog" col_1="7732" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="   6      " />
       <row col_0="Teriér Jack Russell" col_1="2471" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="   7      " />
       <row col_0="shi-tzu" col_1="4970" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="   8      " />
       <row col_0="Labradorský retriever" col_1="6810" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="  10      " />
@@ -2713,7 +2714,6 @@
       <row col_0="Jack Russell Teriér" col_1="5181" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="  13      " />
       <row col_0="Maltézky psík" col_1="6625" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="  18      " />
       <row col_0="Kríženec" col_1="1133" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="  24      " />
-      <row col_0="Kríženec" col_1="14279" col_2="" col_3="Nie" col_4="Solivar" col_5="Kamencová" col_6="  32      " />
       <row col_0="Nemecký ovčiak" col_1="1917" col_2="" col_3="Nie" col_4="Solivar" col_5="Košická" col_6="   1      " />
       <row col_0="Yorkshirský teriér" col_1="14614" col_2="" col_3="Nie" col_4="Solivar" col_5="Košická" col_6="  24      " />
       <row col_0="Rodézsky ridgeback" col_1="443" col_2="" col_3="Nie" col_4="Solivar" col_5="Kraskova" col_6="   4A     " />
@@ -2748,7 +2748,6 @@
       <row col_0="Nemecký ovčiak" col_1="14656" col_2="" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="   7      " />
       <row col_0="Labradorský retriever" col_1="6438" col_2="" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="   9      " />
       <row col_0="Teriér" col_1="4941" col_2="" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="  13      " />
-      <row col_0="Čivava" col_1="3557" col_2="bielohnedá" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="  17      " />
       <row col_0="Retriever" col_1="3764" col_2="Hnedá" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="  21      " />
       <row col_0="Labradorský retriever" col_1="4409" col_2="" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="  23      " />
       <row col_0="Kríženec" col_1="14549" col_2="" col_3="Nie" col_4="Solivar" col_5="Kysucká" col_6="  27      " />
@@ -2796,6 +2795,7 @@
       <row col_0="bígel" col_1="6500" col_2="bielohnedá" col_3="Nie" col_4="Solivar" col_5="Lomnická" col_6="  16      " />
       <row col_0="Kríženec" col_1="6321" col_2="" col_3="Nie" col_4="Solivar" col_5="Lomnická" col_6="  16      " />
       <row col_0="Yorkshirský teriér" col_1="6539" col_2="" col_3="Nie" col_4="Solivar" col_5="Lomnická" col_6="  16      " />
+      <row col_0="Špic" col_1="5155" col_2="" col_3="Nie" col_4="Solivar" col_5="Lomnická" col_6="  20      " />
       <row col_0="Yorkshirský teriér" col_1="5803" col_2="" col_3="Nie" col_4="Solivar" col_5="Lomnická" col_6="  26      " />
       <row col_0="Kríženec" col_1="7030" col_2="" col_3="Nie" col_4="Solivar" col_5="Na brehu" col_6="   2A     " />
       <row col_0="Maltézky psík" col_1="14028" col_2="" col_3="Nie" col_4="Solivar" col_5="Na brehu" col_6="   5      " />
@@ -2908,6 +2908,7 @@
       <row col_0="Bordeauxská doga" col_1="14485" col_2="" col_3="Nie" col_4="Solivar" col_5="Pri mlyne" col_6="   5      " />
       <row col_0="Maltézky psík" col_1="5444" col_2="" col_3="Nie" col_4="Solivar" col_5="Pri mlyne" col_6="   5      " />
       <row col_0="Francúzsky buldoček" col_1="6067" col_2="" col_3="Nie" col_4="Solivar" col_5="Pri mlyne" col_6="   7      " />
+      <row col_0="Bostonský terier" col_1="7620" col_2="" col_3="Nie" col_4="Solivar" col_5="Pri mlyne" col_6="   7      " />
       <row col_0="shi-tzu" col_1="6608" col_2="" col_3="Nie" col_4="Solivar" col_5="Pri mlyne" col_6="   8      " />
       <row col_0="srnči ratlík" col_1="5916" col_2="čierno - hnedá" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="   1      " />
       <row col_0="Americký staffordshirský teriér" col_1="14547" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="   4      " />
@@ -2923,6 +2924,7 @@
       <row col_0="Sibírsky husky" col_1="7093" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  21      " />
       <row col_0="Bradáč" col_1="6359" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  23      " />
       <row col_0="Kríženec" col_1="3628" col_2="Hnedá" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  24      " />
+      <row col_0="Nemecký ovčiak" col_1="7655" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  27A     " />
       <row col_0="Nemecký ovčiak" col_1="14561" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  31      " />
       <row col_0="Špic" col_1="14682" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  34      " />
       <row col_0="Nemecký ovčiak" col_1="14608" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  35      " />
@@ -2930,7 +2932,6 @@
       <row col_0="Kríženec" col_1="920" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  39      " />
       <row col_0="Nemecký ovčiak" col_1="14907" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  43      " />
       <row col_0="Nemecký ovčiak" col_1="14908" col_2="" col_3="Nie" col_4="Solivar" col_5="Royova" col_6="  43      " />
-      <row col_0="Kokeršpaniel" col_1="14148" col_2="" col_3="Nie" col_4="Solivar" col_5="Sadová" col_6="   3      " />
       <row col_0="Maltézky psík" col_1="5342" col_2="" col_3="Nie" col_4="Solivar" col_5="Sadová" col_6="   7      " />
       <row col_0="Nemecký ovčiak" col_1="2219" col_2="" col_3="Nie" col_4="Solivar" col_5="Sadová" col_6="   8      " />
       <row col_0="Špic" col_1="6592" col_2="" col_3="Nie" col_4="Solivar" col_5="Sadová" col_6="   9A     " />
@@ -2953,8 +2954,8 @@
       <row col_0="Sibírsky husky" col_1="14826" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="   7      " />
       <row col_0="Borderská kólia" col_1="5957" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="   9      " />
       <row col_0="Labradorský retriever" col_1="14426" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  12      " />
-      <row col_0="Retriever" col_1="" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  15      " />
       <row col_0="Pudel" col_1="810" col_2="Biela" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  17      " />
+      <row col_0="Kríženec" col_1="7001" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  30      " />
       <row col_0="Kríženec" col_1="6997" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  31      " />
       <row col_0="Foxteriér" col_1="3689" col_2="trieslová modrá" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  33      " />
       <row col_0="Kríženec" col_1="6634" col_2="" col_3="Nie" col_4="Solivar" col_5="Smetanova" col_6="  36      " />
@@ -2974,14 +2975,15 @@
       <row col_0="Labradorský retriever" col_1="5504" col_2="" col_3="Nie" col_4="Solivar" col_5="Soľanková" col_6="  20      " />
       <row col_0="Kríženec" col_1="5515" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="   4      " />
       <row col_0="Kríženec" col_1="4719" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="   8      " />
-      <row col_0="Európsky saňový pes" col_1="7044" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  19      " />
       <row col_0="Kríženec" col_1="6541" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  28      " />
+      <row col_0="Európsky saňový pes" col_1="7052" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  28      " />
       <row col_0="Nemecký ovčiak" col_1="2914" col_2="Čierna" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  34      " />
       <row col_0="kríženec špice" col_1="2982" col_2="Čierno-biela" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  37      " />
       <row col_0="Maltézky psík" col_1="4004" col_2="horčicová" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  41      " />
       <row col_0="Yorkshirský teriér" col_1="6610" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  46A     " />
       <row col_0="Kríženec" col_1="14840" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  48      " />
       <row col_0="Kríženec" col_1="6020" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  48      " />
+      <row col_0="Nemecký ovčiak" col_1="7648" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  56      " />
       <row col_0="Špic" col_1="5151" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  58      " />
       <row col_0="Americký staffordshirský teriér" col_1="5158" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  61      " />
       <row col_0="Kokeršpaniel" col_1="1522" col_2="" col_3="Nie" col_4="Solivar" col_5="Solivarská" col_6="  64      " />
@@ -2997,6 +2999,7 @@
       <row col_0="Yorkshirský teriér" col_1="4045" col_2="Hnedá" col_3="Nie" col_4="Solivar" col_5="Soľnobanská" col_6="  22      " />
       <row col_0="Nemecký ovčiak" col_1="7011" col_2="" col_3="Nie" col_4="Solivar" col_5="Soľnobanská" col_6="  22      " />
       <row col_0="Čínsky chocholatý pes" col_1="14199" col_2="" col_3="Nie" col_4="Solivar" col_5="Soľnobanská" col_6="  23      " />
+      <row col_0="Bobtail" col_1="7693" col_2="" col_3="Nie" col_4="Solivar" col_5="Soľnobanská" col_6="  24      " />
       <row col_0="Borderská kólia" col_1="6388" col_2="" col_3="Nie" col_4="Solivar" col_5="Soľnobanská" col_6="  31      " />
       <row col_0="Kríženec" col_1="5259" col_2="" col_3="Nie" col_4="Solivar" col_5="Soľnobanská" col_6="  32      " />
       <row col_0="Bernský salašnícky pes" col_1="14336" col_2="" col_3="Nie" col_4="Solivar" col_5="Suchoňova" col_6="   1      " />
@@ -3007,7 +3010,6 @@
       <row col_0="Nemecký ovčiak" col_1="5656" col_2="" col_3="Áno" col_4="Solivar" col_5="Suvorovova" col_6="  11      " />
       <row col_0="Nemecká doga" col_1="4971" col_2="" col_3="Nie" col_4="Solivar" col_5="Suvorovova" col_6="  12B     " />
       <row col_0="boxer" col_1="4550" col_2="" col_3="Nie" col_4="Solivar" col_5="Suvorovova" col_6="  14      " />
-      <row col_0="Kríženec" col_1="6118" col_2="" col_3="Nie" col_4="Solivar" col_5="Suvorovova" col_6="  17      " />
       <row col_0="Bígl" col_1="6599" col_2="Trikolóra" col_3="Nie" col_4="Solivar" col_5="Suvorovova" col_6="  18      " />
       <row col_0="Kríženec" col_1="698" col_2="" col_3="Nie" col_4="Solivar" col_5="Suvorovova" col_6="  20      " />
       <row col_0="boxer" col_1="938" col_2="" col_3="Nie" col_4="Solivar" col_5="Suvorovova" col_6="  24      " />
@@ -3024,14 +3026,13 @@
       <row col_0="Francúzsky buldoček" col_1="6927" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  28      " />
       <row col_0="Kríženec" col_1="007" col_2="čierno-biela" col_3="Áno" col_4="Solivar" col_5="Švábska" col_6="  30      " />
       <row col_0="Kríženec" col_1="3783" col_2="Biela" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  30      " />
+      <row col_0="Yorkshirský teriér" col_1="14755" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  32      " />
       <row col_0="Yorkshirský teriér" col_1="14361" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  35      " />
       <row col_0="Kavalier King" col_1="6956" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  35      " />
       <row col_0="Kríženec" col_1="4559" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  38      " />
       <row col_0="Jack Russell Teriér" col_1="5990" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  38      " />
-      <row col_0="Jazvečík" col_1="6510" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  41      " />
       <row col_0="Kríženec" col_1="6679" col_2="Biela" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  41      " />
       <row col_0="Nemecký ovčiak" col_1="5047" col_2="čierna" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  42      " />
-      <row col_0="Kokeršpaniel" col_1="14219" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  42      " />
       <row col_0="Kríženec čivavy" col_1="5552" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  42      " />
       <row col_0="Čivava" col_1="5574" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  43      " />
       <row col_0="Čivava" col_1="6924" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  43      " />
@@ -3078,15 +3079,13 @@
       <row col_0="Maltézky psík" col_1="6800" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  72      " />
       <row col_0="sharpei" col_1="6441" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  74      " />
       <row col_0="Maltézky psík" col_1="14885" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  76      " />
-      <row col_0="Yorkshirský teriér" col_1="5604" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  76      " />
-      <row col_0="Kríženec" col_1="4909" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  76      " />
+      <row col_0="Kríženec" col_1="2964" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  76      " />
       <row col_0="Maltézky psík" col_1="5335" col_2="Biela" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6="  78      " />
       <row col_0="Labradorský retriever" col_1="6320" col_2="" col_3="Nie" col_4="Solivar" col_5="Švábska" col_6=" 105      " />
       <row col_0="Nemecký ovčiak" col_1="6921" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="   6      " />
       <row col_0="Anglický kokršpaniel" col_1="14476" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="   9      " />
       <row col_0="Kokeršpaniel" col_1="3637" col_2="Hnedá" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="  12      " />
       <row col_0="Kríženec" col_1="5842" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="  21      " />
-      <row col_0="Teriér" col_1="860" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="  22      " />
       <row col_0="Jack Russell Teriér" col_1="6003" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="  23      " />
       <row col_0="Kokeršpaniel" col_1="4184" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="  31      " />
       <row col_0="Maltézky psík" col_1="7630" col_2="" col_3="Nie" col_4="Solivar" col_5="Tajovského" col_6="  33      " />
@@ -3096,15 +3095,15 @@
       <row col_0="Nemecký ovčiak" col_1="6681" col_2="" col_3="Nie" col_4="Solivar" col_5="Tokajícka" col_6="   4      " />
       <row col_0="Anglický kokršpaniel" col_1="14750" col_2="" col_3="Nie" col_4="Solivar" col_5="Tokajícka" col_6="   7      " />
       <row col_0="Lhasa apso" col_1="6630" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="   2      " />
-      <row col_0="Yorkshirský teriér" col_1="14755" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="   7      " />
       <row col_0="Doberman" col_1="5639" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="   9      " />
-      <row col_0="Nemecký ovčiak" col_1="3776" col_2="čierna" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="  18      " />
       <row col_0="čínsky naháč" col_1="5266" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="  18      " />
+      <row col_0="Nemecký ovčiak" col_1="3776" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="  18      " />
       <row col_0="Kríženec" col_1="14927" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="  20      " />
       <row col_0="Labradorský retriever" col_1="6186" col_2="" col_3="Nie" col_4="Solivar" col_5="Urxova" col_6="  27      " />
       <row col_0="Kríženec" col_1="4710" col_2="" col_3="Nie" col_4="Solivar" col_5="Úzka" col_6="   3      " />
       <row col_0="Kríženec" col_1="6211" col_2="" col_3="Nie" col_4="Solivar" col_5="Úzka" col_6="   3      " />
       <row col_0="Špic" col_1="14297" col_2="" col_3="Nie" col_4="Solivar" col_5="Úzka" col_6="   6      " />
+      <row col_0="Kríženec" col_1="7065" col_2="" col_3="Nie" col_4="Solivar" col_5="Valkovská" col_6="   1      " />
       <row col_0="Kríženec" col_1="6455" col_2="" col_3="Nie" col_4="Solivar" col_5="Valkovská" col_6="   5      " />
       <row col_0="Kríženec" col_1="6014" col_2="" col_3="Nie" col_4="Solivar" col_5="Valkovská" col_6="   5      " />
       <row col_0="srnči ratlík" col_1="5519" col_2="" col_3="Áno" col_4="Solivar" col_5="Valkovská" col_6="   6      " />
@@ -3122,7 +3121,6 @@
       <row col_0="Yorkshirský teriér" col_1="14909" col_2="svetlá" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="   4      " />
       <row col_0="Americký kokeršpaniel" col_1="2562" col_2="" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="   6      " />
       <row col_0="Kokeršpaniel" col_1="1186" col_2="" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="   8      " />
-      <row col_0="Yorkshirský teriér" col_1="6665" col_2="Sivá" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="   8      " />
       <row col_0="Pudel" col_1="6844" col_2="" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="   8      " />
       <row col_0="Kolia" col_1="7652" col_2="" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="   8      " />
       <row col_0="Yorkshirský teriér" col_1="5221" col_2="" col_3="Nie" col_4="Solivar" col_5="Važecká" col_6="  10      " />
@@ -3181,6 +3179,7 @@
       <row col_0="Bišon" col_1="3962" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Labutia" col_6="  12      " />
       <row col_0="Kríženec" col_1="5499" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Lastovičia" col_6="   3      " />
       <row col_0="salašnícky husky" col_1="5755" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Lastovičia" col_6="   3      " />
+      <row col_0="Bígl" col_1="7654" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Levanduľová" col_6="   2      " />
       <row col_0="Yorkshirský teriér" col_1="14222" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Medová" col_6="   1      " />
       <row col_0="Labradorský retriever" col_1="5348" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Orlia" col_6="  10      " />
       <row col_0="Bišon" col_1="14646" col_2="" col_3="Nie" col_4="Šalgovík" col_5="Orlia" col_6="  11      " />

@@ -31,9 +31,11 @@
             android:id="@+id/nav_shelter_help"
             android:icon="@drawable/ic_phone_24dp"
             android:title="Odchyt" />
+        <item
+            android:id="@+id/nav_help_organization"
+            android:icon="@drawable/ic_plus_one"
+            android:title="Pomôž psíkom aj ty ! NEW!!! " />
     </group>
-
-
 
     <item android:title="App">
         <menu>
@@ -45,10 +47,6 @@
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share_24dp"
                 android:title="Zdieľaj" />
-            <item
-                android:id="@+id/nav_exit"
-                android:icon="@drawable/ic_exit_to_app_24dp"
-                android:title="Odísť" />
         </menu>
     </item>
 
