@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.doggocity.projectsoc.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -29,25 +28,25 @@ import java.util.Calendar;
 
 import es.dmoral.toasty.Toasty;
 
-public class AddNoteActivity extends AppCompatActivity {
+public class AddHelpActivity extends AppCompatActivity {
 
-    private EditText phone, description;
-    private CheckBox lostDogs, findDogs;
+    private EditText title, phone, description;
     private ImageView arrowBack, addPhoto;
     private Button saveNote;
 
     private FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
 
-    private DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("notePhotos");
+    private DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("helpOrganization");
 
     String url;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_note);
+        setContentView(R.layout.activity_add_help);
         initialize();
-        url = "@drawable/ic_pet";
+        url = "@drawable/ic_local_hospital_24dp";
+        System.out.println(getIntent().getStringExtra("Intent"));
         if(getIntent().getStringExtra("Intent") != null){
             if (!getIntent().getStringExtra("Intent").isEmpty()){
                 if (getIntent().getStringExtra("Intent").equals("UploadPhoto")){
@@ -55,26 +54,21 @@ public class AddNoteActivity extends AppCompatActivity {
                 }
             }
         }
-
         saveNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (firebaseAuth.getCurrentUser() != null) {
-                    saveNote();
-                    Intent intent = new Intent(AddNoteActivity.this,MainActivity.class);
-                    intent.putExtra("Intent","AddNoteActivity");
-                    startActivity(intent);
-                    overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
-                } else {
-                    Toasty.warning(getApplicationContext(),"Na túto akciu musíš byť prihlásený",Toast.LENGTH_SHORT).show();
-                }
+                saveNote();
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                intent.putExtra("Intent","HelpOrganization");
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
             }
         });
         arrowBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AddNoteActivity.this,MainActivity.class);
-                intent.putExtra("Intent","AddNoteActivity");
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                intent.putExtra("Intent","HelpOrganization");
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
             }
@@ -82,65 +76,39 @@ public class AddNoteActivity extends AppCompatActivity {
         addPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AddNoteActivity.this,UploadPhoto.class);
-                intent.putExtra("Intent","AddNoteActivity");
+                Intent intent = new Intent(getApplicationContext(),UploadPhoto.class);
+                intent.putExtra("Intent","HelpOrganization");
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
-            }
-        });
-        findDogs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                    lostDogs.setChecked(false);
-                    findDogs.setChecked(true);
-            }
-        });
-        lostDogs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                findDogs.setChecked(false);
-                lostDogs.setChecked(true);
             }
         });
     }
 
     private void initialize(){
+        title = findViewById(R.id.title);
         phone = findViewById(R.id.phone_number);
         description = findViewById(R.id.description);
-        lostDogs = findViewById(R.id.lost_Dogs);
-        findDogs = findViewById(R.id.find_Dogs);
         saveNote = findViewById(R.id.save_note);
         arrowBack = findViewById(R.id.arrow_back);
         addPhoto = findViewById(R.id.addPhoto);
     }
 
     private void saveNote() {
-        String title = "";
+        String titleString = title.getText().toString();
         String telephone, descriptionString;
-        Calendar calendar = Calendar.getInstance();
-        String  currentDate = DateFormat.getDateInstance().format(calendar.getTime());
-        if (lostDogs.isChecked()){
-            title = "Stratil sa mi psík";
-        }
-        if(findDogs.isChecked()){
-            title = "Našiel som psíka";
-        }
+
         telephone = phone.getText().toString();
         descriptionString = description.getText().toString();
 
-        if (!lostDogs.isChecked() && !findDogs.isChecked()){
-            Toasty.warning(getApplicationContext(),"Zaškrtni aspoň jedno políčko", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if (telephone.trim().isEmpty() || descriptionString.trim().isEmpty()) {
+        if (telephone.trim().isEmpty() || descriptionString.trim().isEmpty() || titleString.isEmpty()) {
             Toasty.warning(getApplicationContext(),"Vyplň chýbajúce polia", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        CollectionReference notebookRef = FirebaseFirestore.getInstance().collection("dashboard");
-        User user = new User();
-        notebookRef.add(new Note(title,descriptionString, telephone, currentDate,firebaseAuth.getCurrentUser().getUid(),
-                url));
+        CollectionReference notebookRef = FirebaseFirestore.getInstance().collection("helpOrganization");
+        Calendar calendar = Calendar.getInstance();
+        String  currentDate = DateFormat.getDateInstance().format(calendar.getTime());
+        notebookRef.add(new HelpRequest(titleString,telephone, descriptionString,currentDate,firebaseAuth.getUid(),url));
         Toasty.success(getApplicationContext(),"Oznam bol pridaný", Toast.LENGTH_SHORT).show();
         finish();
     }
@@ -161,6 +129,5 @@ public class AddNoteActivity extends AppCompatActivity {
             }
         });
     }
-
 
 }

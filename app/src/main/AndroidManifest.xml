@@ -20,7 +20,7 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".RegisterOrganization"></activity>
+        <activity android:name=".AddHelpActivity"></activity>
         <activity
             android:name=".NoticeActivity"
             android:screenOrientation="portrait" />

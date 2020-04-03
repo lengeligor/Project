@@ -77,6 +77,8 @@ public class UploadPhoto extends AppCompatActivity {
                 Intent intent = new Intent(UploadPhoto.this,MainActivity.class);
                 if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
                     intent = new Intent(UploadPhoto.this,AddNoteActivity.class);
+                } else if (getIntent().getStringExtra("Intent").equals("HelpOrganization")) {
+                    intent = new Intent(UploadPhoto.this,AddHelpActivity.class);
                 }
                 intent.putExtra("Intent","UploadPhoto");
                 startActivity(intent);
@@ -92,10 +94,14 @@ public class UploadPhoto extends AppCompatActivity {
     }
 
     private void uploadFile() {
+        final String hodnotaintentu =getIntent().getStringExtra("Intent");
         if(ImageUri != null){
             //curent time + Uid
             StorageReference fileReference = storageReference.child(mAuth.getCurrentUser().getUid() + "." + getFileExtension(ImageUri));
-            if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
+            if (hodnotaintentu.equals("AddNoteActivity")) {
+                fileReference = storageReference.child(System.currentTimeMillis()+mAuth.getCurrentUser().getUid()
+                        + "." + getFileExtension(ImageUri));
+            }else if (hodnotaintentu.equals("HelpOrganization")) {
                 fileReference = storageReference.child(System.currentTimeMillis()+mAuth.getCurrentUser().getUid()
                         + "." + getFileExtension(ImageUri));
             }
@@ -123,19 +129,25 @@ public class UploadPhoto extends AppCompatActivity {
                             });
                         }
                     }
-                    if (getIntent().getStringExtra("Intent").equals("AddNoteActivity")) {
+                    if (hodnotaintentu.equals("AddNoteActivity")) {
                         Toasty.success(getApplicationContext(),"Fotka sa nahrala",Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(UploadPhoto.this,AddNoteActivity.class);
                         intent.putExtra("Intent", "UploadPhoto");
                         startActivity(intent);
                         overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
-                        return;
+                    } else if (hodnotaintentu.equals("HelpOrganization")) {
+                        Toasty.success(getApplicationContext(),"Fotka sa nahrala",Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(UploadPhoto.this, AddHelpActivity.class);
+                        intent.putExtra("Intent", "UploadPhoto");
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                    } else {
+                        Toasty.success(getApplicationContext(), "Profilová fotka bola uložená", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(UploadPhoto.this, MainActivity.class);
+                        intent.putExtra("Intent", "UploadPhoto");
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                     }
-                    Toasty.success(getApplicationContext(),"Profilová fotka bola uložená",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(UploadPhoto.this,MainActivity.class);
-                    intent.putExtra("Intent","UploadPhoto");
-                    startActivity(intent);
-                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
@@ -183,6 +195,9 @@ public class UploadPhoto extends AppCompatActivity {
         }else if(getIntent().getStringExtra("Intent").equals("Profile")){
             storageReference = FirebaseStorage.getInstance().getReference("profilePhotos");
             databaseReference = FirebaseDatabase.getInstance().getReference("profilePhotos");
+        }else if(getIntent().getStringExtra("Intent").equals("HelpOrganization")){
+            storageReference = FirebaseStorage.getInstance().getReference("helpOrganization");
+            databaseReference = FirebaseDatabase.getInstance().getReference("helpOrganization");
         }
     }
 

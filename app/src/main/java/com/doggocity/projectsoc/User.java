@@ -5,13 +5,15 @@ public class User {
     private String nameSurname;
     private String mail;
     private String dogNumber;
+    private boolean organization;
 
     public User(){}
 
-    public User(String nameSurname, String mail, String dogNumber) {
+    public User(String nameSurname, String mail, String dogNumber,  boolean organization) {
         this.nameSurname = nameSurname;
         this.mail = mail;
         this.dogNumber = dogNumber;
+        this.organization = organization;
     }
 
     public String getNameSurname() {
@@ -36,5 +38,13 @@ public class User {
 
     public void setDogNumber(String dogNumber) {
         this.dogNumber = dogNumber;
+    }
+
+    public boolean getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(boolean organization) {
+        this.organization = organization;
     }
 }

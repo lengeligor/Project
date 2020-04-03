@@ -6,6 +6,7 @@ import es.dmoral.toasty.Toasty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -33,7 +34,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     private Button register;
     private ImageView backToAccount;
     private CheckBox agreement;
-    private Switch company;
+    private Switch organization;
 
     private FirebaseAuth mAuth;
 
@@ -54,7 +55,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         register = findViewById(R.id.enter_button);
         backToAccount = findViewById(R.id.arrow_back);
         agreement = findViewById(R.id.agreement_checkbox);
-        company = findViewById(R.id.switch_organization);
+        organization = findViewById(R.id.switch_organization);
         register.setOnClickListener(this);
         backToAccount.setOnClickListener(this);
     }
@@ -80,6 +81,10 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         final String Password = password.getText().toString();
         final String RePassword = rePassword.getText().toString();
         final String DogNumber = dogNumber.getText().toString();
+        boolean Organization = false;
+        if (organization.isChecked()){
+            Organization = true;
+        }
         if(TextUtils.isEmpty(NameSurname)){
             Toasty.warning(getApplicationContext(),"Zadajte vaše meno",Toast.LENGTH_SHORT).show();
             return;
@@ -104,22 +109,22 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
             Toasty.warning(getApplicationContext(),"Potrebné odsúhlasiť podmienky",Toast.LENGTH_SHORT).show();
             return;
         }
-
+        final boolean org = Organization;
         mAuth.createUserWithEmailAndPassword(Email,Password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            User user = new User(NameSurname,Email,DogNumber);
+                            User user = new User(NameSurname,Email,DogNumber,org);
                             String id = Email.replace("@","f");
                             id = id.replace(".","f");
                             id = id.replace("-","f");
                             myRef.child(id).setValue(user);
                             finish();
-                            Intent intent = new Intent(Register.this,MainActivity.class);
-                            intent.putExtra("Intent","RegisterClass");
+                            Intent intent = new Intent(Register.this, MainActivity.class);
+                            intent.putExtra("Intent", "RegisterClass");
                             startActivity(intent);
-                            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                         }else {
                             Toast.makeText(Register.this,"Registrácia nebola úspešná skúste to znova",Toast.LENGTH_SHORT).show();
                         }
